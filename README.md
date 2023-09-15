@@ -7,5 +7,7 @@
 3) Message Yuqi or Eddie your Github username and accept the invite
 4) Clone this repository in a folder of your choice
 
+5) hi guys!
+
    Contact yuqiaro or \_tempo\_ on Discord for any issues 
 
