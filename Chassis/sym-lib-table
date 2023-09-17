@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "RoboMaster (1)")(type "KiCad")(uri "C:/Users/vicky/Downloads/RoboMaster (1).kicad_sym")(options "")(descr ""))
+  (lib (name "Robomaster_Library")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD_Library/Robomaster_Library.kicad_sym")(options "")(descr ""))
 )
