@@ -372,7 +372,7 @@
   )
 
   (symbol (lib_id "Robomaster_Library:motor_speed_controller") (at 248.92 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 01a8830b-36d6-4a34-854a-5ba964da261e)
     (property "Reference" "Waterwheel1" (at 259.08 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -486,7 +486,7 @@
     (property "Value" "Conn_01x04_Pin" (at 147.955 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 147.32 62.23 0)
+    (property "Footprint" "Robomasters:866319112100004" (at 147.32 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 147.32 62.23 0)
@@ -584,7 +584,7 @@
   )
 
   (symbol (lib_id "Robomaster_Library:SMM") (at 181.61 55.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 809fbd26-48e7-4877-8aba-8d3680a68346)
     (property "Reference" "SMM1" (at 191.77 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -599,8 +599,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0db35939-8e78-48cc-8b98-f312a532f1d6))
-    (pin "2" (uuid ef998c4e-94f9-40ff-986b-4763a0a351a8))
-    (pin "2" (uuid ef998c4e-94f9-40ff-986b-4763a0a351a8))
+    (pin "2" (uuid ef998c4e-94f9-40ff-986b-4763a0a351a9))
+    (pin "2" (uuid ef998c4e-94f9-40ff-986b-4763a0a351a9))
     (pin "3" (uuid 79f80c36-2db9-4163-8b0c-fc5b438de76d))
     (instances
       (project "Turret"
@@ -612,9 +612,9 @@
   )
 
   (symbol (lib_id "Robomaster_Library:motor_speed_controller") (at 191.77 27.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 8ca42591-e3a8-4343-8825-f4a52040e985)
-    (property "Reference" "L_Flywheel_ESC" (at 201.93 35.56 0)
+    (property "Reference" "L_Flywheel_ESC1" (at 201.93 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 191.77 27.94 0)
@@ -633,7 +633,7 @@
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "L_Flywheel_ESC") (unit 1)
+          (reference "L_Flywheel_ESC1") (unit 1)
         )
       )
     )
@@ -666,7 +666,7 @@
   )
 
   (symbol (lib_name "pitch_motor_1") (lib_id "Robomaster_Library:pitch_motor") (at 186.69 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid b2ac3490-9b3c-45d9-b03d-448f7a3c4316)
     (property "Reference" "pitch_motor2" (at 194.31 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -694,7 +694,7 @@
   )
 
   (symbol (lib_id "Robomaster_Library:motor_speed_controller") (at 251.46 29.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid c100b29e-f072-438c-a6ab-f3e0ef753aba)
     (property "Reference" "R_Flywheel_ESC1" (at 261.62 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -800,7 +800,7 @@
   )
 
   (symbol (lib_id "Robomaster_Library:motor_speed_controller") (at 248.92 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid ef0c486a-9303-46d7-9921-e960d9ada282)
     (property "Reference" "Feeder1" (at 259.08 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
