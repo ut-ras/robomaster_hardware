@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 3.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [],
@@ -471,6 +471,10 @@
     [
       "d5f28ba3-2393-441a-9a3a-5aa9d797472a",
       ""
+    ],
+    [
+      "632f64e1-f4ac-4fce-8dc1-2a6086852be0",
+      "24V -> 19V Buck Convertor"
     ]
   ],
   "text_variables": {}
