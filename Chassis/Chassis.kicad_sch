@@ -302,6 +302,7 @@
   )
 
 
+
   (polyline (pts (xy 191.77 82.55) (xy 191.77 107.95))
     (stroke (width 0) (type default))
     (uuid 03fffbd8-1333-41ba-8066-0024a3978f46)
@@ -789,7 +790,7 @@
     (property "Value" "Conn_01x02" (at 125.73 100.965 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (at 128.27 97.79 0)
+    (property "Footprint" "Robomaster_ICs:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (at 128.27 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 128.27 97.79 0)
@@ -993,7 +994,7 @@
     (property "Value" "Conn_01x02" (at 125.73 126.365 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (at 128.27 123.19 0)
+    (property "Footprint" "Robomaster_ICs:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (at 128.27 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 128.27 123.19 0)
@@ -1094,7 +1095,7 @@
     (property "Value" "Conn_01x02" (at 125.73 151.765 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (at 128.27 148.59 0)
+    (property "Footprint" "Robomaster_ICs:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (at 128.27 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 128.27 148.59 0)
@@ -1197,7 +1198,7 @@
     (property "Value" "Conn_01x02" (at 125.73 75.565 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (at 128.27 72.39 0)
+    (property "Footprint" "Robomaster_ICs:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (at 128.27 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 128.27 72.39 0)
