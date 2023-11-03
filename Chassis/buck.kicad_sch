@@ -1105,7 +1105,7 @@
     (property "Value" "4.7µF" (at 147.32 78.105 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 150.1648 80.01 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 150.1648 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.com/datasheet/2/281/1/GRT188R6YA475KE13_01A-3158664.pdf" (at 151.13 76.2 0)
