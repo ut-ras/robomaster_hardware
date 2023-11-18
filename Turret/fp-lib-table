@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Connectors")(type "KiCad")(uri "C:/Users/laksh/Documents/RAS/robomaster_hardware/KiCad_Library/Connectors.pretty")(options "")(descr ""))
+)
