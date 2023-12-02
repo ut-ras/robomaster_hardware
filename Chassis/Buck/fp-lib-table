@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Buck-parts")(type "KiCad")(uri "${KIPRJMOD}/Buck-parts.pretty")(options "")(descr ""))
-)
