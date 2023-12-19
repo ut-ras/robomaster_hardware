@@ -1274,7 +1274,6 @@
     )
   )
 
-
   (junction (at 200.66 139.7) (diameter 0) (color 0 0 0 0)
     (uuid 72d269f8-34a3-49de-94da-8309820899b8)
   )
@@ -2314,7 +2313,7 @@
     (property "Value" "TestPoint" (at 133.35 91.313 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 135.89 92.71 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm" (at 135.89 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 135.89 92.71 0)
@@ -2513,7 +2512,7 @@
     (property "Value" "TestPoint" (at 133.35 84.963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 135.89 86.36 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm" (at 135.89 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 135.89 86.36 0)
