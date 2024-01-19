@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Robomaster_ICs")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Library/ICs.pretty")(options "")(descr ""))
+)
