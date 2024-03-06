@@ -456,58 +456,6 @@
         )
       )
     )
-    (symbol "power:+24V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+24V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+24V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+24V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+24V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+24V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1062,6 +1010,10 @@
   (hierarchical_label "5V" (shape output) (at 146.05 130.81 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 356bbe0e-e36e-4b67-b3eb-afe5fa477593)
+  )
+  (hierarchical_label "VIN" (shape input) (at 100.33 129.54 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 37db5898-25b2-456c-9a8a-d27595b0b715)
   )
   (hierarchical_label "5V" (shape output) (at 173.99 121.92 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -1713,46 +1665,6 @@
       (project "Chassis"
         (path "/d5f28ba3-2393-441a-9a3a-5aa9d797472a/632f64e1-f4ac-4fce-8dc1-2a6086852be0"
           (reference "#PWR028") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+24V") (at 100.33 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 90d818ae-2b79-4c94-91ef-df537d3bdf50)
-    (property "Reference" "#PWR0164" (at 100.33 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+24V" (at 100.33 124.46 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 100.33 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 100.33 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 80b860bf-5285-421b-b4c3-9509eeaea871))
-    (instances
-      (project "VehicleControlUnit"
-        (path "/266714a0-d820-41e6-8c76-c78ad7e99270/e39c3e54-ebea-4544-a480-db7410a9de4a"
-          (reference "#PWR0164") (unit 1)
-        )
-      )
-      (project "power_converion_23_saved"
-        (path "/2b458daa-d7b0-4b90-833f-0b221fa8afe2"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-      (project "UnsprungDynamicsModule"
-        (path "/7466de43-27f3-4538-bb02-85a2b212d799/e9ecdafa-e73e-4017-98f5-a93e16b4c821"
-          (reference "#PWR034") (unit 1)
-        )
-      )
-      (project "Chassis"
-        (path "/d5f28ba3-2393-441a-9a3a-5aa9d797472a/632f64e1-f4ac-4fce-8dc1-2a6086852be0"
-          (reference "#PWR021") (unit 1)
         )
       )
     )
