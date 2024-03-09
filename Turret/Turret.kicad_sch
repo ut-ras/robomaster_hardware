@@ -955,7 +955,7 @@
     (property "Datasheet" "" (at 34.29 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4fbaafdb-4945-4692-b884-caa194699b55))
+    (pin "1" (uuid a43783e4-3a29-4b72-9359-11872a4d235c))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
@@ -980,7 +980,7 @@
     (property "Datasheet" "" (at 69.215 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3772b814-fe17-4a7e-af58-ac442e41f673))
+    (pin "1" (uuid 6fd9d819-0b21-49d7-8453-5e500939bef4))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
@@ -1005,7 +1005,7 @@
     (property "Datasheet" "" (at 73.66 38.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 09e22c6c-f0d4-4619-922d-3a30604c756e))
+    (pin "1" (uuid c2d0fa9b-5a38-471e-935b-d7f6ebfd7bcc))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
@@ -1018,7 +1018,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 122.555 140.97 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15097bac-fe6f-4012-ab72-c03b5d87f802)
-    (property "Reference" "J10" (at 125.095 138.43 0)
+    (property "Reference" "CAN_In1" (at 127 138.43 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Pin" (at 131.445 140.97 0)
@@ -1030,12 +1030,12 @@
     (property "Datasheet" "~" (at 122.555 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 472de89f-6663-4f68-9ecc-f6d1604a10f9))
-    (pin "2" (uuid df8c33b2-fa4b-484b-b2b5-668d0fed2a34))
+    (pin "1" (uuid 503b2ca4-d176-4a20-880e-eeec3d52e57c))
+    (pin "2" (uuid 5a66f601-a64c-4d8a-9b58-73fca5a7079d))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J10") (unit 1)
+          (reference "CAN_In1") (unit 1)
         )
       )
     )
@@ -1044,10 +1044,10 @@
   (symbol (lib_id "Connector:TestPoint") (at 119.38 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 175dfe79-de8d-44ce-8dd8-37036db60c05)
-    (property "Reference" "TP5" (at 121.92 83.693 0)
+    (property "Reference" "GND1" (at 121.92 83.058 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TestPoint" (at 121.92 86.233 0)
+    (property "Value" "TestPoint" (at 121.92 85.598 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" (at 124.46 87.63 0)
@@ -1056,11 +1056,11 @@
     (property "Datasheet" "~" (at 124.46 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 138e6c1b-a18d-4ab7-9e30-7cbeb6021a67))
+    (pin "1" (uuid c379098a-8911-4c97-bc4e-570886521345))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "TP5") (unit 1)
+          (reference "GND1") (unit 1)
         )
       )
     )
@@ -1105,7 +1105,7 @@
     (property "Datasheet" "" (at 71.755 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 52f9054f-33ac-49dc-8918-c6d62a88f1c2))
+    (pin "1" (uuid 9bf2f562-2098-4bd7-8a60-91c335d13ae5))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
@@ -1118,10 +1118,10 @@
   (symbol (lib_id "Connector:TestPoint") (at 148.59 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32140787-7ffa-4350-996c-2ad5ead04aa5)
-    (property "Reference" "TP2" (at 151.13 67.183 0)
+    (property "Reference" "+24V_Gimbal2" (at 151.13 66.548 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TestPoint" (at 151.13 69.723 0)
+    (property "Value" "TestPoint" (at 151.13 69.088 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" (at 153.67 71.12 0)
@@ -1130,11 +1130,11 @@
     (property "Datasheet" "~" (at 153.67 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 72185861-d61e-4e1d-b9e9-66398743b12e))
+    (pin "1" (uuid 918dc030-fd0a-4088-a6ea-975d88e85443))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "TP2") (unit 1)
+          (reference "+24V_Gimbal2") (unit 1)
         )
       )
     )
@@ -1155,7 +1155,7 @@
     (property "Datasheet" "" (at 69.215 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6f2a502c-5b19-4ab0-bf81-603826cb2759))
+    (pin "1" (uuid 1e87b952-1a43-424f-8d9b-fcff765ca7c0))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
@@ -1180,7 +1180,7 @@
     (property "Datasheet" "" (at 119.38 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c1aebaed-461f-42fc-8220-31dadcde6eac))
+    (pin "1" (uuid c84c71c7-c8ee-43d0-a7e7-d0825dd36869))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
@@ -1193,7 +1193,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 40.64 49.53 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40e5598a-2c7c-4925-9c9e-abd4a4633349)
-    (property "Reference" "J21" (at 43.18 46.99 0)
+    (property "Reference" "CAN_Gimbal1" (at 46.99 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Pin" (at 49.53 49.53 0)
@@ -1205,12 +1205,12 @@
     (property "Datasheet" "~" (at 40.64 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5a748730-9d61-450a-bf5d-e85c7c301515))
-    (pin "2" (uuid 111d7b00-ea69-45df-8c72-a9ce0d843c42))
+    (pin "1" (uuid ea5ffe46-5766-48f3-8352-b15e25f13391))
+    (pin "2" (uuid 8d604767-8b61-42f4-9a3e-e4767833381e))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J21") (unit 1)
+          (reference "CAN_Gimbal1") (unit 1)
         )
       )
     )
@@ -1219,7 +1219,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 165.1 142.24 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47b7422d-206d-4cbd-956d-69c577389943)
-    (property "Reference" "J16" (at 166.37 139.7 0)
+    (property "Reference" "Ref_In1" (at 166.37 139.7 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x04_Pin" (at 166.37 142.24 0)
@@ -1231,14 +1231,14 @@
     (property "Datasheet" "~" (at 165.1 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 95f6cd44-abfe-4b8f-8c90-3c4f9541fadf))
-    (pin "2" (uuid 82f35254-c953-400f-9aea-9c1bbf37e047))
-    (pin "3" (uuid 549746f3-f8cf-470c-8947-67387fe55d43))
-    (pin "4" (uuid 758f561f-0bc9-41e0-a561-ddb57d94a2d6))
+    (pin "1" (uuid f2aa6158-a43a-4ac6-8a62-d221ef3d2ac0))
+    (pin "2" (uuid 9ae8786a-3b1b-4d48-8f40-e7256d535f6c))
+    (pin "3" (uuid 21d4fc45-0381-4195-a10d-61094c1ad83d))
+    (pin "4" (uuid d5548ccd-6ccf-4fd6-8af2-c1c3e539ec79))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J16") (unit 1)
+          (reference "Ref_In1") (unit 1)
         )
       )
     )
@@ -1259,7 +1259,7 @@
     (property "Datasheet" "" (at 68.58 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 00b28445-8275-494f-8434-12ca37842fc3))
+    (pin "1" (uuid 16c6a53d-7a50-452e-bd87-6f0cd902da3b))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
@@ -1272,7 +1272,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 77.47 159.385 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49b80dd7-60e8-465e-a87a-1f63190833a5)
-    (property "Reference" "J5" (at 78.74 156.845 0)
+    (property "Reference" "Debug_Turret->Chassis1" (at 78.74 156.845 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x04_Pin" (at 78.74 159.385 0)
@@ -1284,14 +1284,14 @@
     (property "Datasheet" "~" (at 77.47 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4a4f0183-2e7f-40bd-b1ad-936a4d38871f))
-    (pin "2" (uuid 2e48426e-4a5e-4e3d-8d82-3eb3b66a66bb))
-    (pin "3" (uuid 21a97bf0-080b-450e-b1ab-102575844753))
-    (pin "4" (uuid b56d02be-a71e-40cc-9642-307c101eae81))
+    (pin "1" (uuid 543ec1fb-29d9-41de-b8a3-d3db9670325f))
+    (pin "2" (uuid 2cb553c0-9a25-4189-b4f5-a2559be9f93f))
+    (pin "3" (uuid 63e3d05b-006a-49fb-b02a-2ba0a642a8c7))
+    (pin "4" (uuid 1187b827-d872-49b3-b6c2-7e23bbdfbbba))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J5") (unit 1)
+          (reference "Debug_Turret->Chassis1") (unit 1)
         )
       )
     )
@@ -1300,24 +1300,24 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 83.82 38.735 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49c53397-c5b6-41bd-b823-c187d8879227)
-    (property "Reference" "J2" (at 85.09 36.195 0)
+    (property "Reference" "+24V_L_Flywheel1" (at 85.09 36.195 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 85.09 38.735 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (at 83.82 38.735 0)
+    (property "Footprint" "Robomaster_ICs:AMASS_XT30U-F_1x02_P5.0mm_Vertical_copy" (at 83.82 38.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 83.82 38.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 371c7c5d-4c25-4b26-b346-98d11ab1442e))
-    (pin "2" (uuid ec7fd897-37aa-4ca5-9f6c-80944a02b589))
+    (pin "1" (uuid 258a107c-a704-4c50-b813-1c848152942a))
+    (pin "2" (uuid d2c80cae-f214-4037-9680-f2b67be61e9c))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J2") (unit 1)
+          (reference "+24V_L_Flywheel1") (unit 1)
         )
       )
     )
@@ -1338,7 +1338,7 @@
     (property "Datasheet" "" (at 139.7 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8bd5e7fd-f8c0-4434-ad71-893d690aa4ed))
+    (pin "1" (uuid b13d5ce4-4009-4013-b2df-d53ad95dfe62))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
@@ -1363,7 +1363,7 @@
     (property "Datasheet" "" (at 72.39 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 126dcaad-c8db-42d1-b7ea-bab5ce9db09e))
+    (pin "1" (uuid c8afe551-61ad-4597-a43b-cfa839677a34))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
@@ -1376,7 +1376,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 43.18 124.46 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c02e58f-625d-4db9-aabe-ecf28fdc55d8)
-    (property "Reference" "J13" (at 44.45 121.92 0)
+    (property "Reference" "UART_Turret->Orin1" (at 44.45 121.92 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x04_Pin" (at 44.45 124.46 0)
@@ -1388,14 +1388,14 @@
     (property "Datasheet" "~" (at 43.18 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid db362d2b-3563-425d-a793-f8412b041065))
-    (pin "2" (uuid 37a24b3a-5da2-43e9-af40-2d22bf85fdda))
-    (pin "3" (uuid c9b979b8-0774-4071-bb61-6922d868eb66))
-    (pin "4" (uuid c4f63f6e-ed7a-43e9-a2ff-b4e9f2e80763))
+    (pin "1" (uuid 4ec250f0-ba67-47cf-ae78-99c9f74d0e83))
+    (pin "2" (uuid 8959b94d-1aac-4e87-b110-61650b319bee))
+    (pin "3" (uuid 90b88ded-dd8d-496a-b6fc-edfd92efbc01))
+    (pin "4" (uuid 7dc47e24-6f45-419b-ac43-9c8ee8a2ffe9))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J13") (unit 1)
+          (reference "UART_Turret->Orin1") (unit 1)
         )
       )
     )
@@ -1404,7 +1404,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 77.47 128.27 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6203103d-7ed0-4e1c-a96c-1712380d34f2)
-    (property "Reference" "J14" (at 78.74 125.73 0)
+    (property "Reference" "Debug_Orin->Turret1" (at 78.74 125.73 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x04_Pin" (at 78.74 128.27 0)
@@ -1416,14 +1416,14 @@
     (property "Datasheet" "~" (at 77.47 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5fade590-c6ff-4648-8e1d-afda27281d4b))
-    (pin "2" (uuid b8cee764-dbd1-4dee-a34c-4878e74dc0dc))
-    (pin "3" (uuid 4ee47d9f-37fb-4115-bf34-a5c7cd607bb8))
-    (pin "4" (uuid 855aeb23-93f3-4b60-b16f-9d9566031b3a))
+    (pin "1" (uuid 374d2792-38b2-4593-a3e1-619062d13aad))
+    (pin "2" (uuid a08b8752-c5cf-413e-a17d-df9d60bdeb98))
+    (pin "3" (uuid 663f4fc7-58a4-4ad8-bf82-495737ad5817))
+    (pin "4" (uuid 3f328bb3-f0b8-4588-97b6-355a20b25db3))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J14") (unit 1)
+          (reference "Debug_Orin->Turret1") (unit 1)
         )
       )
     )
@@ -1444,7 +1444,7 @@
     (property "Datasheet" "" (at 35.56 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e734dcd8-ff23-42db-a35d-1a9238df2852))
+    (pin "1" (uuid d1f88a77-7b0f-4b16-b81e-44bfb22c80bc))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
@@ -1457,7 +1457,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 165.1 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f4e0a7c-0dd9-4c45-93cc-8cd597905268)
-    (property "Reference" "J17" (at 166.37 156.21 0)
+    (property "Reference" "Ref_Out1" (at 166.37 156.21 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x04_Pin" (at 166.37 158.75 0)
@@ -1469,14 +1469,14 @@
     (property "Datasheet" "~" (at 165.1 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2cdec7e5-e491-4ae3-8fe8-ac3ff231a3ac))
-    (pin "2" (uuid f672b165-26d2-40a8-8280-a331425aad2a))
-    (pin "3" (uuid 1d88dec2-9ed7-45cb-b336-b1fd07615154))
-    (pin "4" (uuid e60a2fb1-9123-4e36-b883-acbd3cd07df0))
+    (pin "1" (uuid b0f64c6a-eea9-45ae-aa69-89d5f1a2e271))
+    (pin "2" (uuid 227e2623-0f46-487a-92ba-12403abfc5e9))
+    (pin "3" (uuid bbd8ee0e-9860-452c-9e40-dd5826cd3e3b))
+    (pin "4" (uuid cba5e782-488d-4482-b20e-5042f60fc61e))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J17") (unit 1)
+          (reference "Ref_Out1") (unit 1)
         )
       )
     )
@@ -1485,24 +1485,24 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 123.19 156.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 81917782-857c-48f7-86fc-915e65080374)
-    (property "Reference" "J11" (at 125.73 153.67 0)
+    (property "Reference" "+19V_Turret->Orin1" (at 133.35 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Pin" (at 132.08 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (at 123.19 156.21 0)
+    (property "Footprint" "Robomaster_ICs:AMASS_XT30U-F_1x02_P5.0mm_Vertical_copy" (at 123.19 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 123.19 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dc72c674-f732-4a97-b4b8-23e109b759fa))
-    (pin "2" (uuid a9d0e029-0cba-45a6-ae54-c970e6ac6199))
+    (pin "1" (uuid b735dd94-29c7-4398-96af-3e7691758518))
+    (pin "2" (uuid 1964163f-7d76-4bd4-9b25-5b79f1f63926))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J11") (unit 1)
+          (reference "+19V_Turret->Orin1") (unit 1)
         )
       )
     )
@@ -1547,7 +1547,7 @@
     (property "Datasheet" "" (at 71.755 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3bfef1c6-4e9d-4837-9717-a948617ae2a1))
+    (pin "1" (uuid 827a0ae7-20e7-4a09-b878-34d6be816ac6))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
@@ -1560,24 +1560,24 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 85.09 76.835 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 937fba08-da5a-43fe-8aa4-46f54de0878e)
-    (property "Reference" "J7" (at 86.36 74.295 0)
+    (property "Reference" "+24V_Feeder1" (at 86.36 74.295 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 86.36 76.835 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (at 85.09 76.835 0)
+    (property "Footprint" "Robomaster_ICs:AMASS_XT30U-F_1x02_P5.0mm_Vertical_copy" (at 85.09 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 85.09 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ff9fb9f2-9e9a-4859-9fa9-c781ad9cf0e5))
-    (pin "2" (uuid ede3a1ad-8777-4378-8c8e-0d54827128cb))
+    (pin "1" (uuid 3bd55c1d-b2be-444b-a234-d4881acb0a66))
+    (pin "2" (uuid e5408fc2-6c83-406b-aebe-47946c1613e3))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J7") (unit 1)
+          (reference "+24V_Feeder1") (unit 1)
         )
       )
     )
@@ -1586,10 +1586,10 @@
   (symbol (lib_id "Connector:TestPoint") (at 119.38 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9495e350-4ab0-4963-8465-74af5325e3f6)
-    (property "Reference" "TP1" (at 121.92 67.183 0)
+    (property "Reference" "+24V_Shooter2" (at 121.92 66.548 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TestPoint" (at 121.92 69.723 0)
+    (property "Value" "TestPoint" (at 121.92 69.088 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" (at 124.46 71.12 0)
@@ -1598,11 +1598,11 @@
     (property "Datasheet" "~" (at 124.46 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 087e96c0-17b3-4402-bf3a-c15ab8154679))
+    (pin "1" (uuid 679f712b-dd07-4c77-8950-b3d1d025ad5d))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "TP1") (unit 1)
+          (reference "+24V_Shooter2") (unit 1)
         )
       )
     )
@@ -1647,7 +1647,7 @@
     (property "Datasheet" "" (at 34.29 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f79cb947-0740-4735-b920-c9d01889534e))
+    (pin "1" (uuid 30b0ecbe-538d-4222-80ce-233900ca95f6))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
@@ -1660,10 +1660,10 @@
   (symbol (lib_id "Connector:TestPoint") (at 119.38 79.375 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b58929df-250e-4ad6-847e-34279240298e)
-    (property "Reference" "TP3" (at 121.92 75.438 0)
+    (property "Reference" "+19V1" (at 121.92 74.803 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TestPoint" (at 121.92 77.978 0)
+    (property "Value" "TestPoint" (at 121.92 77.343 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" (at 124.46 79.375 0)
@@ -1672,11 +1672,11 @@
     (property "Datasheet" "~" (at 124.46 79.375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f8d167c4-3b2f-4811-9652-772ee30702c1))
+    (pin "1" (uuid e4e841d6-5ae1-4aa8-a8e0-7001e379284a))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "TP3") (unit 1)
+          (reference "+19V1") (unit 1)
         )
       )
     )
@@ -1685,24 +1685,24 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 39.37 41.275 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8fd950d-39c7-440b-bc60-9229dfec0375)
-    (property "Reference" "J20" (at 40.64 38.735 0)
+    (property "Reference" "+24V_Gimbal1" (at 40.64 38.735 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 40.64 41.275 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (at 39.37 41.275 0)
+    (property "Footprint" "Robomaster_ICs:AMASS_XT30U-F_1x02_P5.0mm_Vertical_copy" (at 39.37 41.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 39.37 41.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e532abd4-4e92-440a-b133-5daac1747093))
-    (pin "2" (uuid e31c325b-e530-459f-80f0-7fa373bf8726))
+    (pin "1" (uuid 91b84a99-5adf-4c2d-8a46-3d4d98f01f45))
+    (pin "2" (uuid afdb8b19-616b-48b3-82d8-bcede8e623b4))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J20") (unit 1)
+          (reference "+24V_Gimbal1") (unit 1)
         )
       )
     )
@@ -1711,24 +1711,24 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 85.09 98.425 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bae3023d-716c-41c2-80e7-2a79e5263094)
-    (property "Reference" "J9" (at 86.36 95.885 0)
+    (property "Reference" "+24V_Waterwheel1" (at 86.36 95.885 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 86.36 98.425 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (at 85.09 98.425 0)
+    (property "Footprint" "Robomaster_ICs:AMASS_XT30U-F_1x02_P5.0mm_Vertical_copy" (at 85.09 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 85.09 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8291b417-5f69-4c65-b51f-75a62040830b))
-    (pin "2" (uuid e5c3264e-9a87-47de-b4a1-0f6812d93801))
+    (pin "1" (uuid d843b9f8-7617-4395-910e-9c0a95654b2a))
+    (pin "2" (uuid 7e299c70-febd-4d71-9a6c-da9e54716e49))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J9") (unit 1)
+          (reference "+24V_Waterwheel1") (unit 1)
         )
       )
     )
@@ -1749,7 +1749,7 @@
     (property "Datasheet" "" (at 35.56 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f6e785de-074b-4143-a742-d1187015bef6))
+    (pin "1" (uuid 586381fc-b966-4091-8a3b-df1e6ce6c4b2))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
@@ -1762,10 +1762,10 @@
   (symbol (lib_id "Connector:Conn_01x08_Pin") (at 114.3 114.935 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb175602-75f3-4283-9f96-9b631ecc67b3)
-    (property "Reference" "J15" (at 114.935 102.235 0)
+    (property "Reference" "8_Pin_Slipring->Turret1" (at 114.935 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_01x08_Pin" (at 114.935 104.775 0)
+    (property "Value" "Conn_01x08_Pin" (at 114.935 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "ICs:CON_1722981108_MOL" (at 114.3 114.935 0)
@@ -1774,18 +1774,18 @@
     (property "Datasheet" "~" (at 114.3 114.935 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 13552be3-58aa-4575-9562-d03bc5762382))
-    (pin "2" (uuid ea2cf9b6-5c0a-49fe-ba14-2fa16f1b5b1f))
-    (pin "3" (uuid f4fcee4f-a6ed-43df-9fe9-b8eb40df2c06))
-    (pin "4" (uuid 436829ad-fc26-465d-97f7-084a487c4dac))
-    (pin "5" (uuid b20390c0-0eb0-41fa-a21b-784fe9422cd2))
-    (pin "6" (uuid aab9560c-8904-46be-80ce-897cb26af3c1))
-    (pin "7" (uuid 5e13ca81-8012-4eec-a058-dbdee4cc9d75))
-    (pin "8" (uuid f0f5bc5e-91e4-43bb-b2cd-745d0cb9169b))
+    (pin "1" (uuid e56b6d5d-58c0-4b3b-b39f-a9cfea6f9c0d))
+    (pin "2" (uuid 3bf7f41d-fe61-4830-a233-0ff9938821a6))
+    (pin "3" (uuid 4f5a7b69-a322-4074-b096-149b2e444f89))
+    (pin "4" (uuid dfb66cdd-917a-467d-9762-dc53389c3a2a))
+    (pin "5" (uuid d531467d-cde0-4929-a0a1-879bf9687ced))
+    (pin "6" (uuid f5c19f07-ea8c-4da3-b307-436551227127))
+    (pin "7" (uuid bac00d17-1ae1-4250-8c7f-aaf34eb72012))
+    (pin "8" (uuid 1baa75ed-3a42-40a7-8651-ee41dc0d59c1))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J15") (unit 1)
+          (reference "8_Pin_Slipring->Turret1") (unit 1)
         )
       )
     )
@@ -1806,7 +1806,7 @@
     (property "Datasheet" "" (at 115.57 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 24a543ee-9955-437b-a811-310224d53170))
+    (pin "1" (uuid 1d74ba3d-87ef-4706-af56-bff1cfb41766))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
@@ -1819,10 +1819,10 @@
   (symbol (lib_id "Connector:TestPoint") (at 148.59 79.375 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c57c8590-9cbc-46ac-87f7-f2d6e58c3c70)
-    (property "Reference" "TP4" (at 151.13 75.438 0)
+    (property "Reference" "+5V1" (at 151.13 74.803 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TestPoint" (at 151.13 77.978 0)
+    (property "Value" "TestPoint" (at 151.13 77.343 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" (at 153.67 79.375 0)
@@ -1831,11 +1831,11 @@
     (property "Datasheet" "~" (at 153.67 79.375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 872ff429-9fda-4c55-8e4e-a28ffdd4980d))
+    (pin "1" (uuid ca73d36e-2a2e-4d26-b52f-b502701ca6ba))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "TP4") (unit 1)
+          (reference "+5V1") (unit 1)
         )
       )
     )
@@ -1856,7 +1856,7 @@
     (property "Datasheet" "" (at 68.58 153.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ce979e5f-713e-49f0-b4ec-07a0098409f0))
+    (pin "1" (uuid 4080fe8a-d121-4e7a-bd14-4c0af63e019e))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
@@ -1893,7 +1893,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 43.18 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df033113-16cc-4c2e-b59b-09b10af4407d)
-    (property "Reference" "J1" (at 44.45 156.21 0)
+    (property "Reference" "UART_Chassis->Turret1" (at 44.45 156.21 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x04_Pin" (at 44.45 158.75 0)
@@ -1905,14 +1905,14 @@
     (property "Datasheet" "~" (at 43.18 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 355975c8-8dd7-484a-83ba-048efbf66601))
-    (pin "2" (uuid ceb9ed77-abad-4ef2-87ef-39660a5fcdcc))
-    (pin "3" (uuid efdb3267-3b2a-4eb6-8201-95dfd4422950))
-    (pin "4" (uuid 54b6a6f4-ecbd-4381-8969-e5336dba3041))
+    (pin "1" (uuid ea7a2e59-81f4-4a70-8a3e-13bbc3c5c583))
+    (pin "2" (uuid 6dc04c43-2b7c-446f-86e8-77769e778cb6))
+    (pin "3" (uuid 6e4a3ce8-f11e-49a3-8aed-b2e19bb8637a))
+    (pin "4" (uuid 6f47a7fa-fca5-44ce-a008-31f5a2e6719d))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J1") (unit 1)
+          (reference "UART_Chassis->Turret1") (unit 1)
         )
       )
     )
@@ -1921,7 +1921,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 85.09 104.775 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8b3e330-98e0-4476-8c6e-515ff4b52b29)
-    (property "Reference" "J12" (at 87.63 102.235 0)
+    (property "Reference" "CAN_Waterwheel1" (at 93.98 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Pin" (at 93.98 104.775 0)
@@ -1933,12 +1933,12 @@
     (property "Datasheet" "~" (at 85.09 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f8b098f1-ae0d-4a29-b507-4ec64752edda))
-    (pin "2" (uuid 0bed6607-e281-4da7-b191-cd301e484342))
+    (pin "1" (uuid 3c783fef-6ed3-43d5-99de-26ee75d9a17f))
+    (pin "2" (uuid 7ea01167-03e2-4929-b990-ca8f77b757b9))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J12") (unit 1)
+          (reference "CAN_Waterwheel1") (unit 1)
         )
       )
     )
@@ -1947,7 +1947,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 83.82 64.135 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea8eaafa-3710-4228-9acd-34f33fe0ffd9)
-    (property "Reference" "J6" (at 86.36 61.595 0)
+    (property "Reference" "CAN_R_Flywheel1" (at 92.71 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Pin" (at 92.71 64.135 0)
@@ -1959,12 +1959,12 @@
     (property "Datasheet" "~" (at 83.82 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 721e9407-1305-4805-b7fe-b8324edeb364))
-    (pin "2" (uuid 730212ae-265a-4448-9634-ab25bd257b47))
+    (pin "1" (uuid 8debaa93-0bc8-4428-839d-398b7af8c776))
+    (pin "2" (uuid aa927173-c5e7-4e93-a73e-70f75b4929cb))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J6") (unit 1)
+          (reference "CAN_R_Flywheel1") (unit 1)
         )
       )
     )
@@ -1973,7 +1973,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 85.09 83.185 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ecd0e428-68af-4196-8729-d4a5ff2c32ce)
-    (property "Reference" "J8" (at 87.63 80.645 0)
+    (property "Reference" "CAN_Feeder1" (at 91.44 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Pin" (at 93.98 83.185 0)
@@ -1985,12 +1985,12 @@
     (property "Datasheet" "~" (at 85.09 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2ffbf27d-29e7-4718-a7a6-4183e50285dc))
-    (pin "2" (uuid da9a40e0-e2be-4f64-a442-2b26d9bf113d))
+    (pin "1" (uuid ead65211-ebb5-4f4b-972e-ec4e42dbf252))
+    (pin "2" (uuid 0191253e-80be-4d48-8cc8-a7b510615617))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J8") (unit 1)
+          (reference "CAN_Feeder1") (unit 1)
         )
       )
     )
@@ -2011,7 +2011,7 @@
     (property "Datasheet" "" (at 31.75 41.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d7531c22-07c6-46cd-9e8f-f76fcb1582df))
+    (pin "1" (uuid c6064e47-a4fc-4b2c-8121-535cf9d53a90))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
@@ -2024,7 +2024,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 83.82 45.085 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6391414-bab0-432e-a68d-3c7ed992c6be)
-    (property "Reference" "J3" (at 86.36 42.545 0)
+    (property "Reference" "CAN_L_Flywheel1" (at 92.71 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Pin" (at 92.71 45.085 0)
@@ -2036,12 +2036,12 @@
     (property "Datasheet" "~" (at 83.82 45.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 81fbe722-a11d-4f0f-aa95-6dc317aa7c3a))
-    (pin "2" (uuid 664b17d0-d8bb-4b30-9c04-d85473060dbf))
+    (pin "1" (uuid 6829dd99-9a9f-44dd-bf70-450efba3034e))
+    (pin "2" (uuid 7a8514ad-91d9-4cf5-acb8-9a635c3e12ec))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J3") (unit 1)
+          (reference "CAN_L_Flywheel1") (unit 1)
         )
       )
     )
@@ -2050,24 +2050,24 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 83.82 57.785 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9f061c2-4237-4dfc-8a8b-cdea258a3d7c)
-    (property "Reference" "J4" (at 85.09 55.245 0)
+    (property "Reference" "+24V_R_Flywheel1" (at 85.09 55.245 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 85.09 57.785 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (at 83.82 57.785 0)
+    (property "Footprint" "Robomaster_ICs:AMASS_XT30U-F_1x02_P5.0mm_Vertical_copy" (at 83.82 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 83.82 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0867759e-19b0-4e98-8701-6cce55e45095))
-    (pin "2" (uuid 063a14af-174a-43ab-842c-9cbd79a5262b))
+    (pin "1" (uuid ebc4568f-1b01-4324-96e3-72353cb5d519))
+    (pin "2" (uuid d273e70a-0187-4dcd-b926-021243e27dc6))
     (instances
       (project "Turret"
         (path "/84905b3c-2997-4e61-b373-c0062fb72371"
-          (reference "J4") (unit 1)
+          (reference "+24V_R_Flywheel1") (unit 1)
         )
       )
     )
