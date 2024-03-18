@@ -14,7 +14,7 @@ jobs:
       uses: docker://ghcr.io/racklet/render-drawio-action:v1
       with:
         formats: 'png'
-        files: 'Wires.drawio.xml:wires.png'
+        files: 'Wires.drawio.xml=wires.png'
       id: render
     - name: List the rendered files
       run: 'ls -l ${{ steps.render.outputs.rendered-files }}'
