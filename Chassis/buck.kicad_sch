@@ -1271,7 +1271,7 @@
     (property "Value" "SR54F-AU_R2_000A1" (at 118.11 99.06 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Robomaster_ICs:SODFL5336X110N" (at 107.95 95.25 0)
+    (property "Footprint" "Robomaster_Passives:SODFL5336X110N" (at 107.95 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 107.95 95.25 0)

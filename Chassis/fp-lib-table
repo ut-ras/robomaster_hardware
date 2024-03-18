@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "Robomaster_ICs")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Library/ICs.pretty")(options "")(descr ""))
   (lib (name "Robomaster_Special")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Library/Special.pretty")(options "")(descr ""))
+  (lib (name "Robomaster_Connectors")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Library/Connectors.pretty")(options "")(descr ""))
+  (lib (name "Robomaster_Passives")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Library/Passives.pretty")(options "")(descr ""))
 )
