@@ -10,11 +10,12 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+    - name: Rename .drawio file
+      run: 'cp ./Wires.drawio.xml ./Wires.drawio'
     - name: Render .drawio files
       uses: docker://ghcr.io/racklet/render-drawio-action:v1
       with:
         formats: 'png'
-        files: 'Wires.drawio.xml=wires.png'
       id: render
     - name: List the rendered files
       run: 'ls -l ${{ steps.render.outputs.rendered-files }}'
