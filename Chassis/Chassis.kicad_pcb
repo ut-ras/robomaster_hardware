@@ -6655,7 +6655,7 @@
 
   (footprint "Robomaster_Special:StampedeLogo" (layer "B.Cu")
     (tstamp a8bfacca-f3d2-4665-9118-5cd2de2a136e)
-    (at 110.4 94 180)
+    (at 111.25 94.75 180)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "B.SilkS") hide
         (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
@@ -7062,6 +7062,12 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp a60ad77f-4f25-48f1-b6a3-273f3e46c5c4))
   (gr_arc (start 48.328427 29.328427) (mid 49.5 26.5) (end 52.328427 25.328427)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp cadd5aeb-91fd-438a-966e-7e71d4968e55))
+  (gr_text "Bri Dickson\nJed Wang\nMichael Chung" (at 104.5 94.25) (layer "B.SilkS") (tstamp 27a545de-3116-4ad8-b2da-8e5ca1605260)
+    (effects (font (size 1.5 1.5) (thickness 0.1875)) (justify left top mirror))
+  )
+  (gr_text "UT Robomaster\nChassis Board" (at 104.75 93.25) (layer "B.SilkS") (tstamp dced2bae-7cd6-4118-bb3d-bc2ec6016b18)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold italic) (justify left bottom mirror))
+  )
   (gr_text "+19V\n" (at 86.25 61.5 -90) (layer "F.SilkS") (tstamp 016a22c9-757a-488b-a423-fc440b740272)
     (effects (font (size 1 1) (thickness 0.15)) (justify right bottom))
   )
