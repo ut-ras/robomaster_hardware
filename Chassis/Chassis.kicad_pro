@@ -479,6 +479,18 @@
     [
       "3fd05750-0822-45a8-8028-0dd5f1a0075b",
       "Watchdog"
+    ],
+    [
+      "a69c2870-32fe-49ad-a53a-6eb896a9643c",
+      "High-Side Switch (Chassis)"
+    ],
+    [
+      "96f37cdb-5aaa-4023-8f81-c2bc7d1fa9f2",
+      "High-Side Switch (Shooter)"
+    ],
+    [
+      "41d32bc6-367b-488d-b098-a70ba3917f16",
+      "High-Side Switch (Gimbal)"
     ]
   ],
   "text_variables": {}
