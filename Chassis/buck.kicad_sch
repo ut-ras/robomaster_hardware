@@ -1303,7 +1303,7 @@
     (property "Value" "10µH" (at 114.3 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Robomaster_ICs:MPLAL6060100" (at 114.3 90.17 0)
+    (property "Footprint" "Robomaster_Passives:MPLAL6060100" (at 114.3 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.com/datasheet/2/277/MPL_AL6060_100-2946374.pdf" (at 114.3 90.17 0)
