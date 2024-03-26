@@ -1,0 +1,1769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Tachi\Documents\robomaster_hardware\Chassis\Chassis.kicad_sch</source>
+    <date>3/23/2024 7:03:23 PM</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Chassis</title>
+        <company>UT RoboMasters</company>
+        <rev>v1</rev>
+        <date>2023-11-17</date>
+        <source>Chassis.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/">
+      <title_block>
+        <title>Buck Convertors</title>
+        <company>UT RoboMasters</company>
+        <rev>v1</rev>
+        <date>2023-11-17</date>
+        <source>buck.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Watchdog/" tstamps="/3fd05750-0822-45a8-8028-0dd5f1a0075b/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>watchdog.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>150060BS75000</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/150060BS75000.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">150060BS75000</field>
+        <field name="Mouser Part Number">710-150060BS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="150060BS75000"/>
+      <property name="Mouser Part Number" value="710-150060BS75000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df65369a-afe1-4331-b256-73a0ff28771d</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>150060RS75000</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/150060RS75000.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">150060RS75000</field>
+        <field name="Mouser Part Number">710-150060RS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="150060RS75000"/>
+      <property name="Mouser Part Number" value="710-150060RS75000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f06aeb9-a787-415f-9e52-769f55331adc</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>150060GS75000</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/150060GS75000.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">150060GS75000</field>
+        <field name="Mouser Part Number">710-150060GS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="150060GS75000"/>
+      <property name="Mouser Part Number" value="710-150060GS75000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fca6fa1-9d03-4670-8c7c-f2465a7d0055</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>150060YS75000</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">150060YS75000</field>
+        <field name="Mouser Part Number">710-150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="150060YS75000"/>
+      <property name="Mouser Part Number" value="710-150060YS75000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de18f564-2808-42d3-bac1-ada49ecb661e</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>150060YS75000</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">150060YS75000</field>
+        <field name="Mouser Part Number">710-150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="150060YS75000"/>
+      <property name="Mouser Part Number" value="710-150060YS75000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df2ebcfc-31a4-4aa9-a95b-b52bc81a2835</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>150060YS75000</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">150060YS75000</field>
+        <field name="Mouser Part Number">710-150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Manufacturer_Part_Number" value="150060YS75000"/>
+      <property name="Mouser Part Number" value="710-150060YS75000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64a8d3e4-93ff-4807-9434-a73323625677</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>PTVS26VS1UR-QX</value>
+      <footprint>Robomaster_Passives:PTVS26VS1URQX</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">PTVS26VS1UR-QX</field>
+        <field name="Mouser Part Number">771-PTVS26VS1UR-QX</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Manufacturer_Part_Number" value="PTVS26VS1UR-QX"/>
+      <property name="Mouser Part Number" value="771-PTVS26VS1UR-QX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9303411-6bb8-4351-a419-ea7077865d99</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">ERB-RE2R50V</field>
+        <field name="Mouser Part Number">667-ERB-RE2R50V</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Manufacturer_Part_Number" value="ERB-RE2R50V"/>
+      <property name="Mouser Part Number" value="667-ERB-RE2R50V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>366feadd-3017-4c7b-adfd-b03ba292feed</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0da9bfe-d747-495b-8fa4-5fab3957dfeb</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ccf9cb0-a2bf-477b-a4ba-595209c3ad9f</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>586eb3fc-83ce-4266-887b-0109f569e2c1</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ed96d8f-8c8b-4832-9783-f1e07da293bd</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>FR_JST</value>
+      <footprint>Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">JST 2-pin</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="JST 2-pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f3e1703-784c-44e8-b41d-da03d7919d34</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>BR_JST</value>
+      <footprint>Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">JST 2-pin</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="JST 2-pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05e0a3b9-1490-4fca-bdfd-f74ed8efa1d6</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>FL_JST</value>
+      <footprint>Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">JST 2-pin</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="JST 2-pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1eac5adf-3545-440b-b326-011c1c10feec</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>BL_JST</value>
+      <footprint>Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">JST 2-pin</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="JST 2-pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe2a2481-54b4-4288-b579-60195747ed8b</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>FR_XT30</value>
+      <footprint>Robomaster_Connectors:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">XT30</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="XT30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0cd354e-00c7-4d02-9e36-cf15a80fe151</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>BR_XT30</value>
+      <footprint>Robomaster_Connectors:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">XT30</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="XT30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>842d9976-caf4-4de6-8fdb-555cbc8fa870</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>FL_XT30</value>
+      <footprint>Robomaster_Connectors:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">XT30</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="XT30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5089c52-c15b-4695-b45e-c63e6a9bb0f0</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>BL_XT30</value>
+      <footprint>Robomaster_Connectors:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">XT30</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="XT30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2a2c11c-4911-4ce5-a114-7cc8c2b12c28</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>IN_JST</value>
+      <footprint>Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">JST 2-pin</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="JST 2-pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b720bfc-5077-440c-902e-f030571427b5</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>IN_XT30</value>
+      <footprint>Robomaster_Connectors:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">XT30</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="XT30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>023c4141-1401-4a49-a8fe-c582880c84c1</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>SWD_IN</value>
+      <footprint>Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">JST 4-pin</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Manufacturer_Part_Number" value="JST 4-pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe66c94d-b933-4b85-b7c9-ee2fadab1b60</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x08_Pin</value>
+      <footprint>Robomaster_Connectors:CON_1722981108_MOL</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">172298-1108</field>
+        <field name="Mouser Part Number">538-172298-1108</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x08_Pin" description="Generic connector, single row, 01x08, script generated"/>
+      <property name="Manufacturer_Part_Number" value="172298-1108"/>
+      <property name="Mouser Part Number" value="538-172298-1108"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97c76252-d05c-4e10-8ee9-5db2f3d00b67</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>GIM1_JST</value>
+      <footprint>Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">JST 2-pin</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="JST 2-pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05bdf422-e299-4a16-9b4a-20a89bb056b5</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>GIM2_JST</value>
+      <footprint>Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">JST 2-pin</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="JST 2-pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66f5e50f-cd80-4d91-b243-74d4bbbb574c</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>GIM1_XT30</value>
+      <footprint>Robomaster_Connectors:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">XT30</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="XT30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93a9896c-540e-43d4-9b45-68c8b6b12f9a</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>GIM2_XT30</value>
+      <footprint>Robomaster_Connectors:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">XT30</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="XT30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d520438a-1510-4872-8ea1-963087c515a2</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>SWD_OUT</value>
+      <footprint>Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">JST 4-pin</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Manufacturer_Part_Number" value="JST 4-pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bb70caa-3ef9-4e4a-bcfa-0ee88edc7779</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>CHA_XT30</value>
+      <footprint>Robomaster_Connectors:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">XT30</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="XT30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77792747-06cf-4ff2-b33c-b15fbc27e02e</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>SHOO_XT30</value>
+      <footprint>Robomaster_Connectors:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">XT30</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="XT30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>531e78a1-2afd-4a09-a4ca-32afdd12fd1c</tstamps>
+    </comp>
+    <comp ref="J20">
+      <value>GIM_XT30</value>
+      <footprint>Robomaster_Connectors:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">XT30</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="XT30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>594d11f3-019f-4fda-986c-2ba83a44016a</tstamps>
+    </comp>
+    <comp ref="J21">
+      <value>OUT_JST</value>
+      <footprint>Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">JST 2-pin</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="JST 2-pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55e1de4f-f433-4450-ad7b-d4b0313278de</tstamps>
+    </comp>
+    <comp ref="J22">
+      <value>5V_XT30</value>
+      <footprint>Robomaster_Connectors:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">XT30</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="XT30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>032e441f-559a-4c48-878c-f9580412b5b0</tstamps>
+    </comp>
+    <comp ref="J23">
+      <value>UART_IN</value>
+      <footprint>Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">JST 4-pin</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Manufacturer_Part_Number" value="JST 4-pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9d6147d-0b38-4ee6-a96f-89f0488fab52</tstamps>
+    </comp>
+    <comp ref="J24">
+      <value>UART_Out</value>
+      <footprint>Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">JST 4-pin</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Manufacturer_Part_Number" value="JST 4-pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bf9a247-73ff-445b-affc-7ca25c10ff44</tstamps>
+    </comp>
+    <comp ref="J25">
+      <value>REF_IN</value>
+      <footprint>Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">JST 4-pin</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Manufacturer_Part_Number" value="JST 4-pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b768dae-d501-47d7-86d7-8304c08d73dd</tstamps>
+    </comp>
+    <comp ref="J26">
+      <value>REF_OUT</value>
+      <footprint>Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">JST 4-pin</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Manufacturer_Part_Number" value="JST 4-pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ddc47f3-f519-4494-970c-8996900838f0</tstamps>
+    </comp>
+    <comp ref="J27">
+      <value>CAN2_IN</value>
+      <footprint>Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">JST 2-pin</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="JST 2-pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64db8158-38ac-4459-af4c-6ae9613d1c12</tstamps>
+    </comp>
+    <comp ref="J28">
+      <value>CAN2_OUT</value>
+      <footprint>Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">JST 2-pin</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer_Part_Number" value="JST 2-pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90801901-a488-46dc-8328-887ed6d86ea2</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">RT0603DRD071KL</field>
+        <field name="Mouser Part Number">603-RT0603DRD071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="RT0603DRD071KL"/>
+      <property name="Mouser Part Number" value="603-RT0603DRD071KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd9fc1b7-cadd-451c-86ca-e8dba2888056</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">RT0603DRD071KL</field>
+        <field name="Mouser Part Number">603-RT0603DRD071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="RT0603DRD071KL"/>
+      <property name="Mouser Part Number" value="603-RT0603DRD071KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd6411c0-a8a5-48a1-b365-45e750dc719f</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>250Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">MCT06030E2500BP100</field>
+        <field name="Mouser Part Number">594-MCT06030E2500BP1</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="MCT06030E2500BP100"/>
+      <property name="Mouser Part Number" value="594-MCT06030E2500BP1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9124245-bd42-48e9-9a94-d179c7501cf7</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">RT0603DRD071KL</field>
+        <field name="Mouser Part Number">603-RT0603DRD071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="RT0603DRD071KL"/>
+      <property name="Mouser Part Number" value="603-RT0603DRD071KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e6bb8c1-bf0f-4afc-8144-69018fe1a49c</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">RT0603DRD071KL</field>
+        <field name="Mouser Part Number">603-RT0603DRD071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="RT0603DRD071KL"/>
+      <property name="Mouser Part Number" value="603-RT0603DRD071KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da881671-4f56-4f5b-aa04-551da47477da</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">RT0603DRD071KL</field>
+        <field name="Mouser Part Number">603-RT0603DRD071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="RT0603DRD071KL"/>
+      <property name="Mouser Part Number" value="603-RT0603DRD071KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37e2628b-2f03-48ec-a82c-ddb06e790228</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf6f1e57-b913-4956-8fd0-807fd50ffa05</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Chassis.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1d62c93-9479-4d97-967c-f0057ac7de4e</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">C0603C103J5RACAUTO</field>
+        <field name="Mouser Part Number">80-C0603C103J5RAUTO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer_Part_Number" value="C0603C103J5RACAUTO"/>
+      <property name="Mouser Part Number" value="80-C0603C103J5RAUTO"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>2e39f357-d1fa-41fd-9db9-e9378c94d11d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>2.2μF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">GRM188R61E225KA2J</field>
+        <field name="Mouser Part Number">81-GRM188R61E225KA2J</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer_Part_Number" value="GRM188R61E225KA2J"/>
+      <property name="Mouser Part Number" value="81-GRM188R61E225KA2J"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>ad03389e-b11a-498c-9d85-a277c59428ff</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>82pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/1/GCM1885C2A820JA16_01A-3143285.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">CC0603FRNPO0BN820</field>
+        <field name="Mouser Part Number">603-CC0603FRNP0BN820</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer_Part_Number" value="CC0603FRNPO0BN820"/>
+      <property name="Mouser Part Number" value="603-CC0603FRNP0BN820"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>1a2dfe62-59f9-4896-89ae-4fe119e21677</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">CL10B104JB8NNNC</field>
+        <field name="Mouser Part Number">187-CL10B104JB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer_Part_Number" value="CL10B104JB8NNNC"/>
+      <property name="Mouser Part Number" value="187-CL10B104JB8NNNC"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>d5d963b9-4371-4edb-b0b7-813a61726476</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">CL21A226MAYNNNE</field>
+        <field name="Mouser Part Number">187-CL21A226MAYNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer_Part_Number" value="CL21A226MAYNNNE"/>
+      <property name="Mouser Part Number" value="187-CL21A226MAYNNNE"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>64f3b51f-d140-424d-ab5b-26e7f388c84b</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">CL21A226MAYNNNE</field>
+        <field name="Mouser Part Number">187-CL21A226MAYNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer_Part_Number" value="CL21A226MAYNNNE"/>
+      <property name="Mouser Part Number" value="187-CL21A226MAYNNNE"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>6ea3c530-6c16-4d15-9e9b-7b398193adec</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4.7µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/1/GRT188R6YA475KE13_01A-3158664.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">C1608X5R1E475K080AC</field>
+        <field name="Mouser Part Number">810-C1608X5R1E475K</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer_Part_Number" value="C1608X5R1E475K080AC"/>
+      <property name="Mouser Part Number" value="810-C1608X5R1E475K"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>34e77407-40b5-40b0-91d4-0dc79dfd785e</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>4.7µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/1/GRT188R6YA475KE13_01A-3158664.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">C1608X5R1E475K080AC</field>
+        <field name="Mouser Part Number">810-C1608X5R1E475K</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer_Part_Number" value="C1608X5R1E475K080AC"/>
+      <property name="Mouser Part Number" value="810-C1608X5R1E475K"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>18ff027b-e6d9-41a4-921d-3ea1ac57951c</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">C0603C103J5RACAUTO</field>
+        <field name="Mouser Part Number">80-C0603C103J5RAUTO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer_Part_Number" value="C0603C103J5RACAUTO"/>
+      <property name="Mouser Part Number" value="80-C0603C103J5RAUTO"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>58ce9e4a-f2bb-4622-80f5-737d5121ea8f</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>BAS321J</value>
+      <footprint>Diode_SMD:D_SOD-323F</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/BAS321J-1370681.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">BAS321JX</field>
+        <field name="Mouser Part Number">771-BAS321JX</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Manufacturer_Part_Number" value="BAS321JX"/>
+      <property name="Mouser Part Number" value="771-BAS321JX"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>65f64df4-c921-450f-900e-399eb99d15bc</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>SR54F-AU_R2_000A1</value>
+      <footprint>Robomaster_Passives:SODFL5336X110N</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">SR54F-AU_R2_000A1</field>
+        <field name="Mouser Part Number">241-SR54F-AUR1000A1</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Manufacturer_Part_Number" value="SR54F-AU_R2_000A1"/>
+      <property name="Mouser Part Number" value="241-SR54F-AUR1000A1"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>291c3a4b-841a-41a6-a422-fe3cf0859c07</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>SD103AW-TP</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/258/SD103AW_SD103CW_SOD_123_-2510757.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">SD103AW-TP</field>
+        <field name="Mouser Part Number">833-SD103AW-TP</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Manufacturer_Part_Number" value="SD103AW-TP"/>
+      <property name="Mouser Part Number" value="833-SD103AW-TP"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>eddab94c-e5ae-4999-9173-932ac080710b</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>LV2862YDDCR</value>
+      <footprint>Robomaster_ICs:SOT95P280X110-6N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lv2862.pdf?ts=1599813769524&amp;ref_url=https%253A%252F%252Fwww.mouser.in%252F</datasheet>
+      <fields>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LV2862YDDCR</field>
+        <field name="Mouser Part Number">595-LV2862YDDCR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LV2862YDDCR?qs=XJu%252BLGjWfSBQUt0Wj8cHew%3D%3D</field>
+      </fields>
+      <libsource lib="_LHRE_ICs" part="LV2862YDDCR" description="Switching Voltage Regulators 4.5-V to 60-V, 600-mA buck converter in ultra-small SOT23 package 6-SOT-23-THIN -40 to 125"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="595-LV2862YDDCR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LV2862YDDCR?qs=XJu%252BLGjWfSBQUt0Wj8cHew%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="LV2862YDDCR"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Switching Voltage Regulators 4.5-V to 60-V, 600-mA buck converter in ultra-small SOT23 package 6-SOT-23-THIN -40 to 125"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>9cd6c37d-041e-4e16-9385-1a426cda353b</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>RT6285GSP</value>
+      <footprint>Robomaster_ICs:SOIC127P600X175-9N</footprint>
+      <datasheet>https://www.richtek.com/assets/product_file/RT6285/DS6285-00.pdf</datasheet>
+      <fields>
+        <field name="Height">1.753</field>
+        <field name="Manufacturer_Name">RICHTEK</field>
+        <field name="Manufacturer_Part_Number">RT6285GSP</field>
+        <field name="Mouser Part Number">835-RT6285GSP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Richtek/RT6285GSP?qs=amGC7iS6iy9ag0U80PgEbw%3D%3D</field>
+      </fields>
+      <libsource lib="Robomaster_Library" part="RT6285GSP" description="Switching Voltage Regulators 5A, 30V, 500kHz Asynchronous Step-Down Converter"/>
+      <property name="Height" value="1.753"/>
+      <property name="Mouser Part Number" value="835-RT6285GSP"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Richtek/RT6285GSP?qs=amGC7iS6iy9ag0U80PgEbw%3D%3D"/>
+      <property name="Manufacturer_Name" value="RICHTEK"/>
+      <property name="Manufacturer_Part_Number" value="RT6285GSP"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Switching Voltage Regulators 5A, 30V, 500kHz Asynchronous Step-Down Converter"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>15bcb29d-fd6f-45e7-b10f-98e3eb510cbd</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10µH</value>
+      <footprint>Robomaster_Passives:MPLAL6060100</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/277/MPL_AL6060_100-2946374.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_Number">MPL-AL6060-100</field>
+        <field name="Mouser Part Number">946-MPL-AL6060-100</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Manufacturer_Part_Number" value="MPL-AL6060-100"/>
+      <property name="Mouser Part Number" value="946-MPL-AL6060-100"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>295cb716-87eb-46a6-8ca3-54e57fad1b70</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>33μH</value>
+      <footprint>Robomaster_Passives:SRN3012BTA330M</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/54/Bourns_08042023_SRN3012BTA_datasheet-3305898.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">Bourns</field>
+        <field name="Manufacturer_Part_Number">SRN3012BTA-330M</field>
+        <field name="Mouser Part Number">652-SRN3012BTA-330M</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Manufacturer_Name" value="Bourns"/>
+      <property name="Manufacturer_Part_Number" value="SRN3012BTA-330M"/>
+      <property name="Mouser Part Number" value="652-SRN3012BTA-330M"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>a6c755ae-cd20-42df-9579-eac8abdb4dbf</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">RT0603DRE07100KL</field>
+        <field name="Mouser Part Number">603-RT0603DRE07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="RT0603DRE07100KL"/>
+      <property name="Mouser Part Number" value="603-RT0603DRE07100KL"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>8e6a4aa5-cbe9-4228-bced-bb53d0d476e2</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>6.8kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">RT0603DRE076K8L</field>
+        <field name="Mouser Part Number">603-RT0603DRE076K8L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="RT0603DRE076K8L"/>
+      <property name="Mouser Part Number" value="603-RT0603DRE076K8L"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>2096fdf6-ee12-4d10-b1ad-aea63e1e4830</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>56kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">RT0603DRD0756KL</field>
+        <field name="Mouser Part Number">603-RT0603DRD0756KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="RT0603DRD0756KL"/>
+      <property name="Mouser Part Number" value="603-RT0603DRD0756KL"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>32551da0-9cb7-4bc4-9391-4e3018892925</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">RT0603DRE0710KL</field>
+        <field name="Mouser Part Number">603-RT0603DRE0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer_Part_Number" value="RT0603DRE0710KL"/>
+      <property name="Mouser Part Number" value="603-RT0603DRE0710KL"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>96546183-ea03-4fe6-8535-8521a6253b99</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer_Part_Number">RT0603DRE07100KL</field>
+        <field name="Mouser Part Number">603-RT0603DRE07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Manufacturer_Part_Number" value="RT0603DRE07100KL"/>
+      <property name="Mouser Part Number" value="603-RT0603DRE07100KL"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>eb417093-eaac-4d33-8a4d-df22259794fb</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>9d529e2f-1c34-4a78-aedc-f35c54816f47</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>68fdc30b-c238-4235-b23b-d28df9b3a5b1</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="24V -&gt; 19V Buck Convertor"/>
+      <property name="Sheetfile" value="buck.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/24V -&gt; 19V Buck Convertor/" tstamps="/632f64e1-f4ac-4fce-8dc1-2a6086852be0/"/>
+      <tstamps>d1e66bbf-1d43-4f17-8b8d-8325bec9a37d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Pin">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Pin">
+      <description>Generic connector, single row, 01x08, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Robomaster_Library" part="RT6285GSP">
+      <description>Switching Voltage Regulators 5A, 30V, 500kHz Asynchronous Step-Down Converter</description>
+      <docs>https://www.richtek.com/assets/product_file/RT6285/DS6285-00.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">RT6285GSP</field>
+        <field name="Footprint">Robomaster_ICs:SOIC127P600X175-9N</field>
+        <field name="Datasheet">https://www.richtek.com/assets/product_file/RT6285/DS6285-00.pdf</field>
+        <field name="Height">1.753</field>
+        <field name="Mouser Part Number">835-RT6285GSP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Richtek/RT6285GSP?qs=amGC7iS6iy9ag0U80PgEbw%3D%3D</field>
+        <field name="Manufacturer_Name">RICHTEK</field>
+        <field name="Manufacturer_Part_Number">RT6285GSP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOT" type="passive"/>
+        <pin num="2" name="NC_1" type="passive"/>
+        <pin num="3" name="NC_2" type="passive"/>
+        <pin num="4" name="FB" type="passive"/>
+        <pin num="5" name="EN" type="passive"/>
+        <pin num="6" name="GND_1" type="passive"/>
+        <pin num="7" name="VIN" type="passive"/>
+        <pin num="8" name="SW" type="passive"/>
+        <pin num="9" name="GND_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="_LHRE_ICs" part="LV2862YDDCR">
+      <description>Switching Voltage Regulators 4.5-V to 60-V, 600-mA buck converter in ultra-small SOT23 package 6-SOT-23-THIN -40 to 125</description>
+      <docs>https://www.ti.com/lit/ds/symlink/lv2862.pdf?ts=1599813769524&amp;ref_url=https%253A%252F%252Fwww.mouser.in%252F</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LV2862YDDCR</field>
+        <field name="Footprint">_LHRE_ICs:SOT95P280X110-6N</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lv2862.pdf?ts=1599813769524&amp;ref_url=https%253A%252F%252Fwww.mouser.in%252F</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">595-LV2862YDDCR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LV2862YDDCR?qs=XJu%252BLGjWfSBQUt0Wj8cHew%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LV2862YDDCR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CB" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="FB" type="passive"/>
+        <pin num="4" name="~{SHDN}" type="passive"/>
+        <pin num="5" name="VIN" type="passive"/>
+        <pin num="6" name="SW" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Robomaster_Library">
+      <uri>C:\Users\Tachi\Documents\robomaster_hardware\Chassis/../KiCAD_Library/Robomaster_Library.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="J11" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J17" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="J23" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J24" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J12" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J22" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="+19V">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J12" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="+24V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="VIN" pintype="passive"/>
+      <node ref="IC2" pin="7" pinfunction="VIN" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="+24V_Chassis">
+      <node ref="J18" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="+24V_Gimbal">
+      <node ref="J12" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J16" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J20" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="+24V_Shooter">
+      <node ref="J12" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J19" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/24V -&gt; 19V Buck Convertor/BOOT_{5}">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="CB" pintype="passive"/>
+    </net>
+    <net code="10" name="/24V -&gt; 19V Buck Convertor/BOOT_{19}">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC2" pin="1" pinfunction="BOOT" pintype="passive"/>
+    </net>
+    <net code="11" name="/24V -&gt; 19V Buck Convertor/FB_{5}">
+      <node ref="IC1" pin="3" pinfunction="FB" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/24V -&gt; 19V Buck Convertor/FB_{19}">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="IC2" pin="4" pinfunction="FB" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/24V -&gt; 19V Buck Convertor/SW_{5}">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="SW" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/24V -&gt; 19V Buck Convertor/SW_{19}">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC2" pin="8" pinfunction="SW" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="/24V -&gt; 19V Buck Convertor/~{SHDN}">
+      <node ref="IC1" pin="4" pinfunction="~{SHDN}" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="/CAN+">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J21" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="17" name="/CAN-">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="/REF_CAN+">
+      <node ref="J25" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J26" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="19" name="/REF_CAN-">
+      <node ref="J25" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J26" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="20" name="/REF_PWR">
+      <node ref="J25" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J26" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="21" name="/SWCLK">
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J17" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="22" name="/SWDIO">
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J17" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="23" name="/UART_RX">
+      <node ref="J23" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J24" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="24" name="/UART_TX">
+      <node ref="J23" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J24" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="25" name="CAN2+">
+      <node ref="J27" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J28" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="26" name="CAN2-">
+      <node ref="J27" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J28" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="27" name="GND">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC2" pin="6" pinfunction="GND_1" pintype="passive"/>
+      <node ref="IC2" pin="9" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J22" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J23" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J24" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="GND1">
+      <node ref="J25" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J26" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="29" name="Mini_PC">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D8-A)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D9-A)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="unconnected-(IC2-EN-Pad5)">
+      <node ref="IC2" pin="5" pinfunction="EN" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(IC2-NC_1-Pad2)">
+      <node ref="IC2" pin="2" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(IC2-NC_2-Pad3)">
+      <node ref="IC2" pin="3" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
