@@ -1,0 +1,1 @@
+pythong -c "from datasets import load_dataset; print(load_dataset('squad', split='train')[0])"
