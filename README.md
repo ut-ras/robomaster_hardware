@@ -16,5 +16,6 @@
 ### Chassis
 Mouser BOM: <https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=05c649ac38>
 
-Contact `yuqiaro` or `\_tempo\_` on Discord for any issues.
+> [!NOTE]
+> Contact `yuqiaro` or `\_tempo\_` on Discord for any issues.
 
