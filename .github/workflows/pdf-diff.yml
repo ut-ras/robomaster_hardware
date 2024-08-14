@@ -14,5 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     name: Render diffs of schematics
     steps:
-    - name: Checkout
+    - name: Checkout target branch - ${{ github.base_ref }}
       uses: actions/checkout@v2
+      with:
+        ref: ${{ github.base_ref }}
+        path: target
+    - name: Checkout source branch - ${{ github.head_ref }}
+      uses: actions/checkout@v2
+      with:
+       ref: ${{ github.head_ref }}
+       path: source
