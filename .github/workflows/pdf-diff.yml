@@ -37,14 +37,14 @@ jobs:
       with:
         kicad_sch: target/Chassis/Chassis.kicad_sch
         sch_pdf: true
-        sch_pdf_file: ${{ github.workspace }}/target_Chassis.pdf
+        sch_pdf_file: target_Chassis.pdf
         
     - name: Upload target schematic PDF
       uses: actions/upload-artifact@v4
       if: ${{ !cancelled() && steps.target.conclusion == 'success' }}
       with:
         name: target_Chassis.pdf
-        path: ${{ github.workspace }}/target_Chassis.pdf
+        path: target/Chassis/target_Chassis.pdf
         
     - name: Export source branch schematic PDF
       id: source
@@ -53,22 +53,22 @@ jobs:
       with:
         kicad_sch: source/Chassis/Chassis.kicad_sch
         sch_pdf: true
-        sch_pdf_file: ${{ github.workspace }}/source_Chassis.pdf
+        sch_pdf_file: source/Chassis/source_Chassis.pdf
 
     - name: Upload source schematic PDF
       uses: actions/upload-artifact@v4
       if: ${{ !cancelled() && steps.source.conclusion == 'success' }}
       with:
         name: source_Chassis.pdf
-        path: ${{ github.workspace }}/source_Chassis.pdf
+        path: source/Chassis/source_Chassis.pdf
 
     - name: Compare PDFs
       id: compare
       uses: nowsprinting/diff-pdf-action@v1
       if: ${{ !cancelled() && !failure() }}
       with:
-        file1: ${{ github.workspace }}/source_Chassis.pdf
-        file2: ${{ github.workspace }}/target_Chassis.pdf
+        file1: source/Chassis/source_Chassis.pdf
+        file2: target/Chassis/target_Chassis.pdf
         options: -s -m --output-diff=diff.pdf --dpi=100
         supress-diff-error: true
 
@@ -76,5 +76,5 @@ jobs:
       uses: actions/upload-artifact@v4
       if: ${{ !cancelled() && steps.compare.conclusion == 'success' }}
       with:
-        name: ${{ github.workspace }}/diff.pdf
-        path: ${{ github.workspace }}/diff.pdf
+        name: diff.pdf
+        path: diff.pdf
