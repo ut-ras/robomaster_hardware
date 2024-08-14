@@ -16,9 +16,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Render diffs of schematics
     steps:
-    - name: Welcome message
-      run: echo Hello there! This is v1.
-      
     - name: Checkout target branch - ${{ github.base_ref }}
       uses: actions/checkout@v4
       with:
