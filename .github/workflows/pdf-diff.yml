@@ -2,6 +2,7 @@ name: Auto-diff PDF files
 
 # only trigger on opened/reopened PRs that change the schematic
 on:
+  workflow_dispatch:
   pull_request:
     types:
       - opened
