@@ -7,8 +7,8 @@ on:
     types:
       - opened
       - reopened
-    paths:
-      - '**.kicad_sch'
+    # paths:
+      # - '**.kicad_sch'
 
 jobs:
   diff_pdfs:
