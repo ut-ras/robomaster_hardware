@@ -53,7 +53,7 @@ jobs:
       with:
         kicad_sch: source/Chassis/Chassis.kicad_sch
         sch_pdf: true
-        sch_pdf_file: source/Chassis/source_Chassis.pdf
+        sch_pdf_file: source_Chassis.pdf
 
     - name: Upload source schematic PDF
       uses: actions/upload-artifact@v4
