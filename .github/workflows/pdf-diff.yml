@@ -67,7 +67,7 @@ jobs:
       with:
         file1: source/Chassis/source_Chassis.pdf
         file2: target/Chassis/target_Chassis.pdf
-        options: -s -m --output-diff=diff.pdf --dpi=100
+        options: -s -m --output-diff=diff.pdf --dpi=300
         suppress-diff-error: true
 
     - name: Upload diff PDF
