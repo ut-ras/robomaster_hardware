@@ -70,7 +70,7 @@ jobs:
         file1: source/Chassis/source_Chassis.pdf
         file2: target/Chassis/target_Chassis.pdf
         options: -s -m --output-diff=diff.pdf --dpi=100
-        supress-diff-error: true
+        suppress-diff-error: true
 
     - name: Upload diff PDF
       uses: actions/upload-artifact@v4
