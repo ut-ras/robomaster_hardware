@@ -16,16 +16,19 @@ jobs:
     steps:
     - name: Welcome message
       run: echo Hello there! This is v1.
+      
     - name: Checkout target branch - ${{ github.base_ref }}
       uses: actions/checkout@v4
       with:
         ref: ${{ github.base_ref }}
         path: target
+        
     - name: Checkout source branch - ${{ github.head_ref }}
       uses: actions/checkout@v4
       with:
         ref: ${{ github.head_ref }}
         path: source
+        
     - name: Export target branch schematic PDF
       id: target
       uses: sparkengineering/kicad-action@v2
@@ -34,7 +37,14 @@ jobs:
         kicad_sch: target/Chassis/Chassis.kicad_sch
         sch_pdf: true
         sch_pdf_file: target_Chassis.pdf
-    # - name: 
+        
+    - name: Upload target schematic PDF
+      uses: actions/upload-artifact@v4
+      if: ${{ !cancelled() && steps.target.conclusion == 'success' }}
+      with:
+        name: target_Chassis.pdf
+        path: ${{ github.workspace }}/target_Chassis.pdf
+        
     - name: Export source branch schematic PDF
       id: source
       uses: sparkengineering/kicad-action@v2
@@ -43,3 +53,27 @@ jobs:
         kicad_sch: source/Chassis/Chassis.kicad_sch
         sch_pdf: true
         sch_pdf_file: source_Chassis.pdf
+
+    - name: Upload source schematic PDF
+      uses: actions/upload-artifacts@v4
+      if: ${{ !cancelled() && steps.source.conclusion == 'success' }}
+      with:
+        name: source_Chassis.pdf
+        path: ${{ github.workspace }}/source_Chassis.pdf
+
+    - name: Compare PDFs
+      id: compare
+      uses: nowsprinting/diff-pdf-action@v1
+      if: ${{ !cancelled() && !failure() }}
+      with:
+        file1: source_Chassis.pdf
+        file2: target_Chassis.pdf
+        options: -s -m --output-diff=diff.pdf --dpi=100
+        supress-diff-error: true
+
+    - name: Upload diff PDF
+      uses: actions/upload-artifacts@v4
+      if: ${{ !cancelled() && steps.compare.conclusion == 'success' }}
+      with:
+        name: diff.pdf
+        path: ${{ github.workspace }}/diff.pdf
