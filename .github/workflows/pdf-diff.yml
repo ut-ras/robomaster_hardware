@@ -14,13 +14,32 @@ jobs:
     runs-on: ubuntu-latest
     name: Render diffs of schematics
     steps:
+    - name: Welcome message
+      run: echo Hello there! This is v1.
     - name: Checkout target branch - ${{ github.base_ref }}
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         ref: ${{ github.base_ref }}
         path: target
     - name: Checkout source branch - ${{ github.head_ref }}
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
-       ref: ${{ github.head_ref }}
-       path: source
+        ref: ${{ github.head_ref }}
+        path: source
+    - name: Export target branch schematic PDF
+      id: target
+      uses: sparkengineering/kicad-action@v2
+      if: '!cancelled()'
+      with:
+        kicad_sch: target/Chassis/Chassis.kicad_sch
+        sch_pdf: true
+        sch_pdf_file: target_Chassis.pdf
+    # - name: 
+    - name: Export source branch schematic PDF
+      id: source
+      uses: sparkengineering/kicad-action@v2
+      if: '!cancelled()'
+      with:
+        kicad_sch: source/Chassis/Chassis.kicad_sch
+        sch_pdf: true
+        sch_pdf_file: source_Chassis.pdf
