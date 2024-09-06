@@ -1,2 +1,4 @@
-# Mouser Cart: https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0cd60d575a
-Pretty sure the molex is the only thing we don't have
+# Onboarding test branch
+Use this branch to get accustomed to the git & github workflow, the current files are just a copy of the turret branch.
+
+**Use `git clone [] --recursive` to clone repos, as not doing so will not copy the files needed from the [RAS KiCAD Library](https://github.com/ut-ras/KiCad_Library.git)
