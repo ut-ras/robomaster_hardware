@@ -9,4 +9,4 @@ To confirm you are done with onboarding, clone this branch, edit this markdown f
 
 Type your name and GitHub username here:
 - Morris Lin : MorrisYLin
-- 
+- Andrew Nguyen : AndrewNguy
