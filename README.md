@@ -11,5 +11,5 @@ Type your name and GitHub username here:
 - Morris Lin : MorrisYLin
 - Egan Wang:0  BaRho80
 - Andrew Nguyen : AndrewNguy
-- Sanjana Kishore : ilovejujube
+- Sanjana Kishore : jujube6363
 - Raeesa Karim : RaeesaKarim
