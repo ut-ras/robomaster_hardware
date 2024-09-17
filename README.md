@@ -1,6 +1,6 @@
-# Robomaster Hardware
+# RoboMaster Electrical Repository
 
-## Embedded Hardware Setup 
+## Electrical Team Setup 
 
-Please read the [Wiki](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) page for information on how to set up your computer.
+Please read the [Wiki]( https://github.com/ut-ras/robomaster_hardware/wiki) page for information on how to set up your computer.
 
