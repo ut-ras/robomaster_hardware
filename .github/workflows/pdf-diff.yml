@@ -1,0 +1,78 @@
+name: Auto-diff PDF files
+
+# only trigger on opened/reopened/updated PRs that change the schematic
+on:
+  workflow_dispatch:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+    # paths:
+      # - '**.kicad_sch'
+
+jobs:
+  diff_pdfs:
+    runs-on: ubuntu-latest
+    name: Render diffs of schematics
+    steps:
+    - name: Checkout target branch - ${{ github.base_ref }}
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.base_ref }}
+        path: target
+        
+    - name: Checkout source branch - ${{ github.head_ref }}
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+        path: source
+        
+    - name: Export target branch schematic PDF
+      id: target
+      uses: sparkengineering/kicad-action@v2
+      if: '!cancelled()'
+      with:
+        kicad_sch: target/Chassis/Chassis.kicad_sch
+        sch_pdf: true
+        sch_pdf_file: target_Chassis.pdf
+        
+    - name: Upload target schematic PDF
+      uses: actions/upload-artifact@v4
+      if: ${{ !cancelled() && steps.target.conclusion == 'success' }}
+      with:
+        name: target_Chassis.pdf
+        path: target/Chassis/target_Chassis.pdf
+        
+    - name: Export source branch schematic PDF
+      id: source
+      uses: sparkengineering/kicad-action@v2
+      if: '!cancelled()'
+      with:
+        kicad_sch: source/Chassis/Chassis.kicad_sch
+        sch_pdf: true
+        sch_pdf_file: source_Chassis.pdf
+
+    - name: Upload source schematic PDF
+      uses: actions/upload-artifact@v4
+      if: ${{ !cancelled() && steps.source.conclusion == 'success' }}
+      with:
+        name: source_Chassis.pdf
+        path: source/Chassis/source_Chassis.pdf
+
+    - name: Compare PDFs
+      id: compare
+      uses: nowsprinting/diff-pdf-action@v1
+      if: ${{ !cancelled() && !failure() }}
+      with:
+        file1: source/Chassis/source_Chassis.pdf
+        file2: target/Chassis/target_Chassis.pdf
+        options: -s -m --output-diff=diff.pdf --dpi=300
+        suppress-diff-error: true
+
+    - name: Upload diff PDF
+      uses: actions/upload-artifact@v4
+      if: ${{ !cancelled() && steps.compare.conclusion == 'success' }}
+      with:
+        name: diff.pdf
+        path: diff.pdf
