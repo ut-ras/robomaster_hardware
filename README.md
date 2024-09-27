@@ -13,3 +13,4 @@ Type your name and GitHub username here:
 - Andrew Nguyen : AndrewNguy
 - Sanjana Kishore : jujube6363
 - Raeesa Karim : RaeesaKarim
+- Nithin Reddy : NReddy101
