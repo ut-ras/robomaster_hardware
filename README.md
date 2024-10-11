@@ -1,7 +1,4 @@
-# RoboMaster Electrical Repository
+# Disconnect Board Info
 
-## Electrical Team Setup 
-
-Welcome!
-Please read the [Wiki]( https://github.com/ut-ras/robomaster_hardware/wiki) page for information on how to set up your computer and an overview of the projects in this repository.
+[Documentation](https://docs.google.com/document/d/1GsOQt9HsTg4h0LOrXXU0sl9jIsii8LLuOTy7vQfsQtw/edit?usp=sharing)
 
