@@ -1,7 +1,4 @@
-# RoboMaster Electrical Repository
+# Fake Armor Plate Info
 
-## Electrical Team Setup 
-
-Welcome!
-Please read the [Wiki]( https://github.com/ut-ras/robomaster_hardware/wiki) page for information on how to set up your computer and an overview of the projects in this repository.
+[Documentation](https://docs.google.com/document/d/1GkeJFfdKUFpd7OH5ehYvM94NwxRCL2SVtISUqBaIM94/edit?usp=sharing)
 
