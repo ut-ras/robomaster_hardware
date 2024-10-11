@@ -1,7 +1,4 @@
-# RoboMaster Electrical Repository
+# Supercap Info
 
-## Electrical Team Setup 
-
-Welcome!
-Please read the [Wiki]( https://github.com/ut-ras/robomaster_hardware/wiki) page for information on how to set up your computer and an overview of the projects in this repository.
+<https://docs.google.com/document/d/1f7YBesyg-HKGX-QeX3EvewY5np2cC4q_sbRDZjgO9P8/edit?usp=sharing>
 
