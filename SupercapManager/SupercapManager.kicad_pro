@@ -386,6 +386,18 @@
     [
       "6197145b-e7d4-44cc-9d90-537b6501bf60",
       "Root"
+    ],
+    [
+      "388608c4-ca49-4b14-9684-8f150e280879",
+      "Input Buck & Charger"
+    ],
+    [
+      "fd749e99-bd1e-4aca-86d6-8b572dc00b7d",
+      "Output Boost"
+    ],
+    [
+      "9739d4cc-938e-4869-b5d8-561f0e1056cb",
+      "Current Sense"
     ]
   ],
   "text_variables": {}

@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "aebd8c90-7acf-47af-985f-41cc17c12732")
+	(paper "A4")
+	(title_block
+		(date "2024-10-18")
+		(rev "1")
+		(company "UT Stampede")
+		(comment 1 "Robomaster")
+	)
+	(lib_symbols)
+)
