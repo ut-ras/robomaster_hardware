@@ -1,5 +1,20 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6197145b-e7d4-44cc-9d90-537b6501bf60")
+	(paper "A4")
+	(title_block
+		(title "Supercapacitor Manager")
+		(date "2024-10-18")
+		(rev "1")
+		(company "UT Stampede")
+		(comment 1 "Robomaster")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
