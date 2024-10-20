@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "66b6585a-624b-4c45-9b28-84197baae8bc")
+	(uuid "808c5d3c-1ca8-4422-8a9e-bd0d172c4e85")
 	(paper "A4")
 	(title_block
 		(date "2024-10-18")
@@ -11,4 +11,15 @@
 		(comment 1 "Robomaster")
 	)
 	(lib_symbols)
+	(text "TODO:\n- Boost a variable voltage from the supercaps to a constant +24V\n  - Figure out line & load regulation\n- Be able to shut off the boost converter with an active low signal"
+		(exclude_from_sim no)
+		(at 125.095 90.805 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7a25c47f-5e72-40c0-bf6a-a43cafc317b7")
+	)
 )

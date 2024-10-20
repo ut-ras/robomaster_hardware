@@ -398,6 +398,14 @@
     [
       "9739d4cc-938e-4869-b5d8-561f0e1056cb",
       "Current Sense"
+    ],
+    [
+      "115b1a74-e36e-4ee6-8764-bf26e4e24147",
+      "Dev Board Interface"
+    ],
+    [
+      "62409e74-8344-41ac-985b-476ca4688495",
+      "Supercapacitor Connection"
     ]
   ],
   "text_variables": {}

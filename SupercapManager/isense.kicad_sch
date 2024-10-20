@@ -2,13 +2,25 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "aebd8c90-7acf-47af-985f-41cc17c12732")
+	(uuid "a21eb1d9-0dbb-493b-a6b4-bdf1ecb7cda4")
 	(paper "A4")
 	(title_block
+		(title "Current Sensing")
 		(date "2024-10-18")
 		(rev "1")
 		(company "UT Stampede")
 		(comment 1 "Robomaster")
 	)
 	(lib_symbols)
+	(text "TODO:\n- Use an error amplifier to measure the amount of current coming in\n- Use a comparator to determine whether the current being drawn is over the limit set by the Dev Board"
+		(exclude_from_sim no)
+		(at 97.155 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a8d008a8-40bd-46be-ad9c-9f738c963948")
+	)
 )

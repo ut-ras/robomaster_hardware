@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "60e165af-a77a-46f5-a480-f277b75c5f0f")
+	(uuid "d848d160-f540-4c8c-8e84-4388f75f064e")
 	(paper "A4")
 	(title_block
 		(date "2024-10-18")
@@ -11,15 +11,15 @@
 		(comment 1 "Robomaster")
 	)
 	(lib_symbols)
-	(text "TODO:\n- Create a suitable supercapacitor charger\n  - Be able to toggle it on and off (ON = active high)\n  - Even better: granular control of charging current"
+	(text "TODO:\n- Size connectors for the amount of current coming in and out\n  - Make sure they interface with the supercapacitor management module\n- Size the supercaps"
 		(exclude_from_sim no)
-		(at 132.08 95.25 0)
+		(at 116.84 93.345 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left top)
 		)
-		(uuid "4750d404-55b4-45a0-ae93-4881d3f75452")
+		(uuid "033388ed-9aa8-4db9-aec4-abe06115173c")
 	)
 )

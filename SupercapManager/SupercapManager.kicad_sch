@@ -12,8 +12,108 @@
 		(comment 1 "Robomaster")
 	)
 	(lib_symbols)
+	(polyline
+		(pts
+			(xy 101.6 81.28) (xy 101.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105b009b-632e-42e7-88e7-8c4eea581c48")
+	)
+	(polyline
+		(pts
+			(xy 101.6 104.14) (xy 190.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca6ad96-58f3-4257-b75d-e686049a8f10")
+	)
+	(polyline
+		(pts
+			(xy 59.69 81.28) (xy 203.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afb1daed-eacd-43cc-8e36-2833ec27d5a2")
+	)
+	(polyline
+		(pts
+			(xy 190.5 104.14) (xy 190.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f0ebff-c6c0-4a57-a86d-7021bdcfa5e2")
+	)
+	(text "Connector IN"
+		(exclude_from_sim no)
+		(at 59.055 81.28 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "139027b2-514a-49e2-ba87-acc5286f1db5")
+	)
+	(text "Connectors OUT"
+		(exclude_from_sim no)
+		(at 203.835 81.28 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "4bd92fec-73e1-4b69-8d87-1efb2ca6e661")
+	)
 	(sheet
-		(at 81.28 97.79)
+		(at 125.73 49.53)
+		(size 27.94 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "115b1a74-e36e-4ee6-8764-bf26e4e24147")
+		(property "Sheetname" "Dev Board Interface"
+			(at 125.73 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dev_interface.kicad_sch"
+			(at 125.73 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 96.52)
 		(size 25.4 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -25,7 +125,7 @@
 		)
 		(uuid "388608c4-ca49-4b14-9684-8f150e280879")
 		(property "Sheetname" "Input Buck & Charger"
-			(at 81.28 97.0784 0)
+			(at 111.76 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +134,7 @@
 			)
 		)
 		(property "Sheetfile" "buck.kicad_sch"
-			(at 81.28 113.6146 0)
+			(at 111.76 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,7 +151,45 @@
 		)
 	)
 	(sheet
-		(at 118.11 73.66)
+		(at 138.43 92.71)
+		(size 12.7 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "62409e74-8344-41ac-985b-476ca4688495")
+		(property "Sheetname" "Supercapacitor Connection"
+			(at 138.43 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "supercap_connector.kicad_sch"
+			(at 138.43 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 74.93)
 		(size 26.67 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -63,7 +201,7 @@
 		)
 		(uuid "9739d4cc-938e-4869-b5d8-561f0e1056cb")
 		(property "Sheetname" "Current Sense"
-			(at 118.11 72.9484 0)
+			(at 69.85 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,7 +210,7 @@
 			)
 		)
 		(property "Sheetfile" "isense.kicad_sch"
-			(at 118.11 86.9446 0)
+			(at 69.85 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89,7 +227,7 @@
 		)
 	)
 	(sheet
-		(at 162.56 97.79)
+		(at 153.67 96.52)
 		(size 26.67 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -101,7 +239,7 @@
 		)
 		(uuid "fd749e99-bd1e-4aca-86d6-8b572dc00b7d")
 		(property "Sheetname" "Output Boost"
-			(at 162.56 97.0784 0)
+			(at 153.67 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -110,7 +248,7 @@
 			)
 		)
 		(property "Sheetfile" "boost.kicad_sch"
-			(at 162.56 113.6146 0)
+			(at 153.67 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
