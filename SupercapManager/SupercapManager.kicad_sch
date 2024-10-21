@@ -113,6 +113,44 @@
 		)
 	)
 	(sheet
+		(at 124.46 127)
+		(size 38.1 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2b4de7d2-e111-42d9-afee-f810f96a2f61")
+		(property "Sheetname" "Housekeeping Power Supplies"
+			(at 124.46 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "housekeeping.kicad_sch"
+			(at 124.46 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 111.76 96.52)
 		(size 25.4 15.24)
 		(fields_autoplaced yes)
@@ -222,6 +260,44 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 73.66)
+		(size 33.02 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f28a7bbd-a217-4ab0-a73c-be6ca56ea928")
+		(property "Sheetname" "Ideal Diode"
+			(at 128.27 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ideal_diode.kicad_sch"
+			(at 128.27 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(page "7")
 				)
 			)
 		)

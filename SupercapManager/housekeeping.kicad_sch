@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b286b652-e3d6-4208-a475-1eede24dbc02")
+	(paper "A4")
+	(lib_symbols)
+	(text "TODO:\n- Take in a constant +24V power (e.g. from mini PC) and convert it to the various voltages that are needed across the board\n  - e.g., +3V3 for communication with the Dev board\nTo research:\n- Is this necessary? Can we have everything function properly from cold startup?"
+		(exclude_from_sim no)
+		(at 86.614 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6e724d71-ac33-407d-8532-19d2de32f954")
+	)
+)

@@ -12,7 +12,7 @@
 		(comment 1 "Robomaster")
 	)
 	(lib_symbols)
-	(text "TODO:\n- Use an error amplifier to measure the amount of current coming in\n- Use a comparator to determine whether the current being drawn is over the limit set by the Dev Board"
+	(text "TODO:\n- Use an error amplifier to measure the amount of current coming in\n- Use a comparator to determine whether the current being drawn is over the limit set by the Dev Board\n  - Configure as Schmitt trigger to avoid chatter"
 		(exclude_from_sim no)
 		(at 97.155 96.52 0)
 		(effects

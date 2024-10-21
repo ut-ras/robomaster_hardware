@@ -406,6 +406,14 @@
     [
       "62409e74-8344-41ac-985b-476ca4688495",
       "Supercapacitor Connection"
+    ],
+    [
+      "f28a7bbd-a217-4ab0-a73c-be6ca56ea928",
+      "Ideal Diode"
+    ],
+    [
+      "2b4de7d2-e111-42d9-afee-f810f96a2f61",
+      "Housekeeping Power Supplies"
     ]
   ],
   "text_variables": {}
