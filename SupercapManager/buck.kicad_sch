@@ -11,7 +11,7 @@
 		(comment 1 "Robomaster")
 	)
 	(lib_symbols)
-	(text "TODO:\n- Create a suitable supercapacitor charger\n  - Be able to toggle it on and off (ON = active high)\n  - Even better: granular control of charging current"
+	(text "TODO:\n- Create a suitable supercapacitor charger\n  - Be able to toggle it on and off (ON = active high)\n  - Even better: granular control of charging current\n  - Will likely have to be a synchronous buck to handle the amount of current"
 		(exclude_from_sim no)
 		(at 132.08 95.25 0)
 		(effects

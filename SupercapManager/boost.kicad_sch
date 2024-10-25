@@ -11,7 +11,7 @@
 		(comment 1 "Robomaster")
 	)
 	(lib_symbols)
-	(text "TODO:\n- Boost a variable voltage from the supercaps to a constant +24V\n  - Figure out line & load regulation\n- Be able to shut off the boost converter with an active low signal"
+	(text "TODO:\n- Boost a variable voltage from the supercaps to a constant +24V\n  - Figure out line & load regulation\n- Be able to shut off the boost converter with an active low signal\n- Will likely have to be a synchronous boost to handle the amount of current needed"
 		(exclude_from_sim no)
 		(at 125.095 90.805 0)
 		(effects
