@@ -22,4 +22,26 @@
 		)
 		(uuid "44673ebc-3683-4499-8139-68ac3e73f6fb")
 	)
+	(text "Inputs:\n- Analog in:\n  - Current supercap voltage\n- I2C in (to JSTs (?)):\n  - Power/current limit (to DAC)\n  - Current power draw (to DAC)"
+		(exclude_from_sim no)
+		(at 112.522 102.362 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "45749c9f-01ca-4b82-814c-e6c533ee7940")
+	)
+	(text "Outputs:\n- Analog out:\n  - Power/current limit (scaled)\n  - Current power draw (scaled)\n- I2C out (from JSTs (?)):\n  - from voltage ADC"
+		(exclude_from_sim no)
+		(at 155.702 102.108 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9166d57d-93df-4fb9-9a25-6a629beea192")
+	)
 )

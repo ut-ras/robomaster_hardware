@@ -5,6 +5,28 @@
 	(uuid "2e612081-631f-4764-b311-2f806752e67b")
 	(paper "A4")
 	(lib_symbols)
+	(text "Input:\n- +24V (Chassis) and GND (Chassis)\n- Enable (active high & low)\n  - from current sense (high/low \n      when overcurrenting)"
+		(exclude_from_sim no)
+		(at 105.664 104.902 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "09636297-76a1-421c-98b2-086a06c9b4d8")
+	)
+	(text "Output:\n- +24V (Chassis) and GND (Chassis)\n- Buck/charger enable\n- Boost enable"
+		(exclude_from_sim no)
+		(at 153.416 104.648 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ab97dec3-6466-498f-b258-f6bce0c0e8cf")
+	)
 	(text "TODO:\n- Include an ideal diode controller (e.g. the LM74700-Q1)\n  - To prevent backwards current flow into PMM\n- VSense to determine if the PMM has cut power to the chassis and should not discharge power"
 		(exclude_from_sim no)
 		(at 105.664 95.25 0)

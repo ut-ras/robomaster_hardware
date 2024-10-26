@@ -22,4 +22,26 @@
 		)
 		(uuid "4750d404-55b4-45a0-ae93-4881d3f75452")
 	)
+	(text "Input:\n- +24V (Chassis) and GND (Chassis)\n- Other necessary voltage lines\n- Enable (active high)\n- OPTIONAL: fast charging enable (active high \n    when I_{in} is below a threshold)"
+		(exclude_from_sim no)
+		(at 131.826 106.934 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "aa4862fa-7829-478d-871b-da92d8467891")
+	)
+	(text "Output:\n- +V_{supercap} and GND (Chassis)"
+		(exclude_from_sim no)
+		(at 178.054 107.442 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c66c9c4f-9f45-4397-8961-c7f51323bfa2")
+	)
 )

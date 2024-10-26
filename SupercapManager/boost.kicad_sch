@@ -11,7 +11,7 @@
 		(comment 1 "Robomaster")
 	)
 	(lib_symbols)
-	(text "TODO:\n- Boost a variable voltage from the supercaps to a constant +24V\n  - Figure out line & load regulation\n- Be able to shut off the boost converter with an active low signal\n- Will likely have to be a synchronous boost to handle the amount of current needed"
+	(text "TODO:\n- Boost a variable voltage from the supercaps to a constant +24V\n  - Figure out line & load regulation\n- Be able to shut off the boost converter with an active low signal\n- Will likely have to be a synchronous boost to handle the amount of current needed\n- Have a UVLO to lock out the output when the supercap voltage is too low"
 		(exclude_from_sim no)
 		(at 125.095 90.805 0)
 		(effects
@@ -21,5 +21,27 @@
 			(justify left top)
 		)
 		(uuid "7a25c47f-5e72-40c0-bf6a-a43cafc317b7")
+	)
+	(text "Output:\n- +24V (Chassis) and GND (Chassis)"
+		(exclude_from_sim no)
+		(at 169.418 104.902 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7fa41313-407f-49cf-8cd3-d70fa13b00e9")
+	)
+	(text "Input:\n- +V_{supercap} and GND (Chassis)\n- Other necessary voltage lines\n- Enable (active high)"
+		(exclude_from_sim no)
+		(at 125.222 104.902 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e9cc134a-7f15-4a55-a60c-80107ee4ef9e")
 	)
 )

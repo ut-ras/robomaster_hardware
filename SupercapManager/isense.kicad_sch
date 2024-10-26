@@ -12,6 +12,28 @@
 		(comment 1 "Robomaster")
 	)
 	(lib_symbols)
+	(text "Inputs:\n- +24V (Chassis) & GND (Chassis)\n- Other necessary power rails\n- Max power allotted (scaled)\n  - Check with firmware for exact scaling\n- Current power draw from PMM (scaled)\n  - May be unnecessary"
+		(exclude_from_sim no)
+		(at 97.282 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0a6d3942-88a6-4014-b2d0-4d39ac27884e")
+	)
+	(text "Outputs:\n- +24V (Chassis) & GND (Chassis)\n- Active high (& active low) if I_{in} > I_{critical}\n  - or equivalent for Schmitt trigger\n  - may need multiple different I_{critical}s depending on final simulated design"
+		(exclude_from_sim no)
+		(at 146.304 107.188 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7255a0fe-532a-4cbb-9096-33bd4664f2ca")
+	)
 	(text "TODO:\n- Use an error amplifier to measure the amount of current coming in\n- Use a comparator to determine whether the current being drawn is over the limit set by the Dev Board\n  - Configure as Schmitt trigger to avoid chatter"
 		(exclude_from_sim no)
 		(at 97.155 96.52 0)

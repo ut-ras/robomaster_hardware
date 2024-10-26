@@ -74,8 +74,19 @@
 		)
 		(uuid "4bd92fec-73e1-4b69-8d87-1efb2ca6e661")
 	)
+	(text "Connectors to &\nfrom supercap + SCMM"
+		(exclude_from_sim no)
+		(at 145.542 104.394 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "94118ac7-92e3-49c2-9d05-872ee10ba5c9")
+	)
 	(sheet
-		(at 125.73 49.53)
+		(at 129.54 46.99)
 		(size 27.94 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -87,7 +98,7 @@
 		)
 		(uuid "115b1a74-e36e-4ee6-8764-bf26e4e24147")
 		(property "Sheetname" "Dev Board Interface"
-			(at 125.73 48.8184 0)
+			(at 129.54 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,7 +107,7 @@
 			)
 		)
 		(property "Sheetfile" "dev_interface.kicad_sch"
-			(at 125.73 67.8946 0)
+			(at 129.54 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -184,44 +195,6 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 138.43 92.71)
-		(size 12.7 22.86)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "62409e74-8344-41ac-985b-476ca4688495")
-		(property "Sheetname" "Supercapacitor Connection"
-			(at 138.43 91.9984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "supercap_connector.kicad_sch"
-			(at 138.43 116.1546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
-					(page "6")
 				)
 			)
 		)
