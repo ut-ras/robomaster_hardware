@@ -4194,6 +4194,18 @@
 		(uuid "fd61c57f-d1d0-4a2c-8383-d28fcbedc892")
 	)
 	(rectangle
+		(start 234.95 138.43)
+		(end 283.21 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 029765de-6a13-4041-930f-e79b12660eae)
+	)
+	(rectangle
 		(start 26.67 113.03)
 		(end 85.09 138.43)
 		(stroke
@@ -4207,7 +4219,7 @@
 	)
 	(rectangle
 		(start 186.69 138.43)
-		(end 233.68 163.83)
+		(end 234.95 163.83)
 		(stroke
 			(width 0)
 			(type default)
@@ -4216,6 +4228,18 @@
 			(type none)
 		)
 		(uuid 70113f6b-c8bc-4852-923c-be12030fd26e)
+	)
+	(rectangle
+		(start 234.95 113.03)
+		(end 283.21 138.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 81e31867-ec88-42e4-8d50-3f15a6af4b5e)
 	)
 	(rectangle
 		(start 186.69 62.23)
@@ -4432,6 +4456,18 @@
 		)
 		(uuid "469dfb94-a387-4f06-851f-5e691aef1319")
 	)
+	(text "Chassis Power to Super cap"
+		(exclude_from_sim no)
+		(at 236.22 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "579c9c1b-923f-41fd-8388-f438fa495dff")
+	)
 	(text "GIM 1"
 		(exclude_from_sim no)
 		(at 187.96 66.04 0)
@@ -4539,6 +4575,18 @@
 			(justify left bottom)
 		)
 		(uuid "e6cc4ff4-a714-46a0-be82-01527a48a7ce")
+	)
+	(text "I2C\n"
+		(exclude_from_sim no)
+		(at 235.712 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e820587f-6288-4019-b9e7-c85ede8ec449")
 	)
 	(text "to FR ESC"
 		(exclude_from_sim no)
@@ -5978,6 +6026,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 243.84 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14869843-404c-4fc5-9bf1-a0ddfa38c90d")
+		(property "Reference" "J29"
+			(at 244.475 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 244.475 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 243.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e0c585fe-2507-4f43-8286-9cf9890dff1b")
+		)
+		(pin "1"
+			(uuid "ad5ebae7-5ac2-46cb-a359-037fcfa9145a")
+		)
+		(pin "2"
+			(uuid "c6eef0bc-ba85-4f50-9ccf-205220d41a07")
+		)
+		(pin "4"
+			(uuid "9ae315eb-4d18-4c08-b3be-cf1c74be5e27")
+		)
+		(instances
+			(project ""
+				(path "/d5f28ba3-2393-441a-9a3a-5aa9d797472a"
+					(reference "J29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 95.25 123.19 0)
 		(unit 1)
@@ -7137,6 +7259,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 262.89 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "432ea596-fefa-4a0b-91b6-1350775b0d71")
+		(property "Reference" "J31"
+			(at 263.525 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 263.525 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 262.89 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6eeb593-30e5-40ab-a76e-4e9a3c4ad932")
+		)
+		(pin "4"
+			(uuid "d31d9e1e-d3f5-4a2e-a8c1-093ff7c57126")
+		)
+		(pin "2"
+			(uuid "a6ef76d0-fee9-4429-b1a3-6a96e2d6a41d")
+		)
+		(pin "3"
+			(uuid "7de0b8a0-b57f-44fe-b392-9038bef2e9db")
+		)
+		(instances
+			(project ""
+				(path "/d5f28ba3-2393-441a-9a3a-5aa9d797472a"
+					(reference "J31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 113.03 148.59 0)
 		(unit 1)
@@ -7396,6 +7592,84 @@
 			(project "Chassis"
 				(path "/d5f28ba3-2393-441a-9a3a-5aa9d797472a"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 264.16 151.13 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fb81aab-642e-42ac-878b-05df2064b48e")
+		(property "Reference" "J33"
+			(at 264.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BR_XT30"
+			(at 264.16 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robomaster_Connectors:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 264.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30"
+			(at 264.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8868e540-2381-4411-92de-ec81489a1e7f")
+		)
+		(pin "2"
+			(uuid "9c7d1f8c-d9aa-47bc-baec-54e407d8fa30")
+		)
+		(instances
+			(project "Chassis"
+				(path "/d5f28ba3-2393-441a-9a3a-5aa9d797472a"
+					(reference "J33")
 					(unit 1)
 				)
 			)
@@ -9231,6 +9505,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 242.57 151.13 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9baf0de3-a140-4940-ab0b-56fa1496cbbd")
+		(property "Reference" "J32"
+			(at 242.57 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BR_XT30"
+			(at 242.57 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Robomaster_Connectors:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 242.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30"
+			(at 242.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39d87e06-2012-4a50-bc66-c153792207db")
+		)
+		(pin "2"
+			(uuid "eec4eab6-e150-461b-91c5-b329f0657131")
+		)
+		(instances
+			(project "Chassis"
+				(path "/d5f28ba3-2393-441a-9a3a-5aa9d797472a"
+					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 139.7 82.55 90)
 		(unit 1)
@@ -10243,6 +10595,80 @@
 			(project "Chassis"
 				(path "/d5f28ba3-2393-441a-9a3a-5aa9d797472a"
 					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 157.48 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdf613ce-c0c5-4e82-9a3c-de09f450c51f")
+		(property "Reference" "J30"
+			(at 158.115 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 158.115 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d41e008a-9b77-4f33-ab1d-7f55084b8535")
+		)
+		(pin "2"
+			(uuid "ad031f27-cd7a-45e8-86f7-15434d25f0da")
+		)
+		(pin "1"
+			(uuid "fb37392d-2946-4b4e-bc95-d1f81fab52fc")
+		)
+		(pin "4"
+			(uuid "05c0f4ec-2785-4cd8-8aeb-bbe6a52b9bba")
+		)
+		(instances
+			(project ""
+				(path "/d5f28ba3-2393-441a-9a3a-5aa9d797472a"
+					(reference "J30")
 					(unit 1)
 				)
 			)
