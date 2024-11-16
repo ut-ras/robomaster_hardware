@@ -1668,7 +1668,7 @@
 	)
 	(text "FB:\n1V * (1 + ^{51k}/_{22.1k}) = 3.308V"
 		(exclude_from_sim no)
-		(at 165.1 73.025 0)
+		(at 180.34 73.025 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1723,7 +1723,7 @@
 		)
 		(uuid "6e724d71-ac33-407d-8532-19d2de32f954")
 	)
-	(text "UVLO:\n1.23V * (1 + ^{150k}/_{11k}) = 18V\n"
+	(text "UVLO (on):\n1.23V * (1 + ^{150k}/_{11k}) = 18V\n"
 		(exclude_from_sim no)
 		(at 98.425 130.175 0)
 		(effects
@@ -1734,7 +1734,7 @@
 		)
 		(uuid "b0714a1a-df3d-4659-b076-960eead314d2")
 	)
-	(text "UVLO:\n1.23V * (1 + ^{150k}/_{11k}) = 18V\n"
+	(text "UVLO (on):\n1.23V * (1 + ^{150k}/_{11k}) = 18V\n"
 		(exclude_from_sim no)
 		(at 98.425 73.025 0)
 		(effects
@@ -1760,7 +1760,7 @@
 	)
 	(text "FB:\n1V * (1 + ^{88.7k}/_{22.1k}) = 5.014V"
 		(exclude_from_sim no)
-		(at 165.1 130.175 0)
+		(at 179.07 130.175 0)
 		(effects
 			(font
 				(size 1.27 1.27)
