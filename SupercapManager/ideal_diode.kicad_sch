@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "2e612081-631f-4764-b311-2f806752e67b")
 	(paper "A4")
+	(title_block
+		(date "2024-11-15")
+		(rev "1")
+		(company "UT Robomaster")
+	)
 	(lib_symbols)
 	(text "Input:\n- +24V (Chassis) and GND (Chassis)\n- Enable (active high & low)\n  - from current sense (high/low \n      when overcurrenting)"
 		(exclude_from_sim no)

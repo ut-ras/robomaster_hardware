@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Current Sensing")
-		(date "2024-10-18")
+		(date "2024-11-15")
 		(rev "1")
-		(company "UT Stampede")
+		(company "UT Robomaster")
 		(comment 1 "Robomaster")
 	)
 	(lib_symbols)

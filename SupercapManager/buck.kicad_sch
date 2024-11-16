@@ -5,9 +5,9 @@
 	(uuid "60e165af-a77a-46f5-a480-f277b75c5f0f")
 	(paper "A4")
 	(title_block
-		(date "2024-10-18")
+		(date "2024-11-15")
 		(rev "1")
-		(company "UT Stampede")
+		(company "UT Robomaster")
 		(comment 1 "Robomaster")
 	)
 	(lib_symbols)
