@@ -754,6 +754,284 @@
 				)
 			)
 		)
+		(symbol "RoboMaster:CJS-1200TB"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW1"
+				(at 12.7 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "CJS-1200TB"
+				(at 12.7 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "RoboMaster:CJS-1200B_NDC"
+				(at 14.478 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "CJS-1200TB"
+				(at 14.478 -9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CJS-1200TB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CJS-1200B_NDC CJS-1200B_NDC-M CJS-1200B_NDC-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CJS-1200TB_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 17.78 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 11.43 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -2.032) (xy 12.7 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -1.524) (xy 13.462 0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -5.08) (xy 17.78 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -2.54) (xy 12.7 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 0) (xy 13.97 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 11.684 0)
+					(radius 0.254)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 12.7 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 13.716 0)
+					(radius 0.254)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CJS-1200TB_1_1"
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 25.4 -2.54 180)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 0 180)
+					(length 7.62)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -990,12 +1268,6 @@
 		(uuid "13da2c39-71c8-4d63-a6d3-aecac9a4dfb9")
 	)
 	(junction
-		(at 93.98 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20686a81-a808-4256-a47e-c34e11b03fcc")
-	)
-	(junction
 		(at 105.41 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1008,10 +1280,22 @@
 		(uuid "4c8dc5e3-6a2c-45d9-a236-f9e70d5eb44b")
 	)
 	(junction
+		(at 113.03 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a950456-31c3-4fcc-851e-846715fa02d5")
+	)
+	(junction
 		(at 44.45 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76138822-877a-477b-9c41-a3ce1b758953")
+	)
+	(junction
+		(at 68.58 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76b58a9f-f2cd-41b2-b7a0-ce01d5b57c00")
 	)
 	(junction
 		(at 96.52 62.23)
@@ -1063,7 +1347,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 67.31) (xy 114.3 80.01)
+			(xy 118.11 67.31) (xy 118.11 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1153,7 +1437,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 48.26) (xy 114.3 48.26)
+			(xy 105.41 48.26) (xy 118.11 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1163,13 +1447,23 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 48.26) (xy 93.98 48.26)
+			(xy 44.45 48.26) (xy 68.58 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f640460-0538-4838-a9d1-ae29b35c7865")
+	)
+	(wire
+		(pts
+			(xy 68.58 40.64) (xy 68.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "403ff210-9f31-4369-a725-24e9611caf81")
 	)
 	(wire
 		(pts
@@ -1183,7 +1477,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 80.01) (xy 114.3 80.01)
+			(xy 64.77 80.01) (xy 113.03 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1203,7 +1497,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 62.23) (xy 114.3 62.23)
+			(xy 96.52 62.23) (xy 118.11 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1233,17 +1527,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 58.42) (xy 93.98 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65b7e841-553e-4e32-9dc6-815f12057fa8")
-	)
-	(wire
-		(pts
-			(xy 114.3 48.26) (xy 114.3 59.69)
+			(xy 118.11 48.26) (xy 118.11 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1263,7 +1547,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 64.77) (xy 114.3 64.77)
+			(xy 105.41 64.77) (xy 118.11 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1280,6 +1564,16 @@
 			(type default)
 		)
 		(uuid "807a0d3b-3e8d-486f-b358-3072558d0e47")
+	)
+	(wire
+		(pts
+			(xy 113.03 80.01) (xy 118.11 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82849c38-11b8-49d4-a691-afe0c38150a8")
 	)
 	(wire
 		(pts
@@ -1313,6 +1607,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 43.18) (xy 93.98 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6d0288-20b5-45ba-a372-8d2b0ec64609")
+	)
+	(wire
+		(pts
 			(xy 44.45 80.01) (xy 44.45 82.55)
 		)
 		(stroke
@@ -1333,13 +1637,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 48.26) (xy 96.52 48.26)
+			(xy 93.98 40.64) (xy 113.03 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5ae45f2-12f2-4fd2-b023-6e3bbe794d8f")
+		(uuid "b9c418ab-af02-4457-bed7-60dd1b8346ef")
 	)
 	(wire
 		(pts
@@ -1383,6 +1687,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 40.64) (xy 113.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db56e0f0-e8ef-4688-8f10-e6bcdff76e7a")
+	)
+	(wire
+		(pts
+			(xy 68.58 48.26) (xy 96.52 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3d4838-03ab-4efa-8d78-829905097a68")
+	)
+	(wire
+		(pts
 			(xy 87.63 62.23) (xy 96.52 62.23)
 		)
 		(stroke
@@ -1422,6 +1746,17 @@
 			(justify left bottom)
 		)
 		(uuid "498fa9c6-562a-431d-9444-30cf59bb80c6")
+	)
+	(label "DIR"
+		(at 90.17 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee8fc410-8c79-46ac-9ba1-2cb2d2b409c3")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -1774,7 +2109,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 119.38 62.23 0)
+		(at 123.19 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1783,7 +2118,7 @@
 		(fields_autoplaced yes)
 		(uuid "67455da2-1011-4535-824c-7ef5c1f81e18")
 		(property "Reference" "J1"
-			(at 121.92 62.2299 0)
+			(at 125.73 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,7 +2127,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 121.92 64.7699 0)
+			(at 125.73 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,7 +2136,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
-			(at 118.364 55.118 0)
+			(at 122.174 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +2145,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 62.23 0)
+			(at 123.19 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,7 +2154,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 118.872 56.896 0)
+			(at 122.682 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,6 +2178,79 @@
 			(project ""
 				(path "/77501ba7-0423-44f5-b0cd-3d1dd0a587ed"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RoboMaster:CJS-1200TB")
+		(at 68.58 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89fa25fd-c805-4b1c-837e-a81732a0091d")
+		(property "Reference" "SW1"
+			(at 81.28 33.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "CJS-1200TB"
+			(at 81.28 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RoboMaster:CJS-1200B_NDC"
+			(at 83.058 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CJS-1200TB"
+			(at 83.058 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f0d63bd-12da-4d33-bdf2-c2adec6b06b5")
+		)
+		(pin "3"
+			(uuid "ad1ff9e9-fc85-45d0-8212-b922412133dc")
+		)
+		(pin "2"
+			(uuid "cd5e5c5a-ff90-4387-a05d-0fbdd80cadd5")
+		)
+		(instances
+			(project ""
+				(path "/77501ba7-0423-44f5-b0cd-3d1dd0a587ed"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
