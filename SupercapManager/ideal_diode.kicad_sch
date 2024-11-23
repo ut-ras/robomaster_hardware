@@ -1212,8 +1212,8 @@
 		)
 		(uuid "d89c5a49-6af8-4a97-b177-acd363687204")
 	)
-	(label "VDD"
-		(at 151.13 71.12 0)
+	(label "OUT_{LPF}"
+		(at 151.13 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1221,7 +1221,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4d1dcec3-ed08-4217-88c3-18eee7b65563")
+		(uuid "2eadad6d-5ffb-4511-82c5-a00753330741")
 	)
 	(label "GATE"
 		(at 127 63.5 180)
