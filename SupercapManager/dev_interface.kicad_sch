@@ -13,7 +13,7 @@
 	(lib_symbols)
 	(text "TODO:\n- Create DACs to ingest data (power limit, current power draw) from the Dev board\n- Create ADC to export data (current supercap voltage) to the Dev board\n- Make sure it's I2C"
 		(exclude_from_sim no)
-		(at 112.395 92.075 0)
+		(at 49.53 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22,9 +22,9 @@
 		)
 		(uuid "44673ebc-3683-4499-8139-68ac3e73f6fb")
 	)
-	(text "Inputs:\n- Analog in:\n  - Current supercap voltage\n- I2C in (to JSTs (?)):\n  - Power/current limit (to DAC)\n  - Current power draw (to DAC)"
+	(text "Inputs:\n- Analog in:\n  - Current supercap voltage\n  - Current drawn\n- I2C in (to JSTs (?)):\n  - Power/current limit (to DAC)\n  - Current power draw (to DAC)"
 		(exclude_from_sim no)
-		(at 112.522 102.362 0)
+		(at 49.657 175.387 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33,9 +33,9 @@
 		)
 		(uuid "45749c9f-01ca-4b82-814c-e6c533ee7940")
 	)
-	(text "Outputs:\n- Analog out:\n  - Power/current limit (scaled)\n  - Current power draw (scaled)\n- I2C out (from JSTs (?)):\n  - from voltage ADC"
+	(text "Outputs:\n- Analog out:\n  - Power/current limit (scaled)\n  - Current power draw (scaled)\n- I2C out (from JSTs (?)):\n  - from voltage ADCs"
 		(exclude_from_sim no)
-		(at 155.702 102.108 0)
+		(at 92.837 175.133 0)
 		(effects
 			(font
 				(size 1.27 1.27)
