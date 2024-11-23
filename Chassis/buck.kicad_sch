@@ -4194,7 +4194,7 @@
 		(fields_autoplaced yes)
 		(uuid "58ce9e4a-f2bb-4622-80f5-737d5121ea8f")
 		(property "Reference" "C12"
-			(at 148.59 135.255 0)
+			(at 148.59 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,8 +4202,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
-			(at 148.59 137.795 0)
+		(property "Value" "10μF"
+			(at 148.59 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,7 +4247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "80-C0603C103J5RAUTO"
+		(property "Mouser Part Number" "187-CL10A106KP8NNWC"
 			(at 144.78 135.89 0)
 			(effects
 				(font
