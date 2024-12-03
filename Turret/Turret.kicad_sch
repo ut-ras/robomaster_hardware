@@ -997,6 +997,409 @@
 				)
 			)
 		)
+		(symbol "Robomaster_Library:172298-1116"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "172298-1116"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "172298-YY16"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/172298-1116.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ultra-Fit Vertical Header, 3.50mm Pitch, Dual Row, 16 Circuits, with Kinked Pins, Glow-Wire Capable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "14"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-172298-1116"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=538-172298-1116"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "172298-1116"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "172298-1116_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -12.7 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -15.24 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -17.78 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -2581,6 +2984,18 @@
 		(uuid 5d791452-81da-4535-aef1-6808538b877d)
 	)
 	(rectangle
+		(start 182.88 76.2)
+		(end 234.95 125.73)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5e059530-8d6c-4159-9c9d-59d61b03eef9)
+	)
+	(rectangle
 		(start 16.51 77.47)
 		(end 71.12 100.33)
 		(stroke
@@ -2665,6 +3080,17 @@
 		)
 		(uuid fdacdeae-63c4-4d8e-add5-ced0ade5eea6)
 	)
+	(text "Molex to Slipring (Chassis)"
+		(exclude_from_sim no)
+		(at 184.15 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05cfdf75-35d3-4bb6-8153-fa9a26b2c686")
+	)
 	(text "Ref Input\n"
 		(exclude_from_sim no)
 		(at 142.24 25.4 0)
@@ -2676,7 +3102,7 @@
 		)
 		(uuid "180298da-844a-49e7-bd91-6ab41238b215")
 	)
-	(text "Remove this input w/ monolithic signal connector"
+	(text "Remove this input w/ monolithic connector"
 		(exclude_from_sim no)
 		(at 19.05 64.262 0)
 		(effects
@@ -2766,7 +3192,7 @@
 		)
 		(uuid "4ba890e5-dd9b-44e2-9148-23a49467c0f3")
 	)
-	(text "Remove this input w/ monolithic signal connector"
+	(text "Remove this input w/ monolithic connector"
 		(exclude_from_sim no)
 		(at 133.604 83.058 0)
 		(effects
@@ -2800,7 +3226,7 @@
 		)
 		(uuid "682bd187-bd74-4a2f-82cf-c92dd5f09889")
 	)
-	(text "Remove this input w/ monolithic signal connector"
+	(text "Remove this input w/ monolithic connector"
 		(exclude_from_sim no)
 		(at 76.962 102.108 0)
 		(effects
@@ -2812,7 +3238,7 @@
 		)
 		(uuid "6c33cb9c-9e48-4f5d-bb2f-9b7ad97aa2bc")
 	)
-	(text "REPLACE WITH NEW 12 AND 8 PIN CONNECTOR"
+	(text "REPLACE WITH NEW CONNECTOR"
 		(exclude_from_sim no)
 		(at 186.944 70.612 0)
 		(effects
@@ -2826,7 +3252,7 @@
 		)
 		(uuid "6ce2df5c-2f02-4c91-a14b-8dd2fc39ff29")
 	)
-	(text "Remove this input w/ monolithic signal connector"
+	(text "Remove this input w/ monolithic connector"
 		(exclude_from_sim no)
 		(at 19.558 109.22 0)
 		(effects
@@ -2870,6 +3296,18 @@
 			(justify left bottom)
 		)
 		(uuid "9b54286f-c68b-4efb-ac01-8e46a46c4b7e")
+	)
+	(text "Every pin on every input must be moved here.\nEach GND should be separate"
+		(exclude_from_sim no)
+		(at 183.896 118.618 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9e70c57b-092e-44e2-a417-620f5d97b711")
 	)
 	(text "CAN Input (gimbal can bus)"
 		(exclude_from_sim no)
@@ -5950,6 +6388,168 @@
 			(project "Turret"
 				(path "/84905b3c-2997-4e61-b373-c0062fb72371"
 					(reference "+24V_Shooter2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robomaster_Library:172298-1116")
+		(at 196.85 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97c6948e-65ed-497a-9c03-7c4f5baff3ec")
+		(property "Reference" "J1"
+			(at 208.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "172298-1116"
+			(at 208.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "172298-YY16"
+			(at 215.9 187.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/172298-1116.pdf"
+			(at 215.9 287.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra-Fit Vertical Header, 3.50mm Pitch, Dual Row, 16 Circuits, with Kinked Pins, Glow-Wire Capable"
+			(at 196.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "14"
+			(at 215.9 487.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-172298-1116"
+			(at 215.9 587.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=538-172298-1116"
+			(at 215.9 687.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 215.9 787.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "172298-1116"
+			(at 215.9 887.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "c165a317-5081-400d-950e-0c5e248f5c96")
+		)
+		(pin "15"
+			(uuid "c474e5b8-faf8-457a-9acc-ca860a986b60")
+		)
+		(pin "4"
+			(uuid "da765b5f-f057-495b-a923-7dab7e24d777")
+		)
+		(pin "5"
+			(uuid "44453a66-6baa-4c7c-a74c-7c9908a5953b")
+		)
+		(pin "6"
+			(uuid "ed1292ab-5c4c-4e46-b868-587b25d8b81a")
+		)
+		(pin "3"
+			(uuid "94b7964f-d8ed-4cdc-a248-376df9bfbfd2")
+		)
+		(pin "7"
+			(uuid "dfe664bb-2a6a-4ca0-899c-43a8e6f0ec2f")
+		)
+		(pin "8"
+			(uuid "afbd7b91-53fb-4a11-9671-260b52eb5ef4")
+		)
+		(pin "9"
+			(uuid "55c61580-3803-4177-84bd-f67b631aae44")
+		)
+		(pin "1"
+			(uuid "bd973946-5126-469e-88cf-07a5c73ce285")
+		)
+		(pin "10"
+			(uuid "b6033d27-74d9-4577-9c18-8739feff56d3")
+		)
+		(pin "11"
+			(uuid "c44108db-802f-4f59-a409-242f2854b4e8")
+		)
+		(pin "12"
+			(uuid "a3c637fd-e248-4529-b3ff-1b8f303cf80e")
+		)
+		(pin "13"
+			(uuid "0b571d33-20f2-49e0-830f-fde9532c8f45")
+		)
+		(pin "16"
+			(uuid "a81adbec-073d-4733-9330-dac040e7a3f7")
+		)
+		(pin "2"
+			(uuid "d7aa5bca-b849-4d77-9d68-071e6669ddd5")
+		)
+		(instances
+			(project ""
+				(path "/84905b3c-2997-4e61-b373-c0062fb72371"
+					(reference "J1")
 					(unit 1)
 				)
 			)
