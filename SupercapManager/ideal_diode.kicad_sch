@@ -5,6 +5,7 @@
 	(uuid "2e612081-631f-4764-b311-2f806752e67b")
 	(paper "A4")
 	(title_block
+		(title "Ideal Diode + VSense")
 		(date "2024-12-06")
 		(rev "1")
 		(company "UT Robomaster")
@@ -569,31 +570,29 @@
 				)
 			)
 		)
-		(symbol "Device:Q_NMOS_DSG"
+		(symbol "Device:Q_NMOS_SGD"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q1"
+				(at 8.89 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Q_NMOS_DSG"
-				(at 5.08 -1.27 0)
+			(property "Value" "NVMFS5C404NL"
+				(at 6.35 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
 				(at 5.08 2.54 0)
 				(effects
 					(font
@@ -611,7 +610,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Description" "N-MOSFET transistor, source/gate/drain"
 				(at 0 0 0)
 				(effects
 					(font
@@ -629,7 +628,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_NMOS_DSG_0_1"
+			(symbol "Q_NMOS_SGD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -693,6 +692,18 @@
 				(polyline
 					(pts
 						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -796,11 +807,11 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_DSG_1_1"
+			(symbol "Q_NMOS_SGD_1_1"
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "D"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -816,7 +827,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 5.08 -5.08 90)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -833,10 +844,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 7.62 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -844,6 +855,42 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1603,6 +1650,12 @@
 		(uuid "6f991714-3fd1-4589-be7d-8d4e6fc2d769")
 	)
 	(junction
+		(at 161.29 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74f190f7-5e7a-40a5-9deb-670e9364a1d9")
+	)
+	(junction
 		(at 124.46 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1631,6 +1684,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7c54886-ca25-426d-b820-61c0a4882bff")
+	)
+	(junction
+		(at 161.29 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcfcde47-67e3-46fb-92e5-c4fd3d4cf626")
 	)
 	(junction
 		(at 162.56 48.26)
@@ -1766,6 +1825,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 45.72) (xy 161.29 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c52a503-a4cb-44f3-be90-b1f39b777092")
+	)
+	(wire
+		(pts
 			(xy 124.46 58.42) (xy 124.46 71.12)
 		)
 		(stroke
@@ -1866,7 +1935,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 48.26) (xy 162.56 48.26)
+			(xy 161.29 43.18) (xy 161.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82eb7f9c-1bc0-4842-88b0-2c515df57b1a")
+	)
+	(wire
+		(pts
+			(xy 160.02 48.26) (xy 161.29 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1976,6 +2055,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 43.18) (xy 161.29 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0cd4c26-2b84-4e44-8cc4-05c84c129dbd")
+	)
+	(wire
+		(pts
 			(xy 124.46 71.12) (xy 124.46 82.55)
 		)
 		(stroke
@@ -1986,6 +2075,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 45.72) (xy 161.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b327c68f-40e1-4fab-81c7-2402853145e1")
+	)
+	(wire
+		(pts
 			(xy 186.69 129.54) (xy 186.69 130.81)
 		)
 		(stroke
@@ -1993,6 +2092,16 @@
 			(type default)
 		)
 		(uuid "b54b9aa2-9bf3-40db-9f9b-9f3c60437e3e")
+	)
+	(wire
+		(pts
+			(xy 161.29 48.26) (xy 162.56 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe56e2b-e7a9-472d-95f0-d00211d007a1")
 	)
 	(wire
 		(pts
@@ -2979,14 +3088,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS_DSG")
+		(lib_id "Device:Q_NMOS_SGD")
 		(at 154.94 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "83443bec-7744-4d9b-b60f-5edd192ea371")
 		(property "Reference" "Q1"
 			(at 154.94 41.91 90)
@@ -2996,15 +3104,15 @@
 				)
 			)
 		)
-		(property "Value" "Q_NMOS_DSG"
-			(at 154.94 44.45 90)
+		(property "Value" "NVMFS5C404NL"
+			(at 149.352 44.196 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
 			(at 152.4 45.72 0)
 			(effects
 				(font
@@ -3022,7 +3130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "N-MOSFET transistor, source/gate/drain"
 			(at 154.94 50.8 0)
 			(effects
 				(font
@@ -3039,6 +3147,12 @@
 		)
 		(pin "3"
 			(uuid "c667c24c-3b27-4642-8a84-c86fb903b1e8")
+		)
+		(pin "4"
+			(uuid "d8c6cef4-c13d-4952-90c4-e667d0f11dff")
+		)
+		(pin "5"
+			(uuid "6b67fac7-e0a9-45e9-9d45-823a750a1d02")
 		)
 		(instances
 			(project "SupercapManager"

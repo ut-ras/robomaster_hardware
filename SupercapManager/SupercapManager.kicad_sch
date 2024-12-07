@@ -1698,16 +1698,6 @@
 			(uuid "28eae9fa-eb0b-416b-88c9-7ce31f4c12e1")
 		)
 		(pin "CHARGING_EN" output
-			(at 147.32 87.63 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f0d0bcf8-3249-4929-8690-38d958e4add2")
-		)
-		(pin "DIRECT_EN" output
 			(at 149.86 87.63 270)
 			(effects
 				(font
@@ -1715,7 +1705,7 @@
 				)
 				(justify left)
 			)
-			(uuid "bf886aed-1575-4dc2-bc97-fea220a97c89")
+			(uuid "89cf4664-41d2-424a-8a97-3b011d3bf94e")
 		)
 		(instances
 			(project "SupercapManager"
