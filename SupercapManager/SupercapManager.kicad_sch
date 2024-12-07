@@ -778,16 +778,6 @@
 		)
 		(uuid "105b009b-632e-42e7-88e7-8c4eea581c48")
 	)
-	(wire
-		(pts
-			(xy 165.1 130.81) (xy 162.56 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d566f5d-e077-47a0-83c7-3e507ca7ed46")
-	)
 	(polyline
 		(pts
 			(xy 101.6 104.14) (xy 190.5 104.14)
@@ -797,36 +787,6 @@
 			(type default)
 		)
 		(uuid "3ca6ad96-58f3-4257-b75d-e686049a8f10")
-	)
-	(wire
-		(pts
-			(xy 165.1 139.7) (xy 165.1 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fdb6903-ee24-4458-a61d-9df849bb8cf5")
-	)
-	(wire
-		(pts
-			(xy 165.1 129.54) (xy 165.1 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85dc8446-ce8e-4181-9cfe-3a241b338a7b")
-	)
-	(wire
-		(pts
-			(xy 162.56 139.7) (xy 165.1 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acf08625-45e4-4458-aebf-43a7756e36a3")
 	)
 	(polyline
 		(pts
@@ -1168,72 +1128,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 165.1 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9eb58b3d-8427-47ba-8334-b05a4cdff61c")
-		(property "Reference" "#PWR07"
-			(at 165.1 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 165.1 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 165.1 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "623255cf-61bb-4cec-8a3a-3d9f96fd99c4")
-		)
-		(instances
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 71.12 52.07 0)
 		(unit 1)
@@ -1431,75 +1325,9 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 165.1 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffdfc056-552a-4deb-b5fb-ec8dc56d6359")
-		(property "Reference" "#PWR08"
-			(at 165.1 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 165.1 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f45062f-8766-47f2-aee7-8c84e95511f1")
-		)
-		(instances
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
-		(at 129.54 46.99)
-		(size 27.94 17.78)
+		(at 128.27 46.99)
+		(size 33.02 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1510,7 +1338,7 @@
 		)
 		(uuid "115b1a74-e36e-4ee6-8764-bf26e4e24147")
 		(property "Sheetname" "Dev Board Interface"
-			(at 129.54 46.2784 0)
+			(at 128.27 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1347,7 @@
 			)
 		)
 		(property "Sheetfile" "dev_interface.kicad_sch"
-			(at 129.54 65.3546 0)
+			(at 128.27 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1356,7 @@
 			)
 		)
 		(pin "SCL_{IN}" input
-			(at 129.54 49.53 180)
+			(at 128.27 49.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +1366,7 @@
 			(uuid "5c81c109-284a-49e7-b916-f03c81e7475b")
 		)
 		(pin "+3V3_{DEV}" bidirectional
-			(at 129.54 52.07 180)
+			(at 128.27 52.07 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1376,7 @@
 			(uuid "819dac94-a871-46d6-8ecf-09c73ea63a1e")
 		)
 		(pin "SDA_{IN}" bidirectional
-			(at 129.54 54.61 180)
+			(at 128.27 54.61 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,17 +1386,17 @@
 			(uuid "269338b0-1cc9-4835-9ed8-3988ec9a562c")
 		)
 		(pin "POW_DRAW" output
-			(at 139.7 64.77 270)
+			(at 161.29 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "b2f6a221-9d74-4cec-b8a5-8c64df4aa676")
 		)
 		(pin "DAC_{2}_FB" input
-			(at 157.48 60.96 0)
+			(at 161.29 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +1406,7 @@
 			(uuid "1064ea71-ab5d-469b-8859-cb603a8663d6")
 		)
 		(pin "POW_LIMIT" output
-			(at 157.48 50.8 0)
+			(at 161.29 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,7 +1416,7 @@
 			(uuid "5e931032-4a91-4148-b6d4-ebe15c96d3cd")
 		)
 		(pin "DAC_{1}_FB" input
-			(at 157.48 55.88 0)
+			(at 161.29 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,7 +1426,7 @@
 			(uuid "166b2d7c-0971-49b1-8b18-4b3ac24c1994")
 		)
 		(pin "CURR" input
-			(at 129.54 58.42 180)
+			(at 128.27 58.42 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,7 +1436,7 @@
 			(uuid "f61cd1cf-0a50-4893-856a-e8bf93771594")
 		)
 		(pin "V_{SC}" input
-			(at 129.54 60.96 180)
+			(at 128.27 60.96 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1654,26 +1482,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "+3V3" output
-			(at 162.56 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5a40eba0-af06-4ed5-9219-f684329fa513")
-		)
-		(pin "+5V" output
-			(at 162.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "51729ec9-4c96-4e86-a0a0-8519de40aa4a")
 		)
 		(pin "+24_{MiniPC}" input
 			(at 124.46 133.35 180)
@@ -1761,26 +1569,6 @@
 				(justify left top)
 			)
 		)
-		(pin "CHARGING_EN" output
-			(at 96.52 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "491d81a9-989b-4b16-9dff-42335f344fb4")
-		)
-		(pin "DIRECT_EN" output
-			(at 96.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "2a3e89ff-34f3-4f64-9ed5-6dfb2fba41d0")
-		)
 		(pin "PWR_{OUT}" output
 			(at 96.52 81.28 0)
 			(effects
@@ -1811,6 +1599,26 @@
 			)
 			(uuid "0ea6c143-09da-4b72-b7f3-c42374ac4d09")
 		)
+		(pin "CHARGING_IEN" output
+			(at 96.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "00d53ce8-c67a-43a9-a538-a5d5ef4e2243")
+		)
+		(pin "DIRECT_IEN" output
+			(at 96.52 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "35c6e4c7-d0f8-4eb1-9f19-aa238f2cb013")
+		)
 		(instances
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
@@ -1820,7 +1628,7 @@
 		)
 	)
 	(sheet
-		(at 128.27 73.66)
+		(at 128.27 74.93)
 		(size 33.02 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -1832,7 +1640,7 @@
 		)
 		(uuid "f28a7bbd-a217-4ab0-a73c-be6ca56ea928")
 		(property "Sheetname" "Ideal Diode"
-			(at 128.27 72.9484 0)
+			(at 128.27 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,13 +1649,73 @@
 			)
 		)
 		(property "Sheetfile" "ideal_diode.kicad_sch"
-			(at 128.27 86.9446 0)
+			(at 128.27 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "OUT" output
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e96f52eb-5244-4f30-9117-ef2a7932dad2")
+		)
+		(pin "IN" input
+			(at 128.27 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "15e07623-a37d-459c-ae34-3f44f5b26a92")
+		)
+		(pin "DIRECT_IEN" input
+			(at 133.35 87.63 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "44945f4d-1dd9-4ebd-9bda-6ce9b398eb95")
+		)
+		(pin "CHARGING_IEN" input
+			(at 135.89 87.63 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "28eae9fa-eb0b-416b-88c9-7ce31f4c12e1")
+		)
+		(pin "CHARGING_EN" output
+			(at 147.32 87.63 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f0d0bcf8-3249-4929-8690-38d958e4add2")
+		)
+		(pin "DIRECT_EN" output
+			(at 149.86 87.63 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bf886aed-1575-4dc2-bc97-fea220a97c89")
 		)
 		(instances
 			(project "SupercapManager"

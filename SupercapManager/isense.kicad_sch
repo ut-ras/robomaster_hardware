@@ -2406,7 +2406,7 @@
 		)
 		(uuid "d2ffcff0-c101-4286-b780-7f24772f726d")
 	)
-	(hierarchical_label "DIRECT_EN"
+	(hierarchical_label "DIRECT_IEN"
 		(shape output)
 		(at 177.8 92.71 0)
 		(fields_autoplaced yes)
@@ -2442,7 +2442,7 @@
 		)
 		(uuid "54501d29-fa97-4ceb-82f3-64a880589c45")
 	)
-	(hierarchical_label "CHARGING_EN"
+	(hierarchical_label "CHARGING_IEN"
 		(shape output)
 		(at 220.98 92.71 0)
 		(fields_autoplaced yes)

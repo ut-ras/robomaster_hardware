@@ -2505,7 +2505,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 57.15) (xy 207.01 54.61)
+			(xy 241.3 57.15) (xy 241.3 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2835,7 +2835,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 54.61) (xy 204.47 54.61)
+			(xy 241.3 54.61) (xy 204.47 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3330,6 +3330,16 @@
 			(type none)
 		)
 		(uuid ea5568a9-2110-4ffc-a605-635b0e48f0e5)
+	)
+	(text "Input scaling:\n180k over 120k = ^{2}/_{5}"
+		(exclude_from_sim no)
+		(at 56.896 143.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1909932f-d5c1-4e77-9cad-cdc3ce7f7301")
 	)
 	(text "DAC_{2} ADDR:\n1001000R_{2}"
 		(exclude_from_sim no)
@@ -6087,7 +6097,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 207.01 57.15 0)
+		(at 241.3 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6096,7 +6106,7 @@
 		(fields_autoplaced yes)
 		(uuid "b89466a5-cd65-40ee-883a-3edacb422e2a")
 		(property "Reference" "#PWR038"
-			(at 207.01 63.5 0)
+			(at 241.3 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6105,7 +6115,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 207.01 60.96 0)
+			(at 241.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +6123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 57.15 0)
+			(at 241.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,7 +6132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 57.15 0)
+			(at 241.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,7 +6141,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 207.01 57.15 0)
+			(at 241.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
