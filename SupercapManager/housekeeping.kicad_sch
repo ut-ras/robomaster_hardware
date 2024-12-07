@@ -6,10 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "Housekeeping Power Supplies")
-		(date "2024-11-15")
+		(date "2024-12-06")
 		(rev "1")
 		(company "UT Robomaster")
-		(comment 1 "Converting +24V from Mini PC to +5V and +3V3")
+		(comment 1 "Robomaster")
 	)
 	(lib_symbols
 		(symbol "! Robomaster:LV3842"

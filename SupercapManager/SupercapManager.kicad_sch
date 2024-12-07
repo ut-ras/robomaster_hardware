@@ -6,12 +6,132 @@
 	(paper "A4")
 	(title_block
 		(title "Supercapacitor Manager")
-		(date "2024-11-15")
+		(date "2024-12-06")
 		(rev "1")
 		(company "UT Robomaster")
 		(comment 1 "Robomaster")
 	)
 	(lib_symbols
+		(symbol "power:+24V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -625,6 +745,10 @@
 		)
 	)
 	(no_connect
+		(at 71.12 52.07)
+		(uuid "070c1622-fe0d-4b7a-813a-095b68a35b72")
+	)
+	(no_connect
 		(at 71.12 43.18)
 		(uuid "1a90b371-cd97-4d5e-9613-6ec12998d609")
 	)
@@ -778,6 +902,17 @@
 			(justify left)
 		)
 		(uuid "6cfefe16-f8b6-4bb7-822c-fbfefa5afd13")
+	)
+	(text "+24V to GNDPWR"
+		(exclude_from_sim no)
+		(at 75.565 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e092567-a942-4cd5-88d5-b5be0c119faf")
 	)
 	(text "Connectors to &\nfrom supercap + SCMM"
 		(exclude_from_sim no)
@@ -1099,6 +1234,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 71.12 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3634806-f8a3-4a19-8a59-2ddd2d460074")
+		(property "Reference" "#PWR044"
+			(at 71.12 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 71.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 71.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fc80fb6-c875-4067-a371-ec9beca6a9ee")
+		)
+		(instances
+			(project ""
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 27.94 36.83 0)
 		(unit 1)
@@ -1325,6 +1526,96 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "SCL_{IN}" input
+			(at 129.54 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5c81c109-284a-49e7-b916-f03c81e7475b")
+		)
+		(pin "+3V3_{DEV}" bidirectional
+			(at 129.54 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "819dac94-a871-46d6-8ecf-09c73ea63a1e")
+		)
+		(pin "SDA_{IN}" bidirectional
+			(at 129.54 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "269338b0-1cc9-4835-9ed8-3988ec9a562c")
+		)
+		(pin "POW_DRAW" output
+			(at 139.7 64.77 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b2f6a221-9d74-4cec-b8a5-8c64df4aa676")
+		)
+		(pin "DAC_{2}_FB" input
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1064ea71-ab5d-469b-8859-cb603a8663d6")
+		)
+		(pin "POW_LIMIT" output
+			(at 157.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5e931032-4a91-4148-b6d4-ebe15c96d3cd")
+		)
+		(pin "DAC_{1}_FB" input
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "166b2d7c-0971-49b1-8b18-4b3ac24c1994")
+		)
+		(pin "CURR" input
+			(at 129.54 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f61cd1cf-0a50-4893-856a-e8bf93771594")
+		)
+		(pin "V_{SC}" input
+			(at 129.54 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8159856e-322e-4994-8ba1-6e668baa040a")
 		)
 		(instances
 			(project "SupercapManager"
