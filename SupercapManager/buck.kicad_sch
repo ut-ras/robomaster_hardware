@@ -5,6 +5,7 @@
 	(uuid "60e165af-a77a-46f5-a480-f277b75c5f0f")
 	(paper "A4")
 	(title_block
+		(title "Supercapacitor Charger")
 		(date "2024-12-06")
 		(rev "1")
 		(company "UT Robomaster")
