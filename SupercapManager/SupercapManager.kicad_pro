@@ -235,7 +235,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "! Robomaster ICs"
+    ],
     "pinned_symbol_libs": [
       "! Robomaster",
       "! Robomaster ICs"
