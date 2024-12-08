@@ -2748,6 +2748,16 @@
 		)
 		(uuid "6e724d71-ac33-407d-8532-19d2de32f954")
 	)
+	(text "Ripple network design follows https://www.ti.com/lit/an/snva776a/snva776a.pdf?ts=1733621536294&ref_url=https%253A%252F%252Fduckduckgo.com%252F"
+		(exclude_from_sim no)
+		(at 213.106 224.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8dec49de-681e-4f99-9e9f-72133ff04034")
+	)
 	(text "UVLO (on):\n1.23V * (1 + ^{150k}/_{11k}) = 18V\n"
 		(exclude_from_sim no)
 		(at 168.275 203.835 0)
@@ -2794,7 +2804,7 @@
 		)
 		(uuid "da476088-8e4c-4e16-aee1-a0e907720f10")
 	)
-	(label "FB_{3}"
+	(label "FB_{3A}"
 		(at 208.28 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2816,7 +2826,7 @@
 		)
 		(uuid "42e6ed3c-f4da-47c7-ad75-1ac8842e8baa")
 	)
-	(label "EN_{3}"
+	(label "EN_{3A}"
 		(at 182.88 76.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2871,7 +2881,7 @@
 		)
 		(uuid "c05b5bd0-7556-4aef-8469-36a0643334b2")
 	)
-	(label "CB_{3}"
+	(label "CB_{3A}"
 		(at 208.28 66.04 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2882,7 +2892,7 @@
 		)
 		(uuid "c328a571-7a9e-4410-bc0f-10cb69f50d02")
 	)
-	(label "SW_{3}"
+	(label "SW_{3A}"
 		(at 208.28 69.85 0)
 		(fields_autoplaced yes)
 		(effects
