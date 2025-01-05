@@ -1032,126 +1032,6 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1369,6 +1249,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 33.02) (xy 116.84 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077db0c5-6baa-4258-a96a-c89770431090")
+	)
+	(wire
+		(pts
 			(xy 36.83 142.24) (xy 41.91 142.24)
 		)
 		(stroke
@@ -1536,16 +1426,6 @@
 			(type default)
 		)
 		(uuid "5016633a-8423-4726-bdf3-531065dc18f6")
-	)
-	(wire
-		(pts
-			(xy 106.68 33.02) (xy 116.84 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "534fe132-c9c6-4767-93e0-eaa60d7a6c31")
 	)
 	(polyline
 		(pts
@@ -1779,16 +1659,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 67.31) (xy 99.06 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ec219c8-a509-4bc6-b51f-d1146d3fd56c")
-	)
-	(wire
-		(pts
 			(xy 149.86 116.84) (xy 160.02 116.84)
 		)
 		(stroke
@@ -1816,16 +1686,6 @@
 			(type default)
 		)
 		(uuid "a8f756cc-a7c1-459c-bba2-3ca5e6b4c845")
-	)
-	(wire
-		(pts
-			(xy 97.79 69.85) (xy 101.6 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae7b1567-bd20-4813-9863-4003dcd582f8")
 	)
 	(wire
 		(pts
@@ -1976,16 +1836,6 @@
 			(type default)
 		)
 		(uuid "d9546181-2445-4057-b6ea-41122fb22baa")
-	)
-	(wire
-		(pts
-			(xy 99.06 67.31) (xy 97.79 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd9f5a35-7d10-4745-b71d-a787bcfc2f6e")
 	)
 	(wire
 		(pts
@@ -3079,6 +2929,366 @@
 			)
 		)
 	)
+	(hierarchical_label "UART_Input_Chassis_3V3"
+		(shape input)
+		(at 129.54 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0471bc46-837b-44df-a1bd-650b4fd6f8c3")
+	)
+	(hierarchical_label "MOLEX_Chassis_Slipring_GND"
+		(shape input)
+		(at 82.55 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06c4c92c-a9a2-45c1-8a05-534d147877cb")
+	)
+	(hierarchical_label "XT30_Chassis_ESC_GND"
+		(shape output)
+		(at 38.1 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07509aca-cc93-4deb-8441-75035fb1ac2b")
+	)
+	(hierarchical_label "CAN_Input_Chassis_H"
+		(shape input)
+		(at 78.74 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "147fbb45-f358-4450-97cf-541b3ac61996")
+	)
+	(hierarchical_label "UART_Output_Chassis_GND"
+		(shape output)
+		(at 149.86 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b064855-10e2-4dc4-80a3-28463acddb51")
+	)
+	(hierarchical_label "UART_Output_Chassis_3V3"
+		(shape output)
+		(at 149.86 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b25dd1c-efaf-4d93-9469-808f936b1949")
+	)
+	(hierarchical_label "XT30_Chassis_ESC_24V"
+		(shape output)
+		(at 40.64 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b424df1-217d-4806-aee8-1111c3a7a05e")
+	)
+	(hierarchical_label "CAN_Chassis_Ref_PWRIN"
+		(shape input)
+		(at 125.73 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b8b9512-8b6b-498b-b558-a7396ba3b71c")
+	)
+	(hierarchical_label "CAN_Chassis_BRESC_L"
+		(shape output)
+		(at 24.13 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bde4948-95e1-4889-ab02-4f21d99252e8")
+	)
+	(hierarchical_label "XT30_DEV_Chassis_Shooter24V"
+		(shape input)
+		(at 36.83 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ce62a2d-2ede-42af-94ab-19cb8ead13a2")
+	)
+	(hierarchical_label "Debug_Input_Chassis_GND"
+		(shape input)
+		(at 129.54 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2388a9f6-2e28-4211-abf0-a42cd15b9bea")
+	)
+	(hierarchical_label "Debug_Output_Chassis_SWCLK"
+		(shape output)
+		(at 149.86 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25b5d47b-e1da-4fe4-b6e1-6dc4e3bf28b9")
+	)
+	(hierarchical_label "CAN_Chassis_Ref_-OUT"
+		(shape output)
+		(at 106.68 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32645d8b-ebf0-4406-86b6-626e813e4554")
+	)
+	(hierarchical_label "XT30_Chassis_GIM_GND"
+		(shape output)
+		(at 144.78 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3677ff6c-6599-4fe1-8a69-42b2925cb803")
+	)
+	(hierarchical_label "CAN_PASSIN_Chassis_L"
+		(shape input)
+		(at 81.28 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37495977-0e55-4ef4-bb7a-96b015f70d71")
+	)
+	(hierarchical_label "CAN_PASSOUT_Chassis_L"
+		(shape output)
+		(at 81.28 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3838b423-e06d-4ea4-9379-4bc4a658df30")
+	)
+	(hierarchical_label "CAN_Chassis_FRESC_L"
+		(shape output)
+		(at 24.13 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e27d0f2-6eb9-4f19-807c-edd96db4bacc")
+	)
+	(hierarchical_label "UART_Output_Chassis_RX"
+		(shape output)
+		(at 149.86 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e2c1984-f3f9-4412-808b-a5572e446684")
+	)
+	(hierarchical_label "CAN_PASSOUT_Chassis_H"
+		(shape output)
+		(at 81.28 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fe24318-d97d-4bff-b2d1-e7c2d49728f3")
+	)
+	(hierarchical_label "XT30_Chassis_ESC_GND"
+		(shape output)
+		(at 39.37 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40434a58-f3e4-443c-b8a7-bc02ac4c0836")
+	)
+	(hierarchical_label "CAN_Chassis_FLESC_H"
+		(shape output)
+		(at 24.13 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "404b1ed5-9177-41a6-9a3e-e5b32c103860")
+	)
+	(hierarchical_label "CAN_Chassis_BLESC_H"
+		(shape output)
+		(at 24.13 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "419eecb9-d8cc-441c-9bfe-1b21ed4c33fa")
+	)
+	(hierarchical_label "CAN_Chassis_GIM1_L"
+		(shape output)
+		(at 130.81 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46d38d84-43a2-47ba-9202-16191ce1ef91")
+	)
+	(hierarchical_label "CAN_Chassis_GIM2_H"
+		(shape output)
+		(at 130.81 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47e07db1-0242-4deb-9ddd-e98ef1851a10")
+	)
+	(hierarchical_label "XT30_Chassis_ESC_GND"
+		(shape output)
+		(at 38.1 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47eb1baa-60f1-4dc5-b259-73da60fcb226")
+	)
+	(hierarchical_label "CAN_Input_Chassis_L"
+		(shape input)
+		(at 78.74 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49281cf0-d3bc-4833-9051-9d47f6f71b37")
+	)
+	(hierarchical_label "CAN_Chassis_Ref_GNDOUT"
+		(shape output)
+		(at 109.22 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49b97f0a-56b2-40f8-acbf-bf7822538203")
+	)
+	(hierarchical_label "CAN_Chassis_Ref_GNDIN"
+		(shape input)
+		(at 128.27 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5922e165-c4b1-43e3-88a5-010fe10a4481")
+	)
+	(hierarchical_label "XT30_Chassis_GIM_24V"
+		(shape output)
+		(at 146.05 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64a11c4f-473b-4e73-b38e-259909f7545c")
+	)
+	(hierarchical_label "CAN_Chassis_GIM1_H"
+		(shape output)
+		(at 130.81 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64b0a6c9-d638-4466-82b8-dd195142e193")
+	)
 	(hierarchical_label "+24V_Shooter"
 		(shape input)
 		(at 88.9 87.63 270)
@@ -3091,6 +3301,246 @@
 		)
 		(uuid "661e75b2-896f-485f-9ffe-b3e4498b28ec")
 	)
+	(hierarchical_label "XT30_Chassis_ESC_GND"
+		(shape output)
+		(at 38.1 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "681de251-7456-4aba-913c-61ecebfadbcb")
+	)
+	(hierarchical_label "Debug_Output_Chassis_GND"
+		(shape output)
+		(at 149.86 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68cc7f6b-113a-4ecd-a068-93d8e6a3d39c")
+	)
+	(hierarchical_label "UART_Input_Chassis_GND"
+		(shape input)
+		(at 129.54 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6996a08c-1ba8-4cd1-bbb0-9a0a83cbc0b6")
+	)
+	(hierarchical_label "XT30_DEV_Chassis_Chassis24V"
+		(shape input)
+		(at 35.56 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "712a9bdd-8c23-4f4e-8399-6057276a6839")
+	)
+	(hierarchical_label "MOLEX_Chassis_Slipring_19V"
+		(shape input)
+		(at 81.28 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75fc2aea-fbe8-4845-980c-ec859c49b13d")
+	)
+	(hierarchical_label "CAN_Chassis_BRESC_H"
+		(shape output)
+		(at 24.13 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "792b2ddd-6d5e-443e-86e7-c255d3d5a659")
+	)
+	(hierarchical_label "XT30_Chassis_ESC_24V"
+		(shape output)
+		(at 41.91 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81049549-375b-4458-b41a-614f6f598096")
+	)
+	(hierarchical_label "XT30_DEV_Shooter_MiniPC24V"
+		(shape input)
+		(at 71.12 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85c032e0-1cf4-4d59-bb7b-e97ef8522de1")
+	)
+	(hierarchical_label "CAN_Chassis_Ref_+IN"
+		(shape input)
+		(at 125.73 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fb76334-e6c4-4241-8ab9-33db53b51a46")
+	)
+	(hierarchical_label "CAN_Output_Chassis_H"
+		(shape output)
+		(at 78.74 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9046f372-45df-4536-b68d-28ce31dfd1bf")
+	)
+	(hierarchical_label "Debug_Output_Chassis_SWDIO"
+		(shape output)
+		(at 149.86 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9257968a-380a-4afa-b669-7b7b9a8266f7")
+	)
+	(hierarchical_label "CAN_Chassis_Ref_+OUT"
+		(shape output)
+		(at 106.68 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97059600-73fa-4fcb-b2a9-15bde6aa1e2b")
+	)
+	(hierarchical_label "CAN_Chassis_GIM2_L"
+		(shape output)
+		(at 130.81 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a530f92-c36b-4fb9-8b21-8ea45c2dd32a")
+	)
+	(hierarchical_label "UART_Input_Chassis_TX"
+		(shape input)
+		(at 129.54 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2f78faa-085a-437f-a7e7-ab869d6a9631")
+	)
+	(hierarchical_label "XT30_Chassis_ESC_24V"
+		(shape output)
+		(at 40.64 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab272b16-6026-42f9-8382-e48826effd07")
+	)
+	(hierarchical_label "CAN_Chassis_Ref_-IN"
+		(shape input)
+		(at 125.73 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4627847-e0b5-4269-831a-2654876d6722")
+	)
+	(hierarchical_label "Debug_Input_Chassis_SWCLK"
+		(shape input)
+		(at 129.54 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b545f433-b34a-4350-a87e-f46231a17a3e")
+	)
+	(hierarchical_label "XT30_DEV_Shooter_MiniPCGND"
+		(shape input)
+		(at 74.93 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b785ff5c-46a0-4b0c-8b90-cb2b51f99870")
+	)
+	(hierarchical_label "MOLEX_Chassis_Slipring_5V"
+		(shape input)
+		(at 77.47 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "beed719e-ff09-4848-b843-e35701f998b7")
+	)
+	(hierarchical_label "XT30_DEV_Chassis_Gimbal24V"
+		(shape input)
+		(at 73.66 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c42b49a9-91bb-4c65-82b4-4e86d267dd8a")
+	)
 	(hierarchical_label "+24V_Shooter"
 		(shape input)
 		(at 36.83 29.21 0)
@@ -3102,6 +3552,210 @@
 			(justify left)
 		)
 		(uuid "ce657683-15da-4107-8d02-58d6474a3431")
+	)
+	(hierarchical_label "CAN_Chassis_Ref_PWROUT"
+		(shape output)
+		(at 106.68 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf185b29-f23e-423c-ade3-7a10bf357128")
+	)
+	(hierarchical_label "XT30_Chassis_GIM_GND"
+		(shape output)
+		(at 144.78 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf7b4dcf-fc3a-47d0-b392-c4894bfb6c2b")
+	)
+	(hierarchical_label "CAN_Output_Chassis_L"
+		(shape output)
+		(at 78.74 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d45a2e1e-2da4-49ff-a804-75575067b87f")
+	)
+	(hierarchical_label "XT30_Chassis_ESC_24V"
+		(shape output)
+		(at 40.64 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5c15852-38ed-47fc-96e0-62dcb61043bc")
+	)
+	(hierarchical_label "UART_Output_Chassis_TX"
+		(shape output)
+		(at 149.86 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7ee7056-72d8-4097-9aff-4e5b34faea1f")
+	)
+	(hierarchical_label "UART_Input_Chassis_RX"
+		(shape input)
+		(at 129.54 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d82db953-f1b7-4b39-87c7-9e3af3336401")
+	)
+	(hierarchical_label "XT30_DEV_Chassis_ShooterGND"
+		(shape input)
+		(at 34.29 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3a89075-3edb-461e-a81b-f5494c72f0d8")
+	)
+	(hierarchical_label "CAN_Chassis_BLESC_L"
+		(shape output)
+		(at 24.13 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e867f442-262d-4881-a0f7-5c435b56abd0")
+	)
+	(hierarchical_label "CAN_Chassis_FRESC_H"
+		(shape output)
+		(at 24.13 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea37f5ee-3c28-49b1-aba3-d64c40c0cc16")
+	)
+	(hierarchical_label "CAN_PASSIN_Chassis_H"
+		(shape input)
+		(at 81.28 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecad411f-add4-4d3c-aa54-8cc4c83357ed")
+	)
+	(hierarchical_label "XT30_DEV_Chassis_GimbalGND"
+		(shape input)
+		(at 71.12 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef49bd6c-435a-4c00-a3ef-5e01ed9bb45c")
+	)
+	(hierarchical_label "MOLEX_Chassis_Slipring_24VGimbal"
+		(shape input)
+		(at 85.09 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f04abbe7-bbb7-454d-9e2d-1a4ce8316ea4")
+	)
+	(hierarchical_label "CAN_Chassis_FLESC_L"
+		(shape output)
+		(at 24.13 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f42aac89-e21c-4727-9edd-de0ad89c3021")
+	)
+	(hierarchical_label "XT30_Chassis_GIM_24V"
+		(shape output)
+		(at 146.05 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8e7dc95-ccd4-495f-b506-4ff476e61634")
+	)
+	(hierarchical_label "Debug_Input_Chassis_SWDIO"
+		(shape input)
+		(at 129.54 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa36aac0-1978-419e-b48f-2c9d57e43fca")
+	)
+	(hierarchical_label "MOLEX_Chassis_Slipring_24VShooter"
+		(shape input)
+		(at 88.9 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb2ddc2b-6e86-42ba-b3ea-a48a2c3b8d65")
+	)
+	(hierarchical_label "XT30_DEV_Chassis_ChassisGND"
+		(shape input)
+		(at 33.02 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbb91e05-6b58-41d0-a30c-c983e48ad8b0")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
@@ -3182,7 +3836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "094ebfc9-63e9-4f20-97aa-cadfbe5244cd")
-		(property "Reference" "#PWR59"
+		(property "Reference" "#PWR059"
 			(at 160.02 130.81 0)
 			(effects
 				(font
@@ -3232,7 +3886,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR59")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3248,7 +3902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bbac5b8-0367-46b3-ac1f-6cdcbc01a4b2")
-		(property "Reference" "#PWR49"
+		(property "Reference" "#PWR049"
 			(at 116.84 45.72 0)
 			(effects
 				(font
@@ -3298,7 +3952,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR49")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3385,7 +4039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19c16651-07a8-4331-84f3-04c92deae026")
-		(property "Reference" "#PWR56"
+		(property "Reference" "#PWR056"
 			(at 135.89 45.72 0)
 			(effects
 				(font
@@ -3435,7 +4089,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR56")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3601,7 +4255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "200df401-fa78-4427-8bc4-418b44d5d99b")
-		(property "Reference" "#PWR29"
+		(property "Reference" "#PWR029"
 			(at 39.37 76.2 0)
 			(effects
 				(font
@@ -3651,7 +4305,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR29")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3824,7 +4478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33829e6e-b0a2-48f4-8544-5d063ce4092a")
-		(property "Reference" "#PWR44"
+		(property "Reference" "#PWR044"
 			(at 72.39 50.8 0)
 			(effects
 				(font
@@ -3874,7 +4528,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR44")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3890,7 +4544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3440bd99-8633-46b5-aaf4-9fcb3a88c4f6")
-		(property "Reference" "#PWR54"
+		(property "Reference" "#PWR054"
 			(at 144.78 73.66 0)
 			(effects
 				(font
@@ -3940,7 +4594,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR54")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4094,7 +4748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37ec08f6-a635-43a8-a8a6-75d4f8c01320")
-		(property "Reference" "#PWR55"
+		(property "Reference" "#PWR055"
 			(at 144.78 99.06 0)
 			(effects
 				(font
@@ -4144,7 +4798,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR55")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4161,7 +4815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3830f440-b0f8-4fb5-9bee-e6c6c0cb85ab")
-		(property "Reference" "#PWR43"
+		(property "Reference" "#PWR043"
 			(at 71.12 38.1 0)
 			(effects
 				(font
@@ -4211,7 +4865,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR43")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4227,7 +4881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39d8c92b-d124-4205-a1ec-3e149c659b8e")
-		(property "Reference" "#PWR39"
+		(property "Reference" "#PWR039"
 			(at 34.29 36.83 0)
 			(effects
 				(font
@@ -4277,7 +4931,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR39")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4293,7 +4947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dd4a212-c383-42ca-975b-a85b26e01ae8")
-		(property "Reference" "#PWR53"
+		(property "Reference" "#PWR053"
 			(at 140.97 130.81 0)
 			(effects
 				(font
@@ -4343,7 +4997,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR53")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -4428,7 +5082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4090aff1-d9c0-4f04-922f-f5307189a105")
-		(property "Reference" "#PWR26"
+		(property "Reference" "#PWR026"
 			(at 38.1 102.87 0)
 			(effects
 				(font
@@ -4478,7 +5132,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR26")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4494,7 +5148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48044053-cb6b-40e9-a672-543241de64ce")
-		(property "Reference" "#PWR50"
+		(property "Reference" "#PWR050"
 			(at 133.35 130.81 0)
 			(effects
 				(font
@@ -4544,7 +5198,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR50")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4776,7 +5430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c69d844-71ed-43cf-839a-338dec6fe983")
-		(property "Reference" "#PWR51"
+		(property "Reference" "#PWR051"
 			(at 133.35 154.94 0)
 			(effects
 				(font
@@ -4826,7 +5480,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR51")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4912,7 +5566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e954789-8b2e-465f-948c-2025ecc45528")
-		(property "Reference" "#PWR40"
+		(property "Reference" "#PWR040"
 			(at 34.29 50.8 0)
 			(effects
 				(font
@@ -4962,73 +5616,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 101.6 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68fd2a68-5c88-47aa-8905-187f39d5a27c")
-		(property "Reference" "#PWR47"
-			(at 101.6 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 101.6 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 101.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc297636-6c33-403f-820d-91949d22a754")
-		)
-		(instances
-			(project "ElectricalDiagram"
-				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR47")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5044,7 +5632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77a7070a-7f93-40ed-a400-be9046d68109")
-		(property "Reference" "#PWR52"
+		(property "Reference" "#PWR052"
 			(at 139.7 154.94 0)
 			(effects
 				(font
@@ -5094,73 +5682,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8191a9e4-646e-4a05-83ef-a64d25304186")
-		(property "Reference" "#PWR46"
-			(at 99.06 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "267b5c25-1f93-4649-ac31-f1a9374e9838")
-		)
-		(instances
-			(project "ElectricalDiagram"
-				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR46")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5176,7 +5698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "853a0ccc-e1c9-457a-9858-1c006e0f638c")
-		(property "Reference" "#PWR60"
+		(property "Reference" "#PWR060"
 			(at 160.02 154.94 0)
 			(effects
 				(font
@@ -5226,7 +5748,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR60")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -5242,7 +5764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8da6af90-afb9-400c-a8d6-862fa472d531")
-		(property "Reference" "#PWR27"
+		(property "Reference" "#PWR027"
 			(at 38.1 127 0)
 			(effects
 				(font
@@ -5292,7 +5814,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR27")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5448,7 +5970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7b2be0b-ae0b-4e77-a14d-3fe59a0ba965")
-		(property "Reference" "#PWR42"
+		(property "Reference" "#PWR042"
 			(at 82.55 76.2 0)
 			(effects
 				(font
@@ -5498,7 +6020,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR42")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5725,7 +6247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4e0acb4-ea4d-497b-9907-a64fc28f07cd")
-		(property "Reference" "#PWR28"
+		(property "Reference" "#PWR028"
 			(at 38.1 149.86 0)
 			(effects
 				(font
@@ -5775,7 +6297,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR28")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5851,76 +6373,6 @@
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
 					(reference "J27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 92.71 67.31 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3f1f479-fe52-4d08-ba62-e8a051a65999")
-		(property "Reference" "J18"
-			(at 92.71 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 92.71 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e41626be-a482-4dd5-938a-932077dc4683")
-		)
-		(pin "2"
-			(uuid "a5781d6d-7da0-4ec9-b90d-72f3931d1a09")
-		)
-		(instances
-			(project "ElectricalDiagram"
-				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -6081,7 +6533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de622eb7-03c3-4c5a-8d3f-32472dc9993b")
-		(property "Reference" "#PWR58"
+		(property "Reference" "#PWR058"
 			(at 153.67 154.94 0)
 			(effects
 				(font
@@ -6131,7 +6583,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR58")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -6572,7 +7024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe5df8c4-551f-465f-8f58-5bb79a15f397")
-		(property "Reference" "#PWR57"
+		(property "Reference" "#PWR057"
 			(at 153.67 130.81 0)
 			(effects
 				(font
@@ -6622,7 +7074,7 @@
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619/06496dad-f1d7-44f7-8c4c-f05b9dd02c8c"
-					(reference "#PWR57")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
