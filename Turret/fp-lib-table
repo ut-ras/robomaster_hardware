@@ -1,6 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Connectors")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Library/ICs.pretty")(options "")(descr ""))
+  (lib (name "Connectors")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Library/Connectors.pretty")(options "")(descr ""))
   (lib (name "ICs")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Library/ICs.pretty")(options "")(descr ""))
-  (lib (name "Robomaster_ICs")(type "KiCad")(uri "C:/Users/mlin/Documents/KiCad/7.0/projects/Robomaster/robomaster_hardware/KiCad_Library/ICs.pretty")(options "")(descr ""))
+  (lib (name "Robomaster_ICs")(type "KiCad")(uri "C:/Users/nithi/robomaster_hardware_chassis/robomaster_hardware/KiCad_Library/ICs.pretty")(options "")(descr ""))
 )
