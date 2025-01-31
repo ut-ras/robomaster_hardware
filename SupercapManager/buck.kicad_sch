@@ -4386,7 +4386,6 @@
 	)
 	(label "HIDRV"
 		(at 91.44 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4397,7 +4396,6 @@
 	)
 	(label "PH"
 		(at 91.44 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4408,7 +4406,6 @@
 	)
 	(label "LODRV"
 		(at 129.54 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4419,7 +4416,6 @@
 	)
 	(label "SRP"
 		(at 77.47 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4431,7 +4427,6 @@
 	)
 	(label "HIDRV"
 		(at 129.54 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4442,7 +4437,6 @@
 	)
 	(label "STAT"
 		(at 53.34 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4453,7 +4447,6 @@
 	)
 	(label "TS"
 		(at 223.52 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4464,7 +4457,6 @@
 	)
 	(label "PH"
 		(at 129.54 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4475,7 +4467,6 @@
 	)
 	(label "~{PG}"
 		(at 53.34 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4486,7 +4477,6 @@
 	)
 	(label "VCC"
 		(at 71.12 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4497,7 +4487,6 @@
 	)
 	(label "ISET"
 		(at 57.15 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4508,7 +4497,6 @@
 	)
 	(label "REGN"
 		(at 77.47 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4519,7 +4507,6 @@
 	)
 	(label "LODRV"
 		(at 91.44 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4530,7 +4517,6 @@
 	)
 	(label "VCC"
 		(at 77.47 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4541,7 +4527,6 @@
 	)
 	(label "VFB"
 		(at 219.71 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4552,7 +4537,6 @@
 	)
 	(label "TS"
 		(at 57.15 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4563,7 +4547,6 @@
 	)
 	(label "VREF"
 		(at 120.65 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4574,7 +4557,6 @@
 	)
 	(label "VFB"
 		(at 77.47 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4585,7 +4567,6 @@
 	)
 	(label "SRN"
 		(at 77.47 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4596,7 +4577,6 @@
 	)
 	(label "VREF"
 		(at 57.15 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4607,7 +4587,6 @@
 	)
 	(label "SRN"
 		(at 153.67 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4618,7 +4597,6 @@
 	)
 	(label "VREF"
 		(at 223.52 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4629,7 +4607,6 @@
 	)
 	(label "SRP"
 		(at 153.67 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4641,7 +4618,6 @@
 	)
 	(label "BTST"
 		(at 77.47 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4652,7 +4628,6 @@
 	)
 	(label "~{PG}_D"
 		(at 36.83 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4663,7 +4638,6 @@
 	)
 	(label "STAT_D"
 		(at 36.83 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4674,7 +4648,6 @@
 	)
 	(label "ISET"
 		(at 120.65 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4686,7 +4659,6 @@
 	(hierarchical_label "OUT"
 		(shape output)
 		(at 242.57 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4698,7 +4670,6 @@
 	(hierarchical_label "IN"
 		(shape input)
 		(at 114.3 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4710,7 +4681,6 @@
 	(hierarchical_label "IN"
 		(shape input)
 		(at 20.32 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4722,7 +4692,6 @@
 	(hierarchical_label "CHARGE_EN"
 		(shape input)
 		(at 54.61 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4734,7 +4703,6 @@
 	(hierarchical_label "IN"
 		(shape input)
 		(at 48.26 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

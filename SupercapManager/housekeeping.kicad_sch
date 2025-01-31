@@ -3333,7 +3333,6 @@
 	)
 	(label "FB_{3A}"
 		(at 208.28 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3344,7 +3343,6 @@
 	)
 	(label "FB_{5}"
 		(at 210.82 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3355,7 +3353,6 @@
 	)
 	(label "EN_{3A}"
 		(at 182.88 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3366,7 +3363,6 @@
 	)
 	(label "SW_{5}"
 		(at 210.82 184.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3377,7 +3373,6 @@
 	)
 	(label "EN_{5}"
 		(at 185.42 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3388,7 +3383,6 @@
 	)
 	(label "FB_{3}"
 		(at 210.82 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3399,7 +3393,6 @@
 	)
 	(label "CB_{5}"
 		(at 210.82 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3410,7 +3403,6 @@
 	)
 	(label "CB_{3A}"
 		(at 208.28 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3421,7 +3413,6 @@
 	)
 	(label "SW_{3A}"
 		(at 208.28 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3432,7 +3423,6 @@
 	)
 	(label "SW_{3}"
 		(at 210.82 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3443,7 +3433,6 @@
 	)
 	(label "EN_{3}"
 		(at 185.42 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3454,7 +3443,6 @@
 	)
 	(label "CB_{3}"
 		(at 210.82 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3466,7 +3454,6 @@
 	(hierarchical_label "+24_{MiniPC}"
 		(shape input)
 		(at 154.94 180.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3478,7 +3465,6 @@
 	(hierarchical_label "+24_{MiniPC}"
 		(shape input)
 		(at 154.94 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

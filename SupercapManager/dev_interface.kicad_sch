@@ -3474,7 +3474,6 @@
 	)
 	(label "CAP_{1}"
 		(at 187.96 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3485,7 +3484,6 @@
 	)
 	(label "V_{SC}_scaled"
 		(at 55.88 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3496,7 +3494,6 @@
 	)
 	(label "CAP_{2}"
 		(at 187.96 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3507,7 +3504,6 @@
 	)
 	(label "V_{SC}_BUF"
 		(at 80.01 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3518,7 +3514,6 @@
 	)
 	(label "SCL_{INT}"
 		(at 184.15 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3529,7 +3524,6 @@
 	)
 	(label "SDA_{INT}"
 		(at 184.15 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3541,7 +3535,6 @@
 	(hierarchical_label "POW_LIMIT"
 		(shape output)
 		(at 209.55 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3553,7 +3546,6 @@
 	(hierarchical_label "V_{SC}"
 		(shape input)
 		(at 53.34 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3565,7 +3557,6 @@
 	(hierarchical_label "+3V3_{DEV}"
 		(shape bidirectional)
 		(at 241.3 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3577,7 +3568,6 @@
 	(hierarchical_label "CURR"
 		(shape input)
 		(at 114.3 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3589,7 +3579,6 @@
 	(hierarchical_label "POW_DRAW"
 		(shape output)
 		(at 209.55 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3601,7 +3590,6 @@
 	(hierarchical_label "SDA_{IN}"
 		(shape bidirectional)
 		(at 241.3 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3613,7 +3601,6 @@
 	(hierarchical_label "DAC_{1}_FB"
 		(shape input)
 		(at 209.55 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3625,7 +3612,6 @@
 	(hierarchical_label "SCL_{IN}"
 		(shape input)
 		(at 241.3 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3637,7 +3623,6 @@
 	(hierarchical_label "DAC_{2}_FB"
 		(shape input)
 		(at 209.55 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
