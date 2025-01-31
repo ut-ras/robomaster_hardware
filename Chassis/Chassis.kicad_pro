@@ -513,34 +513,34 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
+          "label": "Do Not Place",
           "name": "${DNP}",
           "show": true
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
         },
         {
           "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
         },
         {
           "group_by": false,
@@ -558,7 +558,7 @@
           "group_by": false,
           "label": "Mouser Part Number",
           "name": "Mouser Part Number",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -582,6 +582,24 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
           "show": false
         }
       ],
@@ -638,10 +656,6 @@
     [
       "632f64e1-f4ac-4fce-8dc1-2a6086852be0",
       "24V -> 19V Buck Convertor"
-    ],
-    [
-      "3fd05750-0822-45a8-8028-0dd5f1a0075b",
-      "Watchdog"
     ]
   ],
   "text_variables": {}
