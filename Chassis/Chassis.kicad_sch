@@ -4412,7 +4412,6 @@
 	)
 	(label "CAN+"
 		(at 205.74 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4423,7 +4422,6 @@
 	)
 	(label "+19V"
 		(at 85.09 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4435,7 +4433,6 @@
 	)
 	(label "+24V_Shooter"
 		(at 163.83 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4446,7 +4443,6 @@
 	)
 	(label "CAN-"
 		(at 205.74 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4457,7 +4453,6 @@
 	)
 	(label "CAN+"
 		(at 81.28 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4468,7 +4463,6 @@
 	)
 	(label "REF_PWR"
 		(at 190.5 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4479,7 +4473,6 @@
 	)
 	(label "CAN+"
 		(at 205.74 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4490,7 +4483,6 @@
 	)
 	(label "REF_CAN+"
 		(at 171.45 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4501,7 +4493,6 @@
 	)
 	(label "+24V_Chassis"
 		(at 143.51 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4512,7 +4503,6 @@
 	)
 	(label "+24V_Gimbal"
 		(at 123.19 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4523,7 +4513,6 @@
 	)
 	(label "CAN-"
 		(at 81.28 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4534,7 +4523,6 @@
 	)
 	(label "CAN-"
 		(at 27.94 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4545,7 +4533,6 @@
 	)
 	(label "CAN-"
 		(at 27.94 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4556,7 +4543,6 @@
 	)
 	(label "REF_CAN+"
 		(at 190.5 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4567,7 +4553,6 @@
 	)
 	(label "CAN+"
 		(at 27.94 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4578,7 +4563,6 @@
 	)
 	(label "REF_CAN-"
 		(at 190.5 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4589,7 +4573,6 @@
 	)
 	(label "REF_CAN-"
 		(at 171.45 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4600,7 +4583,6 @@
 	)
 	(label "CAN+"
 		(at 27.94 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4611,7 +4593,6 @@
 	)
 	(label "CAN-"
 		(at 27.94 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4622,7 +4603,6 @@
 	)
 	(label "Mini_PC"
 		(at 40.64 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4633,7 +4613,6 @@
 	)
 	(label "CAN+"
 		(at 27.94 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4644,7 +4623,6 @@
 	)
 	(label "+V_SuperCap"
 		(at 58.42 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4655,7 +4633,6 @@
 	)
 	(label "+V_SuperCap"
 		(at 184.15 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4666,7 +4643,6 @@
 	)
 	(label "CAN-"
 		(at 205.74 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4677,7 +4653,6 @@
 	)
 	(label "CAN-"
 		(at 27.94 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4688,7 +4663,6 @@
 	)
 	(label "REF_PWR"
 		(at 171.45 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4699,7 +4673,6 @@
 	)
 	(label "+V_SuperCap"
 		(at 58.42 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4710,7 +4683,6 @@
 	)
 	(label "+V_SuperCap"
 		(at 58.42 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4721,7 +4693,6 @@
 	)
 	(label "+19V"
 		(at 86.36 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4733,7 +4704,6 @@
 	)
 	(label "+24V_Gimbal"
 		(at 233.68 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4744,7 +4714,6 @@
 	)
 	(label "+V_SuperCap"
 		(at 58.42 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4755,7 +4724,6 @@
 	)
 	(label "CAN+"
 		(at 27.94 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4766,7 +4734,6 @@
 	)
 	(label "Mini_PC"
 		(at 173.99 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4777,7 +4744,6 @@
 	)
 	(label "+24V_Gimbal"
 		(at 233.68 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4789,7 +4755,6 @@
 	(hierarchical_label "CAN+"
 		(shape input)
 		(at 91.44 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4801,7 +4766,6 @@
 	(hierarchical_label "CAN-_FL_ESC"
 		(shape output)
 		(at 27.94 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4813,7 +4777,6 @@
 	(hierarchical_label "Mini_PC"
 		(shape input)
 		(at 140.97 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4825,7 +4788,6 @@
 	(hierarchical_label "CAN+"
 		(shape output)
 		(at 91.44 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4837,7 +4799,6 @@
 	(hierarchical_label "+V_SuperCap"
 		(shape input)
 		(at 138.43 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4849,7 +4810,6 @@
 	(hierarchical_label "GND_SHOOTER"
 		(shape input)
 		(at 109.22 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4861,7 +4821,6 @@
 	(hierarchical_label "CAN+_BL_ESC"
 		(shape output)
 		(at 27.94 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4873,7 +4832,6 @@
 	(hierarchical_label "+24V_Shooter"
 		(shape output)
 		(at 143.51 148.59 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4885,7 +4843,6 @@
 	(hierarchical_label "CAN-_FR_ESC"
 		(shape output)
 		(at 27.94 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4897,7 +4854,6 @@
 	(hierarchical_label "CAN2-"
 		(shape input)
 		(at 260.35 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4909,7 +4865,6 @@
 	(hierarchical_label "CAN-_GIM_1"
 		(shape output)
 		(at 205.74 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4921,7 +4876,6 @@
 	(hierarchical_label "SWDIO"
 		(shape input)
 		(at 204.47 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4933,7 +4887,6 @@
 	(hierarchical_label "+24V_Gimbal"
 		(shape input)
 		(at 140.97 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4945,7 +4898,6 @@
 	(hierarchical_label "CAN+_FL_ESC"
 		(shape output)
 		(at 27.94 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4957,7 +4909,6 @@
 	(hierarchical_label "+19V"
 		(shape output)
 		(at 138.43 148.59 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4969,7 +4920,6 @@
 	(hierarchical_label "CAN-_GIM_2"
 		(shape output)
 		(at 205.74 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4981,7 +4931,6 @@
 	(hierarchical_label "CAN2+"
 		(shape input)
 		(at 260.35 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4993,7 +4942,6 @@
 	(hierarchical_label "+24V_FL_ESC"
 		(shape output)
 		(at 58.42 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5005,7 +4953,6 @@
 	(hierarchical_label "+24V_Gimbal1"
 		(shape output)
 		(at 233.68 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5017,7 +4964,6 @@
 	(hierarchical_label "UART_RX"
 		(shape output)
 		(at 223.52 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5029,7 +4975,6 @@
 	(hierarchical_label "UART_TX"
 		(shape input)
 		(at 203.2 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5041,7 +4986,6 @@
 	(hierarchical_label "CAN2+"
 		(shape output)
 		(at 260.35 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5053,7 +4997,6 @@
 	(hierarchical_label "CAN-_BR_ESC"
 		(shape output)
 		(at 27.94 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5065,7 +5008,6 @@
 	(hierarchical_label "CHASSIS_GND"
 		(shape input)
 		(at 110.49 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5077,7 +5019,6 @@
 	(hierarchical_label "CAN2-"
 		(shape output)
 		(at 260.35 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5089,7 +5030,6 @@
 	(hierarchical_label "CAN-"
 		(shape output)
 		(at 91.44 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5101,7 +5041,6 @@
 	(hierarchical_label "SuperCap_Mini_PC"
 		(shape output)
 		(at 173.99 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5113,7 +5052,6 @@
 	(hierarchical_label "SWCLK"
 		(shape input)
 		(at 204.47 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5125,7 +5063,6 @@
 	(hierarchical_label "+24V_BL_ESC"
 		(shape output)
 		(at 58.42 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5137,7 +5074,6 @@
 	(hierarchical_label "CAN+_FR_ESC"
 		(shape output)
 		(at 27.94 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5149,7 +5085,6 @@
 	(hierarchical_label "UART_RX"
 		(shape input)
 		(at 203.2 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5161,7 +5096,6 @@
 	(hierarchical_label "GND_GIMBAL"
 		(shape input)
 		(at 140.97 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5173,7 +5107,6 @@
 	(hierarchical_label "+24V_BR_ESC"
 		(shape output)
 		(at 58.42 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5185,7 +5118,6 @@
 	(hierarchical_label "+24V_Gimbal"
 		(shape output)
 		(at 140.97 148.59 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5197,7 +5129,6 @@
 	(hierarchical_label "+24V_FR_ESC"
 		(shape output)
 		(at 58.42 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5209,7 +5140,6 @@
 	(hierarchical_label "CAN-"
 		(shape input)
 		(at 91.44 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5221,7 +5151,6 @@
 	(hierarchical_label "+24V_Shooter"
 		(shape input)
 		(at 109.22 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5233,7 +5162,6 @@
 	(hierarchical_label "+24V_Chassis"
 		(shape output)
 		(at 146.05 148.59 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5245,7 +5173,6 @@
 	(hierarchical_label "+24V_Gimbal2"
 		(shape output)
 		(at 233.68 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5257,7 +5184,6 @@
 	(hierarchical_label "CAN-_BL_ESC"
 		(shape output)
 		(at 27.94 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5269,7 +5195,6 @@
 	(hierarchical_label "GND_MINIPC"
 		(shape input)
 		(at 140.97 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5281,7 +5206,6 @@
 	(hierarchical_label "SWCLK"
 		(shape output)
 		(at 224.79 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5293,7 +5217,6 @@
 	(hierarchical_label "CAN+_GIM_2"
 		(shape output)
 		(at 205.74 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5305,7 +5228,6 @@
 	(hierarchical_label "UART_TX"
 		(shape output)
 		(at 223.52 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5317,7 +5239,6 @@
 	(hierarchical_label "CAN+_BR_ESC"
 		(shape output)
 		(at 27.94 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5329,7 +5250,6 @@
 	(hierarchical_label "SWDIO"
 		(shape output)
 		(at 224.79 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5341,7 +5261,6 @@
 	(hierarchical_label "+24V_Chassis"
 		(shape input)
 		(at 109.22 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5353,7 +5272,6 @@
 	(hierarchical_label "CAN+_GIM_1"
 		(shape output)
 		(at 205.74 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7876,71 +7794,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 148.59 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "662333e0-f2ea-4708-a950-5dc273c0bfd3")
-		(property "Reference" "#PWR06"
-			(at 148.59 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_+19V"
-			(at 148.59 155.194 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bbf91ee-cd39-4982-83b0-8b5a49b48b68")
-		)
-		(instances
-			(project "Chassis"
-				(path "/d5f28ba3-2393-441a-9a3a-5aa9d797472a"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 198.12 100.33 0)
 		(mirror y)
@@ -8488,6 +8341,72 @@
 			(project "Chassis"
 				(path "/d5f28ba3-2393-441a-9a3a-5aa9d797472a"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81e10889-48ab-48f3-8272-3cad691a0921")
+		(property "Reference" "#PWR06"
+			(at 148.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_MINIPC"
+			(at 148.59 161.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7aeeb948-2301-4304-99f9-27412683df3d")
+		)
+		(instances
+			(project "Chassis"
+				(path "/d5f28ba3-2393-441a-9a3a-5aa9d797472a"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
