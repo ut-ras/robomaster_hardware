@@ -1,0 +1,4 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\eganw\robomaster_hardware\SupercapManager\SPICE_sims\Ideal_diode_controller.asc
+Start Time: Fri Jan 31 18:21:34 2025
+Fatal Error: Too few nodes: eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dce85b4d476637fec8
