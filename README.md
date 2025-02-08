@@ -1,7 +1,7 @@
-# Chassis Info
+# RoboMaster Electrical Repository
 
-[Documentation](https://docs.google.com/document/d/1igrnOpe-ruzEKQBOqHeWIq3V-SKGl8FL_klPrXXLvfY/edit?usp=sharing)
+## Electrical Team Setup 
 
-Mouser BOM: <https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=05c649ac38>
-
+Welcome!
+Please read the [Wiki]( https://github.com/ut-ras/robomaster_hardware/wiki) page for information on how to set up your computer and an overview of the projects in this repository.
 
