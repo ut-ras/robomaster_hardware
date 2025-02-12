@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "21f2b273-ec15-4777-a4bc-1cde73a4a42f")
+	(uuid "8e1ef1bb-0256-489e-b9c8-e9ca61e45ee1")
 	(paper "A4")
 	(title_block
 		(title "Output Boost (Stage 2)")

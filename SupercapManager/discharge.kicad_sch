@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "01dd46f8-c992-410d-87b1-02d952010eda")
+	(uuid "4744e35d-9923-4ed8-894f-bd530d2a3444")
 	(paper "A4")
 	(title_block
 		(title "Supercap Safety Discharge")
@@ -34,7 +34,7 @@
 		)
 		(uuid "dba3bdef-c3f2-423c-9831-00361187c124")
 	)
-	(text "TODO:\n- Convert a signal (I2C?) from the dev board or the presence of\n  any power anywhere to a signal that controls a relay\n  - Typically open? (Fail-open scenario)\n  - This relay discharges the supercap through a power resistor"
+	(text "TODO:\n- Convert a signal (I2C?) from the dev board or the presence of\n  any power anywhere to a signal that controls a relay\n  - Typically closed? (Fail-closed scenario => discharge)\n  - This relay discharges the supercap through a power resistor"
 		(exclude_from_sim no)
 		(at 93.98 90.678 0)
 		(effects
