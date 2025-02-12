@@ -1,0 +1,48 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "01dd46f8-c992-410d-87b1-02d952010eda")
+	(paper "A4")
+	(title_block
+		(title "Supercap Safety Discharge")
+		(date "2025-02-12")
+		(rev "1")
+		(company "UT Robomaster")
+		(comment 1 "Robomaster")
+	)
+	(lib_symbols)
+	(text "Output:\n- none"
+		(exclude_from_sim no)
+		(at 138.176 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "22051b5a-1803-484c-a7f2-f28d953f1134")
+	)
+	(text "Input:\n- +V_{supercap} and GND (Chassis)\n- Voltage sense/I2C slave\n- Other necessary voltage lines"
+		(exclude_from_sim no)
+		(at 93.98 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "dba3bdef-c3f2-423c-9831-00361187c124")
+	)
+	(text "TODO:\n- Convert a signal (I2C?) from the dev board or the presence of\n  any power anywhere to a signal that controls a relay\n  - Typically open? (Fail-open scenario)\n  - This relay discharges the supercap through a power resistor"
+		(exclude_from_sim no)
+		(at 93.98 90.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "efa068e0-2f37-44a4-acdd-be46174df9fb")
+	)
+)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Supercapacitor Manager")
-		(date "2024-12-06")
+		(date "2025-02-12")
 		(rev "1")
 		(company "UT Robomaster")
 		(comment 1 "Robomaster")
@@ -1381,6 +1381,12 @@
 		(uuid "8640d73d-4309-48fc-945a-97b1f4fb89c1")
 	)
 	(junction
+		(at 125.73 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ccf5f47-51cb-462d-b083-a0ba418b5e75")
+	)
+	(junction
 		(at 95.25 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1436,6 +1442,16 @@
 		)
 		(uuid "02faf7c2-ebb4-45cc-9cc8-fc134fed68e8")
 	)
+	(polyline
+		(pts
+			(xy 195.58 137.16) (xy 205.74 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04825c13-4416-4f83-a7c4-97292cb9e83d")
+	)
 	(wire
 		(pts
 			(xy 45.72 114.3) (xy 45.72 116.84)
@@ -1455,6 +1471,16 @@
 			(type default)
 		)
 		(uuid "0ce72eb3-8812-4313-ac55-3ef2d6cd8c94")
+	)
+	(wire
+		(pts
+			(xy 125.73 161.29) (xy 138.43 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108468e9-da67-498e-820a-6a18f7e3fad6")
 	)
 	(wire
 		(pts
@@ -1488,7 +1514,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 114.3) (xy 187.96 114.3)
+			(xy 210.82 114.3) (xy 213.36 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1516,16 +1542,6 @@
 		)
 		(uuid "386402c2-1b5a-4f9e-9ddc-ee99ebef5cbf")
 	)
-	(polyline
-		(pts
-			(xy 165.1 137.16) (xy 175.26 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ca6ad96-58f3-4257-b75d-e686049a8f10")
-	)
 	(wire
 		(pts
 			(xy 81.28 123.19) (xy 124.46 123.19)
@@ -1548,7 +1564,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 116.84) (xy 185.42 114.3)
+			(xy 210.82 116.84) (xy 210.82 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1575,6 +1591,16 @@
 			(type default)
 		)
 		(uuid "508b07bf-aff8-4b98-9623-2a31e8257ab4")
+	)
+	(polyline
+		(pts
+			(xy 165.1 137.16) (xy 168.91 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53db6dcb-4a96-4d35-8778-c107d13836de")
 	)
 	(wire
 		(pts
@@ -1608,7 +1634,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 111.76) (xy 187.96 111.76)
+			(xy 146.05 111.76) (xy 213.36 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1658,7 +1684,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 147.32) (xy 125.73 147.32)
+			(xy 128.27 177.8) (xy 125.73 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1688,7 +1714,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 144.78) (xy 125.73 137.16)
+			(xy 125.73 175.26) (xy 125.73 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1705,6 +1731,16 @@
 			(type default)
 		)
 		(uuid "95142166-f387-4a56-9ca0-c4322299a5d9")
+	)
+	(polyline
+		(pts
+			(xy 205.74 137.16) (xy 205.74 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fad0a93-a313-4aff-8ef3-56e077a6b46e")
 	)
 	(wire
 		(pts
@@ -1738,6 +1774,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 161.29) (xy 125.73 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c1ce24-d9ee-4936-82ed-7c2085b0fde6")
+	)
+	(wire
+		(pts
 			(xy 92.71 118.11) (xy 81.28 118.11)
 		)
 		(stroke
@@ -1766,19 +1812,9 @@
 		)
 		(uuid "c9d55e61-c432-434a-8d45-ab3d09c00c8c")
 	)
-	(polyline
-		(pts
-			(xy 175.26 137.16) (xy 175.26 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1f0ebff-c6c0-4a57-a86d-7021bdcfa5e2")
-	)
 	(wire
 		(pts
-			(xy 128.27 144.78) (xy 125.73 144.78)
+			(xy 128.27 175.26) (xy 125.73 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1848,7 +1884,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 147.32) (xy 125.73 149.86)
+			(xy 125.73 177.8) (xy 125.73 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1929,7 +1965,7 @@
 	)
 	(text "Connectors OUT"
 		(exclude_from_sim no)
-		(at 190.754 103.632 0)
+		(at 216.154 103.632 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1973,7 +2009,7 @@
 	)
 	(text "Connectors to &\nfrom supercap + SCMM"
 		(exclude_from_sim no)
-		(at 131.064 155.702 0)
+		(at 131.064 186.182 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2647,7 +2683,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 133.35 144.78 0)
+		(at 133.35 175.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2656,7 +2692,7 @@
 		(dnp no)
 		(uuid "6c2a2886-4dee-4cbd-8fec-514b2765c90f")
 		(property "Reference" "J4"
-			(at 132.715 139.7 0)
+			(at 132.715 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,7 +2700,7 @@
 			)
 		)
 		(property "Value" "XT30_M"
-			(at 132.715 142.24 0)
+			(at 132.715 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,7 +2708,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 133.35 144.78 0)
+			(at 133.35 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,7 +2717,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 144.78 0)
+			(at 133.35 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +2726,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 133.35 144.78 0)
+			(at 133.35 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +2751,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 185.42 116.84 0)
+		(at 210.82 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2724,7 +2760,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c7b5ce7-a28d-4f7c-a41d-dca9ff3f7334")
 		(property "Reference" "#PWR013"
-			(at 185.42 121.92 0)
+			(at 210.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,7 +2769,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 185.293 120.65 0)
+			(at 210.693 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,7 +2777,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 118.11 0)
+			(at 210.82 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +2786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 118.11 0)
+			(at 210.82 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2795,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 185.42 116.84 0)
+			(at 210.82 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +2883,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 125.73 149.86 0)
+		(at 125.73 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2856,7 +2892,7 @@
 		(fields_autoplaced yes)
 		(uuid "95488b7b-5111-46d9-996a-08f3bd8bf18c")
 		(property "Reference" "#PWR012"
-			(at 125.73 154.94 0)
+			(at 125.73 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +2901,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 125.603 153.67 0)
+			(at 125.603 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +2909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 151.13 0)
+			(at 125.73 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,7 +2918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 151.13 0)
+			(at 125.73 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,7 +2927,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 125.73 149.86 0)
+			(at 125.73 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +3291,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 193.04 111.76 0)
+		(at 218.44 111.76 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3264,7 +3300,7 @@
 		(dnp no)
 		(uuid "e71ef612-7cde-43e8-8188-f03583c524be")
 		(property "Reference" "J5"
-			(at 192.405 106.68 0)
+			(at 217.805 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,7 +3308,7 @@
 			)
 		)
 		(property "Value" "XT30_M"
-			(at 192.405 109.22 0)
+			(at 217.805 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,7 +3316,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 193.04 111.76 0)
+			(at 218.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +3325,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 111.76 0)
+			(at 218.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +3334,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 193.04 111.76 0)
+			(at 218.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,6 +3734,44 @@
 		)
 	)
 	(sheet
+		(at 168.91 129.54)
+		(size 26.67 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "47dffa6f-2678-4be2-969a-7f2e7310ccad")
+		(property "Sheetname" "Output Boost (Stage 2)"
+			(at 168.91 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boost2.kicad_sch"
+			(at 168.91 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 54.61 105.41)
 		(size 26.67 21.59)
 		(fields_autoplaced yes)
@@ -3791,6 +3865,44 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 153.67)
+		(size 26.67 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed9bb12b-3108-48de-97f5-99577caac45c")
+		(property "Sheetname" "Safety Discharge"
+			(at 138.43 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "discharge.kicad_sch"
+			(at 138.43 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
+					(page "8")
 				)
 			)
 		)
@@ -3895,7 +4007,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "fd749e99-bd1e-4aca-86d6-8b572dc00b7d")
-		(property "Sheetname" "Output Boost"
+		(property "Sheetname" "Output Boost (Stage 1)"
 			(at 138.43 128.8284 0)
 			(effects
 				(font

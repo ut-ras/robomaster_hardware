@@ -416,7 +416,7 @@
     ],
     [
       "fd749e99-bd1e-4aca-86d6-8b572dc00b7d",
-      "Output Boost"
+      "Output Boost (Stage 1)"
     ],
     [
       "9739d4cc-938e-4869-b5d8-561f0e1056cb",
@@ -431,8 +431,16 @@
       "Ideal Diode"
     ],
     [
+      "ed9bb12b-3108-48de-97f5-99577caac45c",
+      "Safety Discharge"
+    ],
+    [
       "2b4de7d2-e111-42d9-afee-f810f96a2f61",
       "Housekeeping Power Supplies"
+    ],
+    [
+      "47dffa6f-2678-4be2-969a-7f2e7310ccad",
+      "Output Boost (Stage 2)"
     ]
   ],
   "text_variables": {}
