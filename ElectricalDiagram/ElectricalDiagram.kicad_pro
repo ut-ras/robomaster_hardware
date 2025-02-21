@@ -414,6 +414,10 @@
     [
       "06496dad-f1d7-44f7-8c4c-f05b9dd02c8c",
       "Chassis"
+    ],
+    [
+      "632f64e1-f4ac-4fce-8dc1-2a6086852be0",
+      "24V -> 19V Buck Convertor"
     ]
   ],
   "text_variables": {}
