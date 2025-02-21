@@ -516,7 +516,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber-drill-files/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Turret.step",
