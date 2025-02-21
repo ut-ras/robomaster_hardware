@@ -2051,6 +2051,102 @@
 				)
 			)
 		)
+		(symbol "power:-3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-3V3_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-3V3_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2389,6 +2485,12 @@
 		(uuid "21aeff4c-bc5a-48d0-a941-70108c245552")
 	)
 	(junction
+		(at 226.06 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "282b91d9-0e1b-4e4a-8228-83ec2c2d6e1b")
+	)
+	(junction
 		(at 180.34 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2435,6 +2537,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "417accc8-5e47-458f-a107-63785daeb43a")
+	)
+	(junction
+		(at 101.6 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45528728-d3e5-4b05-a12b-60933e9b67f5")
 	)
 	(junction
 		(at 302.26 137.16)
@@ -2689,6 +2797,12 @@
 		(uuid "c133453a-fed0-4d6d-be76-1f79d4153bba")
 	)
 	(junction
+		(at 101.6 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4de67e1-b110-4cea-a9fa-c55e578d7fbd")
+	)
+	(junction
 		(at 279.4 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2723,6 +2837,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce8d17a4-d6e8-469e-8188-5a10d88f3751")
+	)
+	(junction
+		(at 226.06 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6735395-4ded-423c-8067-9c6ab177f4b7")
 	)
 	(junction
 		(at 391.16 26.67)
@@ -2784,7 +2904,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 208.28) (xy 104.14 218.44)
+			(xy 101.6 208.28) (xy 101.6 218.44)
 		)
 		(stroke
 			(width 0)
@@ -2894,7 +3014,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 123.19) (xy 104.14 118.11)
+			(xy 101.6 123.19) (xy 101.6 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2991,6 +3111,16 @@
 			(type default)
 		)
 		(uuid "1369bc91-856c-4f7e-8d07-121ccc0eb7ab")
+	)
+	(wire
+		(pts
+			(xy 101.6 218.44) (xy 104.14 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1569d121-98ef-47b5-8fbf-fd5d1454ff0c")
 	)
 	(wire
 		(pts
@@ -3094,7 +3224,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 209.55) (xy 228.6 218.44)
+			(xy 226.06 209.55) (xy 226.06 218.44)
 		)
 		(stroke
 			(width 0)
@@ -3154,6 +3284,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 138.43) (xy 104.14 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2950701b-0182-43cb-82c7-dd0573becef3")
+	)
+	(wire
+		(pts
 			(xy 165.1 118.11) (xy 180.34 118.11)
 		)
 		(stroke
@@ -3184,7 +3324,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 203.2) (xy 104.14 198.12)
+			(xy 101.6 203.2) (xy 101.6 198.12)
 		)
 		(stroke
 			(width 0)
@@ -3234,7 +3374,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 128.27) (xy 104.14 138.43)
+			(xy 101.6 128.27) (xy 101.6 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3394,7 +3534,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 198.12) (xy 228.6 198.12)
+			(xy 215.9 198.12) (xy 226.06 198.12)
 		)
 		(stroke
 			(width 0)
@@ -3404,7 +3544,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 218.44) (xy 104.14 218.44)
+			(xy 68.58 218.44) (xy 101.6 218.44)
 		)
 		(stroke
 			(width 0)
@@ -3464,13 +3604,23 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 198.12) (xy 228.6 201.93)
+			(xy 226.06 198.12) (xy 226.06 201.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "48a0025b-f0fc-4b0d-abb0-eb132a3b868e")
+	)
+	(wire
+		(pts
+			(xy 226.06 218.44) (xy 228.6 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ed4238-8924-4edc-8a7c-c642ebffc93a")
 	)
 	(wire
 		(pts
@@ -3994,7 +4144,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 121.92) (xy 228.6 121.92)
+			(xy 215.9 121.92) (xy 226.06 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4284,7 +4434,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 138.43) (xy 104.14 138.43)
+			(xy 68.58 138.43) (xy 101.6 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4391,6 +4541,16 @@
 			(type default)
 		)
 		(uuid "9d3ce803-4daa-46dd-a285-7bf2f686a752")
+	)
+	(wire
+		(pts
+			(xy 226.06 142.24) (xy 228.6 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e30caf2-749e-4e88-a511-63e49415b5c4")
 	)
 	(wire
 		(pts
@@ -4694,7 +4854,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 132.08) (xy 228.6 142.24)
+			(xy 226.06 132.08) (xy 226.06 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4774,7 +4934,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 142.24) (xy 228.6 142.24)
+			(xy 193.04 142.24) (xy 226.06 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4814,7 +4974,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 198.12) (xy 104.14 198.12)
+			(xy 91.44 198.12) (xy 101.6 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5134,7 +5294,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 118.11) (xy 104.14 118.11)
+			(xy 91.44 118.11) (xy 101.6 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5324,7 +5484,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 218.44) (xy 228.6 218.44)
+			(xy 193.04 218.44) (xy 226.06 218.44)
 		)
 		(stroke
 			(width 0)
@@ -5524,7 +5684,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 127) (xy 228.6 121.92)
+			(xy 226.06 127) (xy 226.06 121.92)
 		)
 		(stroke
 			(width 0)
@@ -9425,7 +9585,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 228.6 205.74 270)
+		(at 226.06 205.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9433,7 +9593,7 @@
 		(dnp no)
 		(uuid "63d4a88e-df82-4dbf-aa27-ae5f050447f5")
 		(property "Reference" "D10"
-			(at 231.14 204.1524 90)
+			(at 228.6 204.1524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9442,7 +9602,7 @@
 			)
 		)
 		(property "Value" "BAT54"
-			(at 231.14 206.6924 90)
+			(at 228.6 206.6924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9451,7 +9611,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 228.6 205.74 0)
+			(at 226.06 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9460,7 +9620,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/1057/BAT54_SERIES-1868856.pdf"
-			(at 228.6 205.74 0)
+			(at 226.06 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9469,7 +9629,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 228.6 205.74 0)
+			(at 226.06 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9478,7 +9638,7 @@
 			)
 		)
 		(property "Mouser Part Number" "241-BAT54_R1_00001"
-			(at 228.6 205.74 0)
+			(at 226.06 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,7 +10424,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Iron_Small")
-		(at 104.14 205.74 0)
+		(at 101.6 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10273,7 +10433,7 @@
 		(fields_autoplaced yes)
 		(uuid "823063cc-e932-463f-a78b-8e7105e7773a")
 		(property "Reference" "L6"
-			(at 106.68 204.4699 0)
+			(at 104.14 204.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10282,7 +10442,7 @@
 			)
 		)
 		(property "Value" "220u"
-			(at 106.68 207.0099 0)
+			(at 104.14 207.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10291,7 +10451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 205.74 0)
+			(at 101.6 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10300,7 +10460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 205.74 0)
+			(at 101.6 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10309,7 +10469,7 @@
 			)
 		)
 		(property "Description" "Inductor with iron core, small symbol"
-			(at 104.14 205.74 0)
+			(at 101.6 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10610,72 +10770,6 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 247.65 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8def55f5-2838-4a49-a284-f4f07da8a5d5")
-		(property "Reference" "#PWR098"
-			(at 247.65 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 247.65 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 247.65 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8f5567a-509c-4b2c-8c44-12dd522d4756")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
-					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -12230,7 +12324,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Iron_Small")
-		(at 104.14 125.73 0)
+		(at 101.6 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12239,7 +12333,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce2e70c7-2b53-4e42-8500-a1643a872298")
 		(property "Reference" "L9"
-			(at 106.68 124.4599 0)
+			(at 104.14 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12248,7 +12342,7 @@
 			)
 		)
 		(property "Value" "220u"
-			(at 106.68 126.9999 0)
+			(at 104.14 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12257,7 +12351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 125.73 0)
+			(at 101.6 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12266,7 +12360,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 125.73 0)
+			(at 101.6 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12275,7 +12369,7 @@
 			)
 		)
 		(property "Description" "Inductor with iron core, small symbol"
-			(at 104.14 125.73 0)
+			(at 101.6 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12425,6 +12519,72 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-3V3")
+		(at 247.65 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d87fcbf1-2fff-4305-b65b-1ebdc4c47a69")
+		(property "Reference" "#PWR098"
+			(at 247.65 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-3V3"
+			(at 247.65 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-3V3\""
+			(at 247.65 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f131d02-3fa1-40fc-af6d-353e58e3baf1")
+		)
+		(instances
+			(project ""
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -13479,7 +13639,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Iron_Small")
-		(at 228.6 129.54 0)
+		(at 226.06 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13488,7 +13648,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcc36a31-b0c5-4f2b-b592-b9734ef15b1e")
 		(property "Reference" "L7"
-			(at 231.14 128.2699 0)
+			(at 228.6 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13497,7 +13657,7 @@
 			)
 		)
 		(property "Value" "220u"
-			(at 231.14 130.8099 0)
+			(at 228.6 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13506,7 +13666,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 129.54 0)
+			(at 226.06 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13515,7 +13675,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 129.54 0)
+			(at 226.06 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13524,7 +13684,7 @@
 			)
 		)
 		(property "Description" "Inductor with iron core, small symbol"
-			(at 228.6 129.54 0)
+			(at 226.06 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
