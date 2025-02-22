@@ -394,9 +394,33 @@
           "label": "Mouser #",
           "name": "Mouser #",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
         }
       ],
-      "filter_string": "R43",
+      "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
