@@ -1,0 +1,48 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8e1ef1bb-0256-489e-b9c8-e9ca61e45ee1")
+	(paper "A4")
+	(title_block
+		(title "Output Boost (Stage 2)")
+		(date "2025-02-12")
+		(rev "1")
+		(company "UT Robomaster")
+		(comment 1 "Robomaster")
+	)
+	(lib_symbols)
+	(text "Input:\n- +6V and GND (Chassis)\n- Other necessary voltage lines\n- Enable (active high)"
+		(exclude_from_sim no)
+		(at 110.49 110.744 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "107a032a-97d6-4431-bf88-b0ba4db433c5")
+	)
+	(text "Output:\n- +24V (Chassis) and GND (Chassis)"
+		(exclude_from_sim no)
+		(at 154.686 110.744 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7ade2713-7256-4e67-98fc-5ae052a84509")
+	)
+	(text "TODO:\n- Boost a constant +6V from the previous stage to +24V\n  - Figure out line & load regulation\n- Be able to shut off the boost converter with an active low signal\n- Will likely have to be a synchronous boost to handle the amount of current needed"
+		(exclude_from_sim no)
+		(at 110.49 98.552 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c2d827de-501a-4a3d-ae72-b9338a6d75f1")
+	)
+)
