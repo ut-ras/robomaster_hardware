@@ -3903,7 +3903,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "26.1k"
 			(at 162.56 85.09 90)
 			(effects
 				(font
@@ -3930,6 +3930,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-26.1K-E3"
 			(at 162.56 81.28 0)
 			(effects
 				(font
@@ -5256,7 +5265,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "39n"
 			(at 124.46 97.7899 0)
 			(effects
 				(font
@@ -5284,6 +5293,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 120.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "791-0402B393K250CT"
 			(at 120.65 96.52 0)
 			(effects
 				(font
