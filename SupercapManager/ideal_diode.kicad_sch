@@ -2444,7 +2444,6 @@
 	)
 	(label "DIRECT_EN"
 		(at 138.43 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2456,7 +2455,6 @@
 	)
 	(label "V_{ON}"
 		(at 119.38 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2467,7 +2465,6 @@
 	)
 	(label "DIRECT_EN"
 		(at 163.83 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2479,7 +2476,6 @@
 	)
 	(label "TVS_mid"
 		(at 109.22 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2491,7 +2487,6 @@
 	)
 	(label "VCAP"
 		(at 139.7 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2503,7 +2498,6 @@
 	)
 	(label "GATE"
 		(at 154.94 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2515,7 +2509,6 @@
 	(hierarchical_label "DIRECT_IEN"
 		(shape input)
 		(at 110.49 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2527,7 +2520,6 @@
 	(hierarchical_label "CHARGING_IEN"
 		(shape input)
 		(at 119.38 130.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2539,7 +2531,6 @@
 	(hierarchical_label "IN"
 		(shape input)
 		(at 96.52 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2551,7 +2542,6 @@
 	(hierarchical_label "IN"
 		(shape input)
 		(at 86.36 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2563,7 +2553,6 @@
 	(hierarchical_label "OUT"
 		(shape output)
 		(at 184.15 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2575,7 +2564,6 @@
 	(hierarchical_label "CHARGING_EN"
 		(shape output)
 		(at 163.83 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

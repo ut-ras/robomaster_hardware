@@ -726,25 +726,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.62 0)
+			(property "Reference" "U9"
+				(at 10.16 6.3186 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "LM321"
-				(at 0 5.08 0)
+			(property "Value" "TLV9301"
+				(at 10.16 3.7786 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 				(at 0 0 0)
 				(effects
 					(font
@@ -753,7 +751,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm321.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9301.pdf?ts=1740262716708"
 				(at 0 0 0)
 				(effects
 					(font
@@ -763,6 +761,15 @@
 				)
 			)
 			(property "Description" "Low Power Single Operational Amplifier, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TLV9301IDCKR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -804,10 +811,10 @@
 				)
 			)
 			(symbol "LM321_1_1"
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -841,9 +848,9 @@
 					)
 				)
 				(pin input line
-					(at -7.62 -2.54 0)
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "-"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -858,10 +865,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2827,7 +2834,6 @@
 	)
 	(label "V_EXTRA"
 		(at 215.9 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2838,7 +2844,6 @@
 	)
 	(label "CURR_{BUFF}"
 		(at 93.98 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2849,7 +2854,6 @@
 	)
 	(label "VN"
 		(at 172.72 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2860,7 +2864,6 @@
 	)
 	(label "CEN_REF"
 		(at 241.3 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2871,7 +2874,6 @@
 	)
 	(label "DEN_REF"
 		(at 241.3 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2882,7 +2884,6 @@
 	)
 	(label "CURR_{RAW}"
 		(at 48.26 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2893,7 +2894,6 @@
 	)
 	(label "VP"
 		(at 172.72 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2905,7 +2905,6 @@
 	(hierarchical_label "DIRECT_IEN"
 		(shape output)
 		(at 262.89 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2917,7 +2916,6 @@
 	(hierarchical_label "CURR"
 		(shape output)
 		(at 128.27 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2929,7 +2927,6 @@
 	(hierarchical_label "PWR_{OUT}"
 		(shape output)
 		(at 58.42 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2941,7 +2938,6 @@
 	(hierarchical_label "CHARGING_IEN"
 		(shape output)
 		(at 262.89 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2953,7 +2949,6 @@
 	(hierarchical_label "PWR_{IN}"
 		(shape input)
 		(at 26.67 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2965,7 +2960,6 @@
 	(hierarchical_label "POW_LIMIT"
 		(shape input)
 		(at 154.94 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4894,7 +4888,7 @@
 				)
 			)
 		)
-		(property "Value" "LM321"
+		(property "Value" "TLV9301"
 			(at 193.04 74.9614 0)
 			(effects
 				(font
@@ -4911,7 +4905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm321.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9301.pdf?ts=1740262716708"
 			(at 182.88 78.74 0)
 			(effects
 				(font
@@ -4929,7 +4923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-LM321LVIDCKR"
+		(property "Mouser Part Number" "595-TLV9301IDCKR"
 			(at 182.88 78.74 0)
 			(effects
 				(font
