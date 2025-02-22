@@ -2827,6 +2827,7 @@
 	)
 	(label "V_EXTRA"
 		(at 215.9 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2837,6 +2838,7 @@
 	)
 	(label "CURR_{BUFF}"
 		(at 93.98 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2847,6 +2849,7 @@
 	)
 	(label "VN"
 		(at 172.72 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2857,6 +2860,7 @@
 	)
 	(label "CEN_REF"
 		(at 241.3 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2867,6 +2871,7 @@
 	)
 	(label "DEN_REF"
 		(at 241.3 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2877,6 +2882,7 @@
 	)
 	(label "CURR_{RAW}"
 		(at 48.26 87.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2887,6 +2893,7 @@
 	)
 	(label "VP"
 		(at 172.72 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2898,6 +2905,7 @@
 	(hierarchical_label "DIRECT_IEN"
 		(shape output)
 		(at 262.89 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2909,6 +2917,7 @@
 	(hierarchical_label "CURR"
 		(shape output)
 		(at 128.27 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2920,6 +2929,7 @@
 	(hierarchical_label "PWR_{OUT}"
 		(shape output)
 		(at 58.42 64.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2931,6 +2941,7 @@
 	(hierarchical_label "CHARGING_IEN"
 		(shape output)
 		(at 262.89 45.72 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2942,6 +2953,7 @@
 	(hierarchical_label "PWR_{IN}"
 		(shape input)
 		(at 26.67 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2953,6 +2965,7 @@
 	(hierarchical_label "POW_LIMIT"
 		(shape input)
 		(at 154.94 76.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
