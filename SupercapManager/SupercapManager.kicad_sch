@@ -3912,6 +3912,16 @@
 				(justify left top)
 			)
 		)
+		(pin "+V_{supercap}" input
+			(at 138.43 161.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ba4b34a4-ef93-456b-9aa2-608e84d8e82e")
+		)
 		(instances
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60"
