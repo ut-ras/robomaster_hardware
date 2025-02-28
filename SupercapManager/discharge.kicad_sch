@@ -217,7 +217,6 @@
 	(hierarchical_label "+V_{supercap}"
 		(shape input)
 		(at 90.17 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

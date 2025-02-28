@@ -1675,6 +1675,12 @@
 		(uuid "2d6e0c52-aa93-4c8b-b782-a8ac8fa4f47c")
 	)
 	(junction
+		(at 132.08 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f4d09df-f0d7-4697-bdec-97812c560f87")
+	)
+	(junction
 		(at 124.46 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1821,6 +1827,16 @@
 			(type default)
 		)
 		(uuid "23d511e3-a90d-4b44-b38d-e5dc3a1a1476")
+	)
+	(wire
+		(pts
+			(xy 132.08 130.81) (xy 133.35 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ae398e-68f9-4179-a26f-d6b4a6dffcdd")
 	)
 	(wire
 		(pts
@@ -1981,6 +1997,16 @@
 			(type default)
 		)
 		(uuid "63776ce3-9894-4ed9-8f61-485f0c39f401")
+	)
+	(wire
+		(pts
+			(xy 127 130.81) (xy 132.08 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c98ec09-7427-4f1e-85b7-8db52cd2919e")
 	)
 	(wire
 		(pts
@@ -2204,16 +2230,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 130.81) (xy 133.35 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbf632f1-fc29-48d4-9cda-a6e7dc42471b")
-	)
-	(wire
-		(pts
 			(xy 109.22 68.58) (xy 109.22 71.12)
 		)
 		(stroke
@@ -2428,7 +2444,6 @@
 	)
 	(label "DIRECT_EN"
 		(at 138.43 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2440,7 +2455,6 @@
 	)
 	(label "V_{ON}"
 		(at 119.38 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2451,7 +2465,6 @@
 	)
 	(label "DIRECT_EN"
 		(at 163.83 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2463,7 +2476,6 @@
 	)
 	(label "TVS_mid"
 		(at 109.22 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2475,7 +2487,6 @@
 	)
 	(label "VCAP"
 		(at 139.7 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2487,7 +2498,6 @@
 	)
 	(label "GATE"
 		(at 154.94 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2499,7 +2509,6 @@
 	(hierarchical_label "DIRECT_IEN"
 		(shape input)
 		(at 110.49 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2510,8 +2519,7 @@
 	)
 	(hierarchical_label "CHARGING_IEN"
 		(shape input)
-		(at 130.81 130.81 180)
-		(fields_autoplaced yes)
+		(at 119.38 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2523,7 +2531,6 @@
 	(hierarchical_label "IN"
 		(shape input)
 		(at 96.52 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2535,7 +2542,6 @@
 	(hierarchical_label "IN"
 		(shape input)
 		(at 86.36 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2547,7 +2553,6 @@
 	(hierarchical_label "OUT"
 		(shape output)
 		(at 184.15 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2559,7 +2564,6 @@
 	(hierarchical_label "CHARGING_EN"
 		(shape output)
 		(at 163.83 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3130,6 +3134,142 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 123.19 130.81 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cf51509-03e1-4961-a637-9c6a1528fa00")
+		(property "Reference" "C56"
+			(at 125.222 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 125.476 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 127 131.7752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d478758-619c-473c-9f98-0640e9686f5b")
+		)
+		(pin "2"
+			(uuid "60b99f3a-f2b8-4c98-8eea-02c5e0d79a48")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 132.08 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78707c3a-0c23-4770-b7cd-a9584a7ac019")
+		(property "Reference" "#PWR0100"
+			(at 132.08 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 131.953 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 132.08 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "250bee8e-3fc0-4cae-9caf-cff36c2677b4")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 139.7 63.5 0)
 		(mirror y)
 		(unit 1)
@@ -3351,74 +3491,6 @@
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8feb38ba-85c4-4ca8-8f4d-c7694fca43ad")
-		(property "Reference" "R40"
-			(at 118.11 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 118.11 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 108.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78c2f368-624c-46b0-a49b-4c47e9d5ced1")
-		)
-		(pin "2"
-			(uuid "c0263fa9-0d32-4b12-873d-057a742bd91f")
-		)
-		(instances
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
-					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3875,6 +3947,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 132.08 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e54cb3a3-309f-40ec-928a-10470a456fa8")
+		(property "Reference" "D11"
+			(at 134.62 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TS4148 RAG"
+			(at 134.62 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "821-TS4148RAG"
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00de460d-9a63-47cf-a2e9-d8ecafdcee6d")
+		)
+		(pin "2"
+			(uuid "ae5acfa2-8d20-441f-92b6-498e8c13d26c")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 88.9 133.35 0)
 		(unit 1)
@@ -4011,6 +4180,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 118.11 106.68 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7afdfa2-cf7c-430f-8fae-1f2be7e1fc99")
+		(property "Reference" "C55"
+			(at 120.142 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 120.142 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 121.92 107.6452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bac5d0e8-3816-4533-8da5-2abeb4eb0fce")
+		)
+		(pin "2"
+			(uuid "3b40aff5-8dd0-412e-b89b-5270f2cbeb98")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 125.73 111.76 270)
 		(unit 1)
@@ -4029,7 +4268,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "TS4148 RAG"
 			(at 128.27 113.0299 90)
 			(effects
 				(font
@@ -4038,7 +4277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 125.73 111.76 0)
 			(effects
 				(font
@@ -4075,6 +4314,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "821-TS4148RAG"
 			(at 125.73 111.76 0)
 			(effects
 				(font
