@@ -4,4 +4,5 @@
   (lib (name "! Robomaster Ref")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Library/Robomaster_Ref.kicad_sym")(options "")(descr ""))
   (lib (name "! Robomaster CV")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Library/Robomaster_CV.kicad_sym")(options "")(descr ""))
   (lib (name "! Robomaster Connectors")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Library/Robomaster_Conn.kicad_sym")(options "")(descr ""))
+  (lib (name "boost2")(type "KiCad")(uri "${KIPRJMOD}/boost2.kicad_sym")(options "")(descr ""))
 )
