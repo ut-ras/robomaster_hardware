@@ -6061,7 +6061,7 @@
 		)
 		(uuid "7dd7a43e-9a76-431c-ba78-e6c06013e6e4")
 	)
-	(text "Ripple network design follows https://www.ti.com/lit/an/snva776a/snva776a.pdf?ts=1733621536294&ref_url=https%253A%252F%252Fduckduckgo.com%252F"
+	(text "Ripple network design follows https://www.ti.com/lit/an/snva776a/snva776a.pdf"
 		(exclude_from_sim no)
 		(at 335.026 181.102 0)
 		(effects
