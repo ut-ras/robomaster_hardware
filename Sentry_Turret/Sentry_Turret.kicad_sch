@@ -144,29 +144,49 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x08"
-			(pin_names
-				(offset 1.016) hide)
+		(symbol "Robomaster:172298-1108"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 10.16 0)
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "Conn_01x08"
-				(at 0 -12.7 0)
+			(property "Value" "172298-1108"
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "172298-YY08"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/1722981104_sd.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ultra-Fit Vertical Header, 3.50mm Pitch, Dual Row, 8 Circuits, with Kinked Pins, Glow-Wire Capable"
 				(at 0 0 0)
 				(effects
 					(font
@@ -175,134 +195,60 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Height" "14"
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
+			(property "Mouser Part Number" "538-172298-1108"
+				(at 16.51 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/172298-1108?qs=M4iqfhoVaNrCx%252BESVpjYnQ%3D%3D"
+				(at 16.51 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x08_1_1"
-				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
+			(property "Manufacturer_Part_Number" "172298-1108"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(justify left top)
+					(hide yes)
 				)
+			)
+			(symbol "172298-1108_1_1"
 				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 8.89)
-					(end 1.27 -11.43)
+					(start 5.08 2.54)
+					(end 15.24 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -312,9 +258,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -330,9 +276,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -348,9 +294,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_3"
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -366,9 +312,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_4"
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -384,9 +330,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_5"
+					(at 0 0 0)
+					(length 5.08)
+					(name "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -402,9 +348,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_6"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -420,9 +366,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_7"
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -438,9 +384,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_8"
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -908,6 +854,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8e3ef90-1ac2-4003-8257-3d296e5cb23e")
+	)
+	(no_connect
+		(at 198.12 39.37)
+		(uuid "06dc3902-7e52-44cd-8dce-314b48861e84")
+	)
+	(no_connect
+		(at 218.44 39.37)
+		(uuid "5299e1f9-db0c-4a8e-b45c-9e321f6d8071")
 	)
 	(wire
 		(pts
@@ -1727,7 +1681,6 @@
 	)
 	(label "Shooter_GND"
 		(at 69.85 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1738,7 +1691,6 @@
 	)
 	(label "CAN_H"
 		(at 35.56 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1749,7 +1701,6 @@
 	)
 	(label "Debug_+3.3V"
 		(at 119.38 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1760,7 +1711,6 @@
 	)
 	(label "CANL"
 		(at 121.92 161.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1771,7 +1721,6 @@
 	)
 	(label "Orin_+19V"
 		(at 119.38 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1782,7 +1731,6 @@
 	)
 	(label "Gimbal_GND"
 		(at 69.85 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1793,7 +1741,6 @@
 	)
 	(label "Gimbal_GND"
 		(at 34.29 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1804,7 +1751,6 @@
 	)
 	(label "CAN_L"
 		(at 35.56 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1815,7 +1761,6 @@
 	)
 	(label "CAN_H"
 		(at 69.85 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1826,7 +1771,6 @@
 	)
 	(label "Gimbal_GND"
 		(at 34.29 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1837,7 +1781,6 @@
 	)
 	(label "Shooter_GND"
 		(at 69.85 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1848,7 +1791,6 @@
 	)
 	(label "Gimbal_GND"
 		(at 69.85 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1859,7 +1801,6 @@
 	)
 	(label "Gimbal_+24V"
 		(at 69.85 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1870,7 +1811,6 @@
 	)
 	(label "CAN_H"
 		(at 153.67 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1881,7 +1821,6 @@
 	)
 	(label "Gimbal_+24V"
 		(at 69.85 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1892,7 +1831,6 @@
 	)
 	(label "CAN_H"
 		(at 34.29 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1903,7 +1841,6 @@
 	)
 	(label "Shooter_GND"
 		(at 35.56 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1914,7 +1851,6 @@
 	)
 	(label "+24V_Shooter"
 		(at 118.11 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1925,7 +1861,6 @@
 	)
 	(label "CAN_H"
 		(at 69.85 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1936,7 +1871,6 @@
 	)
 	(label "Shooter_+24V"
 		(at 118.11 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1947,7 +1881,6 @@
 	)
 	(label "CAN_H"
 		(at 118.11 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1958,7 +1891,6 @@
 	)
 	(label "CAN_H"
 		(at 34.29 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1969,7 +1901,6 @@
 	)
 	(label "CAN_L"
 		(at 34.29 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1980,7 +1911,6 @@
 	)
 	(label "Shooter_+24V"
 		(at 69.85 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1991,7 +1921,6 @@
 	)
 	(label "CAN_L"
 		(at 34.29 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2002,7 +1931,6 @@
 	)
 	(label "Debug_GND"
 		(at 119.38 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2013,7 +1941,6 @@
 	)
 	(label "CAN_L"
 		(at 69.85 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2024,7 +1951,6 @@
 	)
 	(label "Shooter_+24V"
 		(at 153.67 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2035,7 +1961,6 @@
 	)
 	(label "Shooter_PWR_GND"
 		(at 118.11 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2046,7 +1971,6 @@
 	)
 	(label "CANH"
 		(at 118.11 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2057,7 +1981,6 @@
 	)
 	(label "Shooter_+24V"
 		(at 35.56 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2068,7 +1991,6 @@
 	)
 	(label "Gimbal_+24V"
 		(at 34.29 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2079,7 +2001,6 @@
 	)
 	(label "Shooter_GND"
 		(at 153.67 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2090,7 +2011,6 @@
 	)
 	(label "Shooter_GND"
 		(at 35.56 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2101,7 +2021,6 @@
 	)
 	(label "Shooter_PWR_GND"
 		(at 121.92 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2112,7 +2031,6 @@
 	)
 	(label "CAN_H"
 		(at 69.85 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2123,7 +2041,6 @@
 	)
 	(label "Gimbal_+24V"
 		(at 34.29 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2134,7 +2051,6 @@
 	)
 	(label "CAN_L"
 		(at 118.11 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2145,7 +2061,6 @@
 	)
 	(label "CAN_L"
 		(at 69.85 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2156,7 +2071,6 @@
 	)
 	(label "Shooter_+24V"
 		(at 35.56 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2167,7 +2081,6 @@
 	)
 	(label "CAN_H"
 		(at 69.85 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2178,7 +2091,6 @@
 	)
 	(label "CAN_L"
 		(at 69.85 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2189,7 +2101,6 @@
 	)
 	(label "CANH"
 		(at 121.92 158.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2200,7 +2111,6 @@
 	)
 	(label "CANL"
 		(at 118.11 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2211,7 +2121,6 @@
 	)
 	(label "Shooter_+24V"
 		(at 69.85 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2222,7 +2131,6 @@
 	)
 	(label "Orin_GND"
 		(at 119.38 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2233,7 +2141,6 @@
 	)
 	(label "Shooter_GND"
 		(at 118.11 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2244,7 +2151,6 @@
 	)
 	(label "CAN_L"
 		(at 69.85 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2255,7 +2161,6 @@
 	)
 	(label "CAN_H"
 		(at 35.56 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2266,7 +2171,6 @@
 	)
 	(label "CAN_L"
 		(at 153.67 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2277,7 +2181,6 @@
 	)
 	(label "+24V_Shooter"
 		(at 121.92 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2288,7 +2191,6 @@
 	)
 	(label "CAN_L"
 		(at 35.56 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2297,10 +2199,141 @@
 		)
 		(uuid "fe8173cb-15a4-4eac-b917-e384c702dcba")
 	)
+	(global_label "Gimbal_GND"
+		(shape input)
+		(at 198.12 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cc0301a-d92c-423a-a0dc-f8bf6db78ac9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.7654 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Shooter_GND"
+		(shape input)
+		(at 198.12 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f2ebeb3-74ac-4a3d-b0b0-1074d409c264")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.0397 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Orin_+19V"
+		(shape input)
+		(at 218.44 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78ba15d3-da77-4ef9-9ec8-4c93815776fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.3433 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Orin_GND"
+		(shape input)
+		(at 198.12 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "880874a1-9734-46d7-a10d-449b2c844e63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.4262 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Shooter_+24V"
+		(shape input)
+		(at 218.44 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90eff8e6-978f-422b-8c2b-ac8bd25c0fa4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.7298 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Gimbal_+24V"
+		(shape input)
+		(at 218.44 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce2507c2-dcfb-4788-b328-e8dca7e4c61b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.0041 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "CANGim_H"
 		(shape input)
 		(at 238.76 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2312,7 +2345,6 @@
 	(hierarchical_label "Chassis_UART_3V3"
 		(shape input)
 		(at 203.2 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2324,7 +2356,6 @@
 	(hierarchical_label "Ref_PWR"
 		(shape input)
 		(at 226.06 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2336,7 +2367,6 @@
 	(hierarchical_label "Feeder_CAN_L"
 		(shape output)
 		(at 135.89 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2348,7 +2378,6 @@
 	(hierarchical_label "Feeder_CAN_L"
 		(shape output)
 		(at 137.16 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2360,7 +2389,6 @@
 	(hierarchical_label "Chassis_UART_RX"
 		(shape input)
 		(at 203.2 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2372,7 +2400,6 @@
 	(hierarchical_label "Chassis_UART_TX"
 		(shape input)
 		(at 203.2 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2384,7 +2411,6 @@
 	(hierarchical_label "SWD_GND"
 		(shape output)
 		(at 226.06 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2396,7 +2422,6 @@
 	(hierarchical_label "Feeder_CAN_H"
 		(shape output)
 		(at 135.89 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2408,7 +2433,6 @@
 	(hierarchical_label "Ref_CANH"
 		(shape input)
 		(at 226.06 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2420,7 +2444,6 @@
 	(hierarchical_label "CANGim_L"
 		(shape input)
 		(at 238.76 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2432,7 +2455,6 @@
 	(hierarchical_label "Ref_CANL"
 		(shape input)
 		(at 226.06 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2444,7 +2466,6 @@
 	(hierarchical_label "Feeder_PWR_+24V"
 		(shape output)
 		(at 137.16 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2456,7 +2477,6 @@
 	(hierarchical_label "SWD_SWCLK"
 		(shape output)
 		(at 203.2 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2468,7 +2488,6 @@
 	(hierarchical_label "Chassis_UART_GND"
 		(shape input)
 		(at 203.2 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2480,7 +2499,6 @@
 	(hierarchical_label "Feeder_PWR_GND"
 		(shape output)
 		(at 137.16 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2492,7 +2510,6 @@
 	(hierarchical_label "SWD_SWCLK"
 		(shape output)
 		(at 203.2 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2504,7 +2521,6 @@
 	(hierarchical_label "Feeder_PWR_GND"
 		(shape output)
 		(at 132.08 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2516,7 +2532,6 @@
 	(hierarchical_label "SWD_SWDIO"
 		(shape output)
 		(at 226.06 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2528,7 +2543,6 @@
 	(hierarchical_label "Shooter_CAN_L"
 		(shape input)
 		(at 203.2 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2540,7 +2554,6 @@
 	(hierarchical_label "Shooter_CAN_H"
 		(shape input)
 		(at 203.2 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2552,7 +2565,6 @@
 	(hierarchical_label "Feeder_PWR_+24V"
 		(shape output)
 		(at 132.08 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2564,7 +2576,6 @@
 	(hierarchical_label "Feeder_CAN_H"
 		(shape output)
 		(at 137.16 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2576,7 +2587,6 @@
 	(hierarchical_label "Ref_GND"
 		(shape input)
 		(at 226.06 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3773,6 +3783,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "172298-1116"
@@ -4058,35 +4069,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 214.63 31.75 0)
+		(lib_id "Robomaster:172298-1108")
+		(at 198.12 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dafd62e0-d524-4c82-91da-9584591933dd")
-		(property "Reference" "J23"
-			(at 217.17 31.7499 0)
+		(uuid "ce835a75-9a9e-4fcc-8966-210ebfe5b951")
+		(property "Reference" "J12"
+			(at 208.28 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x08"
-			(at 217.17 34.2899 0)
+		(property "Value" "172298-1108"
+			(at 208.28 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 214.63 31.75 0)
+		(property "Footprint" "172298-YY08"
+			(at 214.63 126.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/1722981104_sd.pdf"
+			(at 214.63 226.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra-Fit Vertical Header, 3.50mm Pitch, Dual Row, 8 Circuits, with Kinked Pins, Glow-Wire Capable"
+			(at 198.12 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,52 +4123,84 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 214.63 31.75 0)
+		(property "Height" "14"
+			(at 214.63 426.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 214.63 31.75 0)
+		(property "Mouser Part Number" "538-172298-1108"
+			(at 214.63 526.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "df3fed49-3d20-447d-8bb9-152936952f7e")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/172298-1108?qs=M4iqfhoVaNrCx%252BESVpjYnQ%3D%3D"
+			(at 214.63 626.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "3ab9de3a-8bf5-424f-b8d2-74e081a2e33b")
+		(property "Manufacturer_Name" "Molex"
+			(at 214.63 726.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "172298-1108"
+			(at 214.63 826.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "8"
-			(uuid "9c918d26-2569-4ff8-a3da-b0973958bfea")
-		)
-		(pin "1"
-			(uuid "305bcc4e-8d51-42a4-b3b0-868b0764f874")
-		)
-		(pin "5"
-			(uuid "e77a202e-0932-4d29-b6ca-fe030d803a0a")
-		)
-		(pin "3"
-			(uuid "19024d23-2175-4b48-b488-421636fb1a38")
-		)
-		(pin "7"
-			(uuid "7e5c56a3-b02b-4e6b-b496-a70d3b1a0015")
+			(uuid "de13ad43-189e-4bde-9956-c3f99ebb60f4")
 		)
 		(pin "6"
-			(uuid "0e5950dd-bdd5-42c1-8be3-bcf58421b8e8")
+			(uuid "af66ea45-06f6-4701-b9a1-f0b4169c3f17")
+		)
+		(pin "2"
+			(uuid "9c4ab04d-d8c1-42c9-b765-876277ab4469")
+		)
+		(pin "7"
+			(uuid "1a33d76c-b930-406a-9437-a7d48dc2c5e3")
+		)
+		(pin "5"
+			(uuid "a060906e-080f-46ae-a2f5-263929d0aa54")
+		)
+		(pin "1"
+			(uuid "d2446e5f-7703-4bac-a184-34ecc268d3bb")
+		)
+		(pin "3"
+			(uuid "341f0a18-50ba-4d81-95bd-cbff04fc599f")
+		)
+		(pin "4"
+			(uuid "d49e7154-c28d-4ec5-9931-8b2d3d2afeaf")
 		)
 		(instances
 			(project ""
 				(path "/1af64243-237e-4d0e-bea9-8a84ac1ea3bc"
-					(reference "J23")
+					(reference "J12")
 					(unit 1)
 				)
 			)
