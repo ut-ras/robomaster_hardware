@@ -6216,6 +6216,7 @@
 	)
 	(label "FB_{3A}"
 		(at 330.2 30.48 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6226,6 +6227,7 @@
 	)
 	(label "FB_{5}"
 		(at 332.74 144.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6236,6 +6238,7 @@
 	)
 	(label "EN_{3A}"
 		(at 304.8 33.02 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6246,6 +6249,7 @@
 	)
 	(label "SW_{5}"
 		(at 332.74 140.97 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6256,6 +6260,7 @@
 	)
 	(label "EN_{5}"
 		(at 307.34 147.32 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6266,6 +6271,7 @@
 	)
 	(label "FB_{3}"
 		(at 332.74 87.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6276,6 +6282,7 @@
 	)
 	(label "CB_{5}"
 		(at 332.74 137.16 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6286,6 +6293,7 @@
 	)
 	(label "CB_{3A}"
 		(at 330.2 22.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6296,6 +6304,7 @@
 	)
 	(label "SW_{3A}"
 		(at 330.2 26.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6306,6 +6315,7 @@
 	)
 	(label "SW_{3}"
 		(at 332.74 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6316,6 +6326,7 @@
 	)
 	(label "EN_{3}"
 		(at 307.34 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6326,6 +6337,7 @@
 	)
 	(label "CB_{3}"
 		(at 332.74 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6337,6 +6349,7 @@
 	(hierarchical_label "+24_{MiniPC}"
 		(shape input)
 		(at 35.56 201.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6348,6 +6361,7 @@
 	(hierarchical_label "+24_{MiniPC}"
 		(shape input)
 		(at 276.86 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6359,6 +6373,7 @@
 	(hierarchical_label "+24_{MiniPC}"
 		(shape input)
 		(at 35.56 121.92 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6370,6 +6385,7 @@
 	(hierarchical_label "+24_{MiniPC}"
 		(shape input)
 		(at 160.02 201.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6381,6 +6397,7 @@
 	(hierarchical_label "+24_{MiniPC}"
 		(shape input)
 		(at 276.86 80.01 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
