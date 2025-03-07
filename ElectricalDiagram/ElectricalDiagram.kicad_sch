@@ -3931,7 +3931,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 82.55) (xy 110.49 82.55)
+			(xy 76.2 82.55) (xy 88.9 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4041,7 +4041,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 52.07) (xy 110.49 52.07)
+			(xy 109.22 129.54) (xy 109.22 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b8096d-37e9-4f47-9b9c-8ea3573d1950")
+	)
+	(wire
+		(pts
+			(xy 76.2 52.07) (xy 88.9 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4071,7 +4081,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 57.15) (xy 110.49 57.15)
+			(xy 76.2 57.15) (xy 88.9 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4101,6 +4111,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 129.54) (xy 96.52 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd62b92-f832-4b80-9706-4a8d0865741c")
+	)
+	(wire
+		(pts
 			(xy 243.84 209.55) (xy 241.3 209.55)
 		)
 		(stroke
@@ -4108,6 +4128,16 @@
 			(type default)
 		)
 		(uuid "3f9e3f81-bb8f-4bdb-bb7b-0edfa4b0f6d4")
+	)
+	(wire
+		(pts
+			(xy 100.33 129.54) (xy 100.33 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fbc8b4b-33fa-4477-8d30-ebe91e539bc5")
 	)
 	(wire
 		(pts
@@ -4201,7 +4231,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 74.93) (xy 110.49 74.93)
+			(xy 76.2 74.93) (xy 88.9 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4221,7 +4251,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 82.55) (xy 72.39 82.55)
+			(xy 48.26 82.55) (xy 50.8 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4251,6 +4281,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 129.54) (xy 102.87 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "675d8cbe-dca1-41bd-877e-b6ff3f861258")
+	)
+	(wire
+		(pts
 			(xy 63.5 199.39) (xy 76.2 199.39)
 		)
 		(stroke
@@ -4271,7 +4311,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 77.47) (xy 72.39 77.47)
+			(xy 48.26 77.47) (xy 50.8 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4331,7 +4371,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 54.61) (xy 110.49 54.61)
+			(xy 76.2 54.61) (xy 88.9 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4351,7 +4391,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 80.01) (xy 72.39 80.01)
+			(xy 48.26 80.01) (xy 50.8 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4461,7 +4501,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 59.69) (xy 72.39 59.69)
+			(xy 48.26 59.69) (xy 50.8 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4508,6 +4548,16 @@
 			(type default)
 		)
 		(uuid "a5c7a364-47d5-4249-a6e1-a9c16d91c3b4")
+	)
+	(wire
+		(pts
+			(xy 106.68 129.54) (xy 106.68 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7551e0b-3776-4ae9-9bd6-fa7d0059ee70")
 	)
 	(wire
 		(pts
@@ -4571,7 +4621,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 62.23) (xy 72.39 62.23)
+			(xy 48.26 62.23) (xy 50.8 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4631,7 +4681,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 59.69) (xy 110.49 59.69)
+			(xy 76.2 59.69) (xy 88.9 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4661,7 +4711,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 77.47) (xy 110.49 77.47)
+			(xy 76.2 77.47) (xy 88.9 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4691,7 +4741,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 54.61) (xy 72.39 54.61)
+			(xy 48.26 54.61) (xy 50.8 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4701,7 +4751,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 80.01) (xy 110.49 80.01)
+			(xy 76.2 80.01) (xy 88.9 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4718,6 +4768,16 @@
 			(type default)
 		)
 		(uuid "cb0de278-26d5-4c67-8222-9add19ebea13")
+	)
+	(wire
+		(pts
+			(xy 93.98 129.54) (xy 93.98 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0b7c7a-871b-4624-8972-77378b05acf1")
 	)
 	(wire
 		(pts
@@ -4831,7 +4891,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 57.15) (xy 72.39 57.15)
+			(xy 48.26 57.15) (xy 50.8 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4871,7 +4931,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 85.09) (xy 72.39 85.09)
+			(xy 48.26 85.09) (xy 50.8 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4912,8 +4972,8 @@
 		(uuid 0e1c49b1-d0a7-48e7-8481-af7d136a7846)
 	)
 	(rectangle
-		(start 49.53 44.45)
-		(end 100.33 67.31)
+		(start 27.94 44.45)
+		(end 78.74 67.31)
 		(stroke
 			(width 0)
 			(type default)
@@ -4972,8 +5032,8 @@
 		(uuid affd3dc8-25b5-420b-8de2-412705827ecd)
 	)
 	(rectangle
-		(start 49.53 68.58)
-		(end 100.33 91.44)
+		(start 27.94 68.58)
+		(end 78.74 91.44)
 		(stroke
 			(width 0)
 			(type default)
@@ -5089,7 +5149,7 @@
 	)
 	(text "Waterwheel"
 		(exclude_from_sim no)
-		(at 50.546 70.612 0)
+		(at 28.956 70.612 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5100,7 +5160,7 @@
 	)
 	(text "Feeder"
 		(exclude_from_sim no)
-		(at 50.546 46.482 0)
+		(at 28.956 46.482 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5198,9 +5258,8 @@
 		(uuid "fad59d27-aebc-467c-90fc-140b850580af")
 	)
 	(symbol
-		(lib_name "Robomaster_Library:M3508")
 		(lib_id "Robomaster_Library:M3508")
-		(at 59.69 55.88 0)
+		(at 38.1 55.88 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5209,7 +5268,7 @@
 		(dnp no)
 		(uuid "0b681181-1762-4105-a7a3-66b9d5874791")
 		(property "Reference" "U12"
-			(at 59.69 48.768 0)
+			(at 38.1 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5218,7 +5277,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 57.15 58.42 0)
+			(at 35.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5226,7 +5285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 58.42 0)
+			(at 35.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +5294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 58.42 0)
+			(at 35.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,7 +5303,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 58.42 0)
+			(at 35.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5274,7 +5333,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:M3508")
 		(lib_id "Robomaster_Library:M3508")
 		(at 223.52 64.77 0)
 		(unit 1)
@@ -5349,9 +5407,8 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:M3508")
 		(lib_id "Robomaster_Library:M3508")
-		(at 59.69 78.74 0)
+		(at 38.1 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5360,7 +5417,7 @@
 		(dnp no)
 		(uuid "1b935a4c-506c-42fa-b2d1-c7b823669a78")
 		(property "Reference" "U11"
-			(at 59.69 71.628 0)
+			(at 38.1 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,7 +5426,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 57.15 81.28 0)
+			(at 35.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5377,7 +5434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 81.28 0)
+			(at 35.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,7 +5443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 81.28 0)
+			(at 35.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5395,7 +5452,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 81.28 0)
+			(at 35.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5425,7 +5482,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:C620 Motor Speed Controller")
 		(lib_id "Robomaster_Library:C620 Motor Speed Controller")
 		(at 50.8 205.74 0)
 		(mirror y)
@@ -5522,7 +5578,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:C620 Motor Speed Controller")
 		(lib_id "Robomaster_Library:C620 Motor Speed Controller")
 		(at 50.8 172.72 0)
 		(mirror y)
@@ -5836,7 +5891,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:M3508")
 		(lib_id "Robomaster_Library:M3508")
 		(at 25.4 170.18 0)
 		(mirror y)
@@ -6142,7 +6196,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:M3508")
 		(lib_id "Robomaster_Library:M3508")
 		(at 223.52 88.9 0)
 		(unit 1)
@@ -6217,7 +6270,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:M3508")
 		(lib_id "Robomaster_Library:M3508")
 		(at 254 170.18 0)
 		(unit 1)
@@ -6292,7 +6344,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:C620 Motor Speed Controller")
 		(lib_id "Robomaster_Library:C620 Motor Speed Controller")
 		(at 198.12 91.44 0)
 		(unit 1)
@@ -6388,7 +6439,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:M3508")
 		(lib_id "Robomaster_Library:M3508")
 		(at 254 233.68 0)
 		(unit 1)
@@ -6463,7 +6513,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:C620 Motor Speed Controller")
 		(lib_id "Robomaster_Library:C620 Motor Speed Controller")
 		(at 198.12 67.31 0)
 		(unit 1)
@@ -6559,7 +6608,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:M3508")
 		(lib_id "Robomaster_Library:M3508")
 		(at 25.4 203.2 0)
 		(mirror y)
@@ -6635,9 +6683,8 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:C620 Motor Speed Controller")
 		(lib_id "Robomaster_Library:C620 Motor Speed Controller")
-		(at 85.09 81.28 0)
+		(at 63.5 81.28 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6646,7 +6693,7 @@
 		(dnp no)
 		(uuid "821afa57-8401-4449-8f0b-8bb820dc690c")
 		(property "Reference" "U13"
-			(at 85.09 70.358 0)
+			(at 63.5 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,7 +6702,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 87.63 72.39 0)
+			(at 66.04 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6663,7 +6710,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 72.39 0)
+			(at 66.04 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +6719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 72.39 0)
+			(at 66.04 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,7 +6728,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 72.39 0)
+			(at 66.04 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6800,9 +6847,8 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:C620 Motor Speed Controller")
 		(lib_id "Robomaster_Library:C620 Motor Speed Controller")
-		(at 85.09 58.42 0)
+		(at 63.5 58.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6811,7 +6857,7 @@
 		(dnp no)
 		(uuid "9254c564-69b1-4580-9030-8d0c3427aea7")
 		(property "Reference" "U10"
-			(at 85.09 47.498 0)
+			(at 63.5 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6820,7 +6866,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 87.63 49.53 0)
+			(at 66.04 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,7 +6874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 49.53 0)
+			(at 66.04 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6837,7 +6883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 49.53 0)
+			(at 66.04 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6846,7 +6892,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 49.53 0)
+			(at 66.04 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6897,7 +6943,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:C620 Motor Speed Controller")
 		(lib_id "Robomaster_Library:C620 Motor Speed Controller")
 		(at 50.8 236.22 0)
 		(mirror y)
@@ -6994,7 +7039,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:M3508")
 		(lib_id "Robomaster_Library:M3508")
 		(at 254 203.2 0)
 		(unit 1)
@@ -7249,7 +7293,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:M3508")
 		(lib_id "Robomaster_Library:M3508")
 		(at 25.4 233.68 0)
 		(mirror y)
@@ -7325,7 +7368,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:C620 Motor Speed Controller")
 		(lib_id "Robomaster_Library:C620 Motor Speed Controller")
 		(at 228.6 236.22 0)
 		(unit 1)
@@ -7585,7 +7627,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:C620 Motor Speed Controller")
 		(lib_id "Robomaster_Library:C620 Motor Speed Controller")
 		(at 228.6 205.74 0)
 		(unit 1)
@@ -7681,7 +7722,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Robomaster_Library:C620 Motor Speed Controller")
 		(lib_id "Robomaster_Library:C620 Motor Speed Controller")
 		(at 228.6 172.72 0)
 		(unit 1)
@@ -8207,7 +8247,7 @@
 			(uuid "45df9016-6d9e-4331-a36b-bdbb9e69dbbd")
 		)
 		(pin "+24V_Shooter" output
-			(at 127 160.02 90)
+			(at 93.98 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8217,7 +8257,7 @@
 			(uuid "85723887-6adc-4a7f-a40b-66bdf5e35579")
 		)
 		(pin "+19V" output
-			(at 124.46 160.02 90)
+			(at 106.68 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,7 +8267,7 @@
 			(uuid "bb5b02a2-a6c9-46af-b5c3-0fc6049396ae")
 		)
 		(pin "+24V_Gimbal" output
-			(at 121.92 160.02 90)
+			(at 100.33 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8237,12 +8277,12 @@
 			(uuid "4ec7d357-0b3e-4531-9c72-622fbc753231")
 		)
 		(pin "+24V_Chassis" output
-			(at 119.38 160.02 90)
+			(at 99.06 246.38 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "ae28a4ae-f13b-4e09-98fa-5357331c7cb1")
 		)
@@ -8376,6 +8416,46 @@
 			)
 			(uuid "2fc29dd8-4459-4e66-9eac-68c3141e5f4f")
 		)
+		(pin "+24V_Gimbal_GND" output
+			(at 102.87 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "da632256-0a05-4bd4-aaa6-3d8756f8f996")
+		)
+		(pin "+24V_Shooter_GND" output
+			(at 96.52 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dd385cc7-94e1-4836-9330-eb89f7c868f1")
+		)
+		(pin "+19V_GND" output
+			(at 109.22 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ee2604db-6e34-43aa-8f75-5f5b4b087052")
+		)
+		(pin "+24V_Chassis_GND" output
+			(at 101.6 246.38 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9dfba1a9-ac69-48e6-86e5-374c5fb0855a")
+		)
 		(instances
 			(project "ElectricalDiagram"
 				(path "/26219375-7ccb-4c77-8252-7d287c7ac619"
@@ -8385,8 +8465,8 @@
 		)
 	)
 	(sheet
-		(at 110.49 35.56)
-		(size 57.15 93.98)
+		(at 88.9 35.56)
+		(size 78.74 93.98)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -8397,7 +8477,7 @@
 		)
 		(uuid "74849f29-dcce-4016-b5c2-391484dca3ee")
 		(property "Sheetname" "Turret"
-			(at 110.49 34.8484 0)
+			(at 88.9 34.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,7 +8486,7 @@
 			)
 		)
 		(property "Sheetfile" "Turret.kicad_sch"
-			(at 110.49 130.1246 0)
+			(at 88.9 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8525,7 +8605,7 @@
 			(uuid "d8d274f2-2407-4af8-8462-c30eeb1c5997")
 		)
 		(pin "Waterwheel_PWR_GND" output
-			(at 110.49 77.47 180)
+			(at 88.9 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8535,7 +8615,7 @@
 			(uuid "08e52b26-32fe-469a-88d9-79b224a0ce96")
 		)
 		(pin "Feeder_CAN_L" output
-			(at 110.49 59.69 180)
+			(at 88.9 59.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8545,7 +8625,7 @@
 			(uuid "8793bfbf-1eaa-472a-9ab3-50b5af213f84")
 		)
 		(pin "Feeder_PWR_GND" output
-			(at 110.49 54.61 180)
+			(at 88.9 54.61 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8555,7 +8635,7 @@
 			(uuid "a6bd0627-6c1b-44e8-8027-f7c71fe4a193")
 		)
 		(pin "Feeder_CAN_H" output
-			(at 110.49 57.15 180)
+			(at 88.9 57.15 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8565,7 +8645,7 @@
 			(uuid "43ac4a09-9cc7-4546-bc04-f48eb781f200")
 		)
 		(pin "Feeder_PWR_+24V" output
-			(at 110.49 52.07 180)
+			(at 88.9 52.07 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8575,7 +8655,7 @@
 			(uuid "43393cff-b87c-47a9-b911-0bcf7d4f068c")
 		)
 		(pin "Waterwheel_CAN_H" output
-			(at 110.49 80.01 180)
+			(at 88.9 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8585,7 +8665,7 @@
 			(uuid "d0df2356-1030-4c9d-8ea5-d3b31b12ce9d")
 		)
 		(pin "Waterwheel_CAN_L" output
-			(at 110.49 82.55 180)
+			(at 88.9 82.55 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8595,7 +8675,7 @@
 			(uuid "f1d62a4d-3151-420b-930c-3c8f2a79ba01")
 		)
 		(pin "Waterwheel_PWR_+24V" output
-			(at 110.49 74.93 180)
+			(at 88.9 74.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8655,7 +8735,7 @@
 			(uuid "b61f608e-e4db-44c1-a3ad-faa0532c2d57")
 		)
 		(pin "Shooter_PWR_+24V" input
-			(at 118.11 129.54 270)
+			(at 93.98 129.54 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8665,7 +8745,7 @@
 			(uuid "bf642e94-a3d6-46fb-85db-908004a1257e")
 		)
 		(pin "Orin_PWR_GND" input
-			(at 127 129.54 270)
+			(at 109.22 129.54 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8675,7 +8755,7 @@
 			(uuid "ffb02c77-c08e-4f7f-9f41-b725c71e339e")
 		)
 		(pin "Gimbal_PWR_+24V" input
-			(at 120.65 129.54 270)
+			(at 100.33 129.54 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8685,7 +8765,7 @@
 			(uuid "04baba34-aef7-46ff-ac1e-afd674398dee")
 		)
 		(pin "Orin_PWR_+19V" input
-			(at 124.46 129.54 270)
+			(at 106.68 129.54 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8775,7 +8855,7 @@
 			(uuid "4dd8c8c9-6b95-4bce-9108-817c6f1365dc")
 		)
 		(pin "Shooter_CAN_H" input
-			(at 138.43 129.54 270)
+			(at 128.27 129.54 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8785,7 +8865,7 @@
 			(uuid "b55c4931-b4b0-4110-a0e3-f3568eceb3c6")
 		)
 		(pin "Chassis_UART_GND" input
-			(at 130.81 129.54 270)
+			(at 121.92 129.54 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8795,7 +8875,7 @@
 			(uuid "25aa95a9-a460-433b-bd79-c6ae8126fb17")
 		)
 		(pin "Chassis_UART_3V3" input
-			(at 132.08 129.54 270)
+			(at 118.11 129.54 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,7 +8885,7 @@
 			(uuid "7a4d7053-00e9-4d91-8ccc-de499f43a2cc")
 		)
 		(pin "Chassis_UART_TX" input
-			(at 133.35 129.54 270)
+			(at 119.38 129.54 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8815,7 +8895,7 @@
 			(uuid "362730f6-d475-4f90-a583-90cd11d4b99e")
 		)
 		(pin "Chassis_UART_RX" input
-			(at 134.62 129.54 270)
+			(at 120.65 129.54 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8825,7 +8905,7 @@
 			(uuid "419e8f17-4d18-4830-9bca-68c1253c68f5")
 		)
 		(pin "Shooter_CAN_L" input
-			(at 140.97 129.54 270)
+			(at 130.81 129.54 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8835,7 +8915,7 @@
 			(uuid "fcc0eb86-8373-4536-9ccd-2ad95f41786f")
 		)
 		(pin "CANGim_H" input
-			(at 144.78 129.54 270)
+			(at 134.62 129.54 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8845,7 +8925,7 @@
 			(uuid "704f2662-c389-46d6-836d-6895fe419ede")
 		)
 		(pin "CANGim_L" input
-			(at 147.32 129.54 270)
+			(at 137.16 129.54 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8855,7 +8935,7 @@
 			(uuid "2ee1f0a0-1d95-44ea-b18f-4e7e4a3ea4a7")
 		)
 		(pin "Gimbal_PWR_GND" input
-			(at 111.76 129.54 270)
+			(at 102.87 129.54 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8865,7 +8945,7 @@
 			(uuid "157c4612-47be-424a-b72d-50c705f7e910")
 		)
 		(pin "Shooter_PWR_GND" input
-			(at 114.3 129.54 270)
+			(at 96.52 129.54 270)
 			(effects
 				(font
 					(size 1.27 1.27)

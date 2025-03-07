@@ -2013,7 +2013,6 @@
 		(pin "9"
 			(uuid "a39008da-0c37-43bb-97d7-40d7df734f43")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2072,7 +2071,6 @@
 		(pin "1"
 			(uuid "24e88525-0fc7-4403-ab3b-409d1bed43b8")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2152,7 +2150,6 @@
 		(pin "2"
 			(uuid "088aa4f3-08a3-4947-a527-e4b2fd7dcba0")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2232,7 +2229,6 @@
 		(pin "2"
 			(uuid "10293020-cfdf-45cd-b2b7-b20faa41cc84")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2313,7 +2309,6 @@
 		(pin "2"
 			(uuid "65d1c564-5e1e-4e13-bf54-50d314ee3810")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
@@ -2412,7 +2407,6 @@
 		(pin "2"
 			(uuid "e260333b-e491-4e2d-8c3d-1a5ae8c3ace3")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -2491,7 +2485,6 @@
 		(pin "2"
 			(uuid "6acfa8e4-20a7-4078-8d02-b0412d6509f3")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2572,7 +2565,6 @@
 		(pin "2"
 			(uuid "796c6ee9-76a4-4af9-909f-f00690be9158")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2631,7 +2623,6 @@
 		(pin "1"
 			(uuid "48c8b31c-5adf-48f4-9e5f-2b10b701c931")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2690,7 +2681,6 @@
 		(pin "1"
 			(uuid "49209bd7-4397-44c3-a789-8c82cedc9cd0")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2771,7 +2761,6 @@
 		(pin "2"
 			(uuid "de57451d-cdb8-47cf-8b65-af158eaf6d51")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -2831,7 +2820,6 @@
 		(pin "1"
 			(uuid "72be88d5-c91e-4970-93dd-d0fb317cb66f")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2911,7 +2899,6 @@
 		(pin "2"
 			(uuid "6d98adbb-4877-49c5-9c77-12d89172527f")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2970,7 +2957,6 @@
 		(pin "1"
 			(uuid "cf5f6872-6922-4fe4-8228-47f791667f5e")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3051,7 +3037,6 @@
 		(pin "2"
 			(uuid "c86fb85a-72b3-4eb5-b514-509428104c0e")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3110,7 +3095,6 @@
 		(pin "1"
 			(uuid "e33a2629-86aa-4f8c-a0dc-5879de2360c4")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -3170,7 +3154,6 @@
 		(pin "1"
 			(uuid "6f2f383a-fb45-4693-8c71-40e5e2e0c44d")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3229,7 +3212,6 @@
 		(pin "1"
 			(uuid "41bc7f4e-567b-44ad-bc70-d3c789b69b69")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3288,7 +3270,6 @@
 		(pin "1"
 			(uuid "9a7985d0-f1b4-4cf5-9500-8c0ff20d0405")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_name "GND_1")
@@ -3348,7 +3329,6 @@
 		(pin "1"
 			(uuid "fd8e04d7-0353-41f7-80f8-18d404073f3b")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3407,7 +3387,6 @@
 		(pin "1"
 			(uuid "6e2cc709-ec0a-4b2b-b8ac-c765bea17618")
 		)
-		(instances)
 	)
 	(symbol
 		(lib_name "GND_1")
@@ -3467,6 +3446,5 @@
 		(pin "1"
 			(uuid "766ff839-debb-4ac6-adc5-1d965bc0db23")
 		)
-		(instances)
 	)
 )
