@@ -2043,7 +2043,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 116.84) (xy 114.3 111.76)
+			(xy 114.3 115.57) (xy 114.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2203,7 +2203,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 124.46) (xy 114.3 135.89)
+			(xy 114.3 123.19) (xy 114.3 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2283,7 +2283,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 92.71) (xy 185.42 96.52)
+			(xy 182.88 92.71) (xy 182.88 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2523,6 +2523,26 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 92.71) (xy 185.42 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a40bd5-3d99-4392-a922-69b76cfe31aa")
+	)
+	(wire
+		(pts
+			(xy 114.3 132.08) (xy 114.3 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75051c9-b75c-4734-a21f-bfeeb635bc9e")
+	)
+	(wire
+		(pts
 			(xy 199.39 40.64) (xy 184.15 40.64)
 		)
 		(stroke
@@ -2643,7 +2663,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 96.52) (xy 166.37 96.52)
+			(xy 182.88 96.52) (xy 166.37 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2772,6 +2792,16 @@
 		)
 		(uuid "107a032a-97d6-4431-bf88-b0ba4db433c5")
 	)
+	(text "VOUT = 1.275(1+Rfb1/Rfb2)\n24V = 1.275(1+178k/10k)"
+		(exclude_from_sim no)
+		(at 270.256 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1840ee4c-8206-4100-a1fc-201250097ea7")
+	)
 	(text "Output:\n- +24V (Chassis) and GND (Chassis)"
 		(exclude_from_sim no)
 		(at 68.072 32.766 0)
@@ -2793,6 +2823,248 @@
 			(justify left top)
 		)
 		(uuid "c2d827de-501a-4a3d-ae72-b9338a6d75f1")
+	)
+	(global_label "ISEN"
+		(shape input)
+		(at 179.07 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c4924d2-1e45-42be-b5c1-2c20d3ce49b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.791 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 170.18 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "343121fa-9124-4e69-9d63-d7d37393b777")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.7938 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Drain"
+		(shape input)
+		(at 194.31 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f86142d-4467-48ef-9148-bfec4716d045")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.3658 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIN"
+		(shape input)
+		(at 215.9 71.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5fe5f055-2e3e-496d-a5f8-ba8dd3935b9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.9 64.9295 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FA"
+		(shape input)
+		(at 154.94 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6917d03d-665d-4a2c-9371-f4f16c7a5b46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.1024 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Source"
+		(shape input)
+		(at 198.12 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71cd2602-05cc-44be-963c-37eeea8f46f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.5761 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DR"
+		(shape input)
+		(at 182.88 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e8a5e99-85ad-4df2-a7f5-7c51a2ffe75c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.4052 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FB"
+		(shape input)
+		(at 236.22 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a859e80-5801-4c8b-a220-3473f7a86393")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.5638 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vin"
+		(shape input)
+		(at 92.71 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed40d32a-093a-4624-9ea1-396832e3d0e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.8824 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UVLO"
+		(shape input)
+		(at 102.87 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5daa80e-ba14-495e-b468-7c780587784c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.1071 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COMP"
+		(shape input)
+		(at 114.3 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fcbdcd2b-8c3e-49c9-9037-f81e5ebccecf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.9929 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -2822,7 +3094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 237.236 86.614 90)
 			(effects
 				(font
@@ -2841,6 +3113,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 236.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "594-MCT06030C1783FP5"
 			(at 236.22 86.36 0)
 			(effects
 				(font
@@ -2889,7 +3170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 205.74 70.1548 0)
 			(effects
 				(font
@@ -2908,6 +3189,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL10Y225KA8NRWC"
 			(at 201.93 71.12 0)
 			(effects
 				(font
@@ -2958,7 +3248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 180.0352 125.73 0)
 			(effects
 				(font
@@ -2977,6 +3267,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0603YA751JAT2A"
 			(at 179.07 121.92 0)
 			(effects
 				(font
@@ -3027,7 +3326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 93.6752 123.19 0)
 			(effects
 				(font
@@ -3046,6 +3345,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 92.71 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C0603C104J1RAUTO7"
 			(at 92.71 119.38 0)
 			(effects
 				(font
@@ -3096,7 +3404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x4.5"
 			(at 87.3252 116.84 0)
 			(effects
 				(font
@@ -3115,6 +3423,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 86.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-865230440001"
 			(at 86.36 113.03 0)
 			(effects
 				(font
@@ -3166,7 +3483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 103.886 91.694 90)
 			(effects
 				(font
@@ -3185,6 +3502,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603105KFKEAC"
 			(at 102.87 91.44 0)
 			(effects
 				(font
@@ -3234,7 +3560,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 185.674 106.934 90)
 			(effects
 				(font
@@ -3253,6 +3579,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 185.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-PATT0603E1000BGT5"
 			(at 185.42 107.95 0)
 			(effects
 				(font
@@ -3302,7 +3637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "boost2:B560C-13-F"
+		(property "Footprint" "! Robomaster ICs:B560C-13-F"
 			(at 220.98 -26.34 0)
 			(effects
 				(font
@@ -3621,7 +3956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 171.1452 133.35 0)
 			(effects
 				(font
@@ -3640,6 +3975,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 170.18 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL10B474KB8VPJC"
 			(at 170.18 129.54 0)
 			(effects
 				(font
@@ -3691,7 +4035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "boost2:CSD18543Q3A"
+		(property "Footprint" "! Robomaster ICs:CSD18543Q3A"
 			(at 207.01 182.55 0)
 			(effects
 				(font
@@ -3834,7 +4178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "boost2:LM3481QMMX_NOPB"
+		(property "Footprint" "! Robomaster ICs:LM3481QMMX_NOPB"
 			(at 162.56 190.17 0)
 			(effects
 				(font
@@ -3980,7 +4324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 199.136 128.524 90)
 			(effects
 				(font
@@ -3999,6 +4343,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 198.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "708-CSS0603FT3L00"
 			(at 198.12 128.27 0)
 			(effects
 				(font
@@ -4050,7 +4403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 103.886 120.904 90)
 			(effects
 				(font
@@ -4069,6 +4422,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-H3ED3652V"
 			(at 102.87 120.65 0)
 			(effects
 				(font
@@ -4120,7 +4482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 93.726 91.694 90)
 			(effects
 				(font
@@ -4139,6 +4501,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 92.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AF0603FR-0720RL"
 			(at 92.71 91.44 0)
 			(effects
 				(font
@@ -4190,7 +4561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "boost2:DRQ125-6R8-R"
+		(property "Footprint" "! Robomaster ICs:DRQ1256R8R"
 			(at 212.09 149.53 0)
 			(effects
 				(font
@@ -4384,7 +4755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 128.016 122.174 90)
 			(effects
 				(font
@@ -4411,6 +4782,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "603-RE0603FRE071KL"
+			(at 127 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "246e680e-558a-4046-bb37-780d5c182996")
 		)
@@ -4421,6 +4801,84 @@
 			(project "boost2"
 				(path "/8e1ef1bb-0256-489e-b9c8-e9ca61e45ee1"
 					(reference "Rcomp1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e22e816e-1b58-4621-96a0-b0170b411c88")
+		(property "Reference" "Ccomp3"
+			(at 116.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18n"
+			(at 116.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 115.2652 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-KAM15AR71H183JT"
+			(at 114.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "994a3320-cb4f-4878-8be2-0875c8ec4c6c")
+		)
+		(pin "2"
+			(uuid "c0bb96bf-fe56-4bbd-9934-98df2cadcd69")
+		)
+		(instances
+			(project "boost2"
+				(path "/8e1ef1bb-0256-489e-b9c8-e9ca61e45ee1"
+					(reference "Ccomp3")
 					(unit 1)
 				)
 			)
@@ -4444,7 +4902,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "87n"
+		(property "Value" "82n"
 			(at 130.048 132.08 0)
 			(effects
 				(font
@@ -4453,7 +4911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 127.9652 134.62 0)
 			(effects
 				(font
@@ -4472,6 +4930,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15AR71A823KT"
 			(at 127 130.81 0)
 			(effects
 				(font
@@ -4523,7 +4990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 155.956 129.794 90)
 			(effects
 				(font
@@ -4542,6 +5009,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 154.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-0744K2L"
 			(at 154.94 129.54 0)
 			(effects
 				(font
@@ -4593,7 +5069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 237.236 112.014 90)
 			(effects
 				(font
@@ -4620,6 +5096,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "71-CRCW060310K0FKEI"
+			(at 236.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5092c03b-a189-4434-9b7c-97dec2fdf5e2")
 		)
@@ -4637,7 +5122,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 114.3 120.65 0)
+		(at 114.3 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4645,7 +5130,7 @@
 		(dnp no)
 		(uuid "eaa08cdf-2260-4fb6-8bee-4c1cd076939d")
 		(property "Reference" "Ccomp2"
-			(at 116.84 119.38 0)
+			(at 116.84 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4653,8 +5138,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "720p"
-			(at 116.84 121.92 0)
+		(property "Value" "750p"
+			(at 116.84 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4662,8 +5147,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 115.2652 124.46 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 115.2652 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,7 +5157,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 120.65 0)
+			(at 114.3 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,7 +5166,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 114.3 120.65 0)
+			(at 114.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0603YA751JAT2A"
+			(at 114.3 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4732,7 +5226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
 			(at 256.2352 104.14 0)
 			(effects
 				(font
@@ -4751,6 +5245,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 255.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-EEV226M035A9DAA"
 			(at 255.27 100.33 0)
 			(effects
 				(font
