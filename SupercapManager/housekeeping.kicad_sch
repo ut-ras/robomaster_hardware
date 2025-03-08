@@ -2443,6 +2443,12 @@
 		(uuid "095a728a-dab5-4baa-a21b-76e20b41a062")
 	)
 	(junction
+		(at 180.34 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b3e152a-b2f7-45d8-93da-e2d6dd40fcf7")
+	)
+	(junction
 		(at 375.92 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2491,12 +2497,6 @@
 		(uuid "282b91d9-0e1b-4e4a-8228-83ec2c2d6e1b")
 	)
 	(junction
-		(at 180.34 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2dabb258-77d4-4dc4-b598-83f24697e6c9")
-	)
-	(junction
 		(at 52.07 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2519,12 +2519,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3da05145-5022-495d-b6bd-8c047148e471")
-	)
-	(junction
-		(at 55.88 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f4e443a-efd0-45eb-82a5-1121485aeb0f")
 	)
 	(junction
 		(at 247.65 142.24)
@@ -2567,12 +2561,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e6590b8-0baa-40fe-8955-c09776254c32")
-	)
-	(junction
-		(at 180.34 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "508d086e-da0d-4907-8c50-8bf262be20d3")
 	)
 	(junction
 		(at 123.19 218.44)
@@ -2663,6 +2651,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79dba2ae-5ac8-4a8d-9547-231f7284a3fa")
+	)
+	(junction
+		(at 180.34 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f35f5b8-2e6f-465b-bc6b-4c690f8e391f")
 	)
 	(junction
 		(at 228.6 151.13)
@@ -2795,6 +2789,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c133453a-fed0-4d6d-be76-1f79d4153bba")
+	)
+	(junction
+		(at 55.88 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c14f148b-8b37-4c0a-8913-2cb85e4f4ae6")
 	)
 	(junction
 		(at 101.6 218.44)
@@ -6424,7 +6424,7 @@
 				)
 			)
 		)
-		(property "Value" "AZ34063U"
+		(property "Value" "MC34063A"
 			(at 64.77 109.22 0)
 			(effects
 				(font
@@ -6441,7 +6441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ34063U.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/mc33063a.pdf?ts=1739571056163"
 			(at 64.77 111.76 0)
 			(effects
 				(font
@@ -6451,6 +6451,33 @@
 			)
 		)
 		(property "Description" "Switching Voltage Regulators 1.5A Step-Down/Up 3.0V to 36V 180kHz"
+			(at 64.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 64.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 64.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" ""
 			(at 64.77 111.76 0)
 			(effects
 				(font
@@ -6838,6 +6865,119 @@
 		)
 	)
 	(symbol
+		(lib_id "! Robomaster ICs:AZ34063U")
+		(at 189.23 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dcf415d-6e4d-45ff-ae6a-8f41386bd72f")
+		(property "Reference" "U18"
+			(at 189.23 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC34063A"
+			(at 189.23 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 189.23 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/mc33063a.pdf?ts=1739571056163"
+			(at 189.23 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switching Voltage Regulators 1.5A Step-Down/Up 3.0V to 36V 180kHz"
+			(at 189.23 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 189.23 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 189.23 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" ""
+			(at 189.23 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d605b5d-333e-463c-a354-aa13dcbad3d2")
+		)
+		(pin "4"
+			(uuid "6b1035b0-1226-44f9-a1cb-84ff4beb9f4e")
+		)
+		(pin "2"
+			(uuid "ddbe2523-6639-451e-b4f1-00860baa2878")
+		)
+		(pin "6"
+			(uuid "a088c3f8-f765-4c95-8e2a-6b2ec5e37ffe")
+		)
+		(pin "7"
+			(uuid "202946b5-d8f2-4dec-986b-590c39cc29e2")
+		)
+		(pin "3"
+			(uuid "344a9696-d4be-4336-bf46-5e17942feac1")
+		)
+		(pin "8"
+			(uuid "f1d27294-5f00-43bd-b4bd-1c7646ba3114")
+		)
+		(pin "5"
+			(uuid "914efb80-6a84-4cb2-b37a-4881fe2f3784")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 40.64 118.11 0)
 		(mirror x)
@@ -6902,92 +7042,6 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "! Robomaster ICs:AZ34063U")
-		(at 189.23 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e9f5ab6-edcd-4fb3-ab76-b93076746cd6")
-		(property "Reference" "U16"
-			(at 189.23 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AZ34063U"
-			(at 189.23 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 189.23 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ34063U.pdf"
-			(at 189.23 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switching Voltage Regulators 1.5A Step-Down/Up 3.0V to 36V 180kHz"
-			(at 189.23 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c866f524-6bca-4659-8e92-e86ca72513b4")
-		)
-		(pin "4"
-			(uuid "d9dc21d2-c99e-4d88-a74c-20b0a54fa71b")
-		)
-		(pin "2"
-			(uuid "32295b34-6b62-4b2d-af0a-494da11ec977")
-		)
-		(pin "6"
-			(uuid "245dc69c-fa95-44b1-a361-eced545b9bef")
-		)
-		(pin "7"
-			(uuid "fdec351c-ef61-4d50-8246-c98e0e8f2ce1")
-		)
-		(pin "3"
-			(uuid "82a376fc-1e07-4d61-ab0b-06300912a5ea")
-		)
-		(pin "8"
-			(uuid "0e919868-55dc-4537-b862-05df876dd258")
-		)
-		(pin "5"
-			(uuid "2ed92457-d936-417e-a4ef-9336b6bd2f31")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
-					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -7930,92 +7984,6 @@
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "! Robomaster ICs:AZ34063U")
-		(at 64.77 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e763fbe-5879-4381-9b14-4175ac7ff0b1")
-		(property "Reference" "U15"
-			(at 64.77 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AZ34063U"
-			(at 64.77 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 64.77 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ34063U.pdf"
-			(at 64.77 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switching Voltage Regulators 1.5A Step-Down/Up 3.0V to 36V 180kHz"
-			(at 64.77 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "822b3c61-838d-4917-bb36-7bb0a2bf7eb6")
-		)
-		(pin "4"
-			(uuid "39de9625-18cd-4a65-a7f0-cd143bbc768d")
-		)
-		(pin "2"
-			(uuid "2074387a-d98c-451a-ac15-ad3d9686a46a")
-		)
-		(pin "6"
-			(uuid "ef269215-09eb-4b90-a7fa-3adc13430372")
-		)
-		(pin "7"
-			(uuid "7aedc004-3e8a-4c3b-b845-c04a6e40b9bc")
-		)
-		(pin "3"
-			(uuid "549f03fe-5250-4d3b-8629-1532c437f9d7")
-		)
-		(pin "8"
-			(uuid "5fe7cb33-a804-4d93-80a8-59af7d72d43c")
-		)
-		(pin "5"
-			(uuid "b47ce175-e573-421b-8984-427d8a2d1ac8")
-		)
-		(instances
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
-					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -12175,6 +12143,119 @@
 		)
 	)
 	(symbol
+		(lib_id "! Robomaster ICs:AZ34063U")
+		(at 189.23 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c498b5c1-510c-4235-a13d-6133939f52ce")
+		(property "Reference" "U19"
+			(at 189.23 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC34063A"
+			(at 189.23 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 189.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/mc33063a.pdf?ts=1739571056163"
+			(at 189.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switching Voltage Regulators 1.5A Step-Down/Up 3.0V to 36V 180kHz"
+			(at 189.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 189.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 189.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" ""
+			(at 189.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76584a85-b213-4d43-9a82-3cdc2f775a01")
+		)
+		(pin "4"
+			(uuid "143a1902-8c95-44a0-b034-d657d35e19fb")
+		)
+		(pin "2"
+			(uuid "a813deb3-91fc-4d20-95b3-63bdc93bf034")
+		)
+		(pin "6"
+			(uuid "c3434581-dffd-432d-9f00-b8aec95e57e2")
+		)
+		(pin "7"
+			(uuid "e928adab-78ca-43cf-8607-91c846a6482f")
+		)
+		(pin "3"
+			(uuid "964543ef-d7f6-4d3e-88dd-9c241aeda4db")
+		)
+		(pin "8"
+			(uuid "2a9c798f-2663-456c-a4b2-f699e3d9bd7b")
+		)
+		(pin "5"
+			(uuid "80eebdef-73ad-4f8f-a5fb-7bd3d66d6d4b")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 361.95 33.02 180)
 		(unit 1)
@@ -12661,92 +12742,6 @@
 		)
 	)
 	(symbol
-		(lib_id "! Robomaster ICs:AZ34063U")
-		(at 189.23 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da955e9d-b10a-4812-bb71-e314cfb9ec6a")
-		(property "Reference" "U18"
-			(at 189.23 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AZ34063U"
-			(at 189.23 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 189.23 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ34063U.pdf"
-			(at 189.23 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switching Voltage Regulators 1.5A Step-Down/Up 3.0V to 36V 180kHz"
-			(at 189.23 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a011fa1-20d3-4172-b75f-2af0538c3499")
-		)
-		(pin "4"
-			(uuid "048178a7-d1fc-4d80-b3b9-45e043a6219b")
-		)
-		(pin "2"
-			(uuid "dcbd23bb-ccc1-40e7-9962-17e6aed6e3af")
-		)
-		(pin "6"
-			(uuid "6a922a7e-60ad-4095-85d6-37aefcb91fad")
-		)
-		(pin "7"
-			(uuid "8775ff53-3c9b-4d4b-b7ad-f238b9cbc5c9")
-		)
-		(pin "3"
-			(uuid "61c79aa4-9340-40ed-bdfb-630a557be5a0")
-		)
-		(pin "8"
-			(uuid "be6e73ae-920f-42c2-bdd1-effe65f6f9a0")
-		)
-		(pin "5"
-			(uuid "14c19280-972c-48aa-81b9-c37796e45eea")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
-					(reference "U18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 40.64 198.12 0)
 		(mirror x)
@@ -13081,6 +13076,119 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
 					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "! Robomaster ICs:AZ34063U")
+		(at 64.77 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7f83caa-c4ab-467d-9c06-c88c5594b975")
+		(property "Reference" "U15"
+			(at 64.77 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC34063A"
+			(at 64.77 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 64.77 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/mc33063a.pdf?ts=1739571056163"
+			(at 64.77 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switching Voltage Regulators 1.5A Step-Down/Up 3.0V to 36V 180kHz"
+			(at 64.77 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser #" ""
+			(at 64.77 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 64.77 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" ""
+			(at 64.77 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4b699f9-9e7a-48e0-b54a-141b31382746")
+		)
+		(pin "4"
+			(uuid "6bf1ccd0-e239-420d-bb91-153ac33ce65b")
+		)
+		(pin "2"
+			(uuid "a248bdef-740f-4110-b4bb-296656fb59f0")
+		)
+		(pin "6"
+			(uuid "29e0b2c3-83bd-4187-9bd5-42f651d175d6")
+		)
+		(pin "7"
+			(uuid "c6e76529-8480-466b-a2eb-45313131b502")
+		)
+		(pin "3"
+			(uuid "e8750c34-1d51-4132-832c-e94b9fc10c34")
+		)
+		(pin "8"
+			(uuid "c766cd3e-f786-4e1c-b592-e465f0483927")
+		)
+		(pin "5"
+			(uuid "529de2e9-e94a-40bf-b486-5ecbb8314ea0")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/2b4de7d2-e111-42d9-afee-f810f96a2f61"
+					(reference "U15")
 					(unit 1)
 				)
 			)
