@@ -1,0 +1,172 @@
+* CIP: Selective Disclosure as of 08/29/2019
+*****************************************************************************
+* MC33063A-Q1
+*****************************************************************************
+* (C) Copyright 2017 Texas Instruments Incorporated. All rights reserved.                                            
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of 
+** merchantability or fitness for a particular purpose.  The model is
+** provided solely on an "as is" basis.  The entire risk as to its quality
+** and performance is with the customer
+*****************************************************************************
+*
+* This model is subject to change without notice. Texas Instruments
+* Incorporated is not responsible for updating this model.
+*
+*****************************************************************************
+*
+** Released by: WEBENCH Design Center, Texas Instruments Inc.
+* Part: MC33063A-Q1
+* Date: 12JUN2017
+* Model Type: TRANSIENT 
+* Simulator: PSPICE
+* Simulator Version: 16.2.0.p001
+* EVM Order Number: NA
+* EVM Users Guide: NA
+* Datasheet: SLLS636N -DECEMBER 2004-REVISED JANUARY 2015
+* Topologies Supported: Buck, Boost, Inverting Buck Boost
+*
+* Model Version: Final 1.00
+*
+*****************************************************************************
+*
+* Updates:
+*
+* Final 1.00
+* Release to Web.
+*
+*****************************************************************************
+*
+* Model Usage Notes:
+*
+* 1. The following features have been modeled
+*      a. Switching Characteristics and variation with VIN
+*      b. Frequency variation with timing capacitor
+*      c. Current limit feature.
+* 2. The following features are not modeled.
+*      a. Temperature effects.
+*      b. Quiscent current.  
+*
+*****************************************************************************
+.SUBCKT MC33063A-Q1_TRANS CII DC GND Ipk SC SE TC VCC  
+Q_Q2         SC N16879264 SE QbreakN2 
+X_U629         N16737225 CLK N16888275 N16735791 srlatchrhp_basic_gen PARAMS:
++  VDD=1 VSS=0 VTHRESH=0.5
+V_V9         N16747655 GND 3
+R_R4         N16879264 SE  100 TC=0,0 
+V_V5         N16933723 0 1.25
+X_U634         N16755723 N16747467 DISCHG CLK srlatchrhp_basic_gen PARAMS:
++  VDD=1 VSS=0 VTHRESH=0.5
+Q_Q1         DC N16937785 N16879264 QbreakN1 
+E_ABM12         CL 0 VALUE {
++  1M*((-10.765-151M*V(VCC))+(45.344+864M*V(VCC))*V(ISENSE)  
++ -(35.99+1.378*V(VCC))*(V(ISENSE)**2)+(8.341+839M*V(VCC))*(V(ISENSE)**3))   }
+R_R3         0 N16735791  1Meg TC=0,0 
+X_U635         CLK N16821920 INV_BASIC_GEN PARAMS: VDD=1 VSS=0 VTHRESH=500E-3
+D_D13         GND TC D_D1 
+V_V7         N16747431 0 0.75
+D_D12         TC N16747655 D_D1 
+E_E2         CII_INT 0 CII GND 1
+X_U637         N16933723 CII_INT N16737156 COMP_BASIC_GEN PARAMS: VDD=1 VSS=0
++  VTHRESH=0.5
+V_V8         N16747437 0 1.25
+E_ABM14         ICHG 0 VALUE { IF(V(ISENSE)>0.32,V(CL),V(NCL))    }
+R_R5         N16945867 N16946331  10  
+E_ABM7         ISENSE 0 VALUE { V(VCC)-V(IPK)    }
+G_ABM3I1         N16747655 TC VALUE { IF(V(VCC) > 10m
++  ,IF(V(DISCHG)>0.5,V(ICHG)*0.77,-(224.4U+2.359U*V(VCC))*0.77) , 0)    }
+E_E3         N16937785 SE N16946331 0 1
+E_ABM13         NCL 0 VALUE {
++  1M/(ABS((27.475-195M*V(VCC))+(36.002+244M*V(VCC))*V(ISENSE)  
++ -(302.302+651M*V(VCC))*(V(ISENSE)**2))+1F)   }
+E_E1         CT 0 TC GND 1
+X_U3         N16747431 CT N16755723 COMP_BASIC_GEN PARAMS: VDD=1 VSS=0
++  VTHRESH=0.5
+C_C1         N16946331 0  1n  TC=0,0 
+X_U630         N16737156 N16821920 N16737225 AND2_BASIC_GEN PARAMS: VDD=1 VSS=0
++  VTHRESH=500E-3
+E_ABM8         N16945867 0 VALUE { IF(V(N16888275)>0.5,5,0)    }
+X_U5         CT N16747437 N16747467 COMP_BASIC_GEN PARAMS: VDD=1 VSS=0
++  VTHRESH=0.5
+.ENDS MC33063A-Q1_TRANS
+*$
+.model QbreakN2 npn
++ bf=50
+*$
+.subckt srlatchrhp_basic_gen s r q qb params: vdd=1 vss=0 vthresh=0.5 
+gq 0 qint value = {if(v(r) > {vthresh},-5,if(v(s)>{vthresh},5, 0))}
+cqint qint 0 1n
+rqint qint 0 1000meg
+d_d10 qint my5 d_d1
+v1 my5 0 {vdd}
+d_d11 myvss qint d_d1
+v2 myvss 0 {vss} 
+eq qqq 0 qint 0 1
+x3 qqq qqqd1 buf_basic_gen params: vdd={vdd} vss={vss} vthresh={vthresh}
+rqq qqqd1 q 1
+eqb qbr 0 value = {if( v(q) > {vthresh}, {vss},{vdd})}
+rqb qbr qb 1 
+cdummy1 q 0 1n 
+cdummy2 qb 0 1n
+.ic v(qint) {vss}
+.model d_d1 d
++ is=1e-015
++ tt=1e-011
++ rs=0.05
++ n=0.1
+.ends srlatchrhp_basic_gen
+*$
+.model QbreakN1 npn
++ bf=50
++ rc=0.125
++ re=0.125
++ tf=1e-008
+*$
+.model D_D1 d
++ is=1e-015
++ tt=1e-012
++ rs=0.01
++ n=0.01
+*$
+.SUBCKT INV_BASIC_GEN A  Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH} , 
++ {VSS},{VDD})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS INV_BASIC_GEN
+*$
+.SUBCKT COMP_BASIC_GEN INP INM Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5	
+E_ABM Yint 0 VALUE {IF (V(INP) > 
++ V(INM), {VDD},{VSS})}
+R1 Yint Y 1
+C1 Y 0 1n
+.ENDS COMP_BASIC_GEN
+*$
+.SUBCKT AND2_BASIC_GEN A B Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH}  &  
++ V(B) > {VTHRESH},{VDD},{VSS})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS AND2_BASIC_GEN
+*$
+.SUBCKT LDCR IN OUT
++ PARAMs:  L=1u DCR=0.01 IC=0
+L	IN 1  {L} IC={IC}
+RDCR	1 OUT {DCR}
+.ENDS LDCR
+*$
+.SUBCKT CESR IN OUT
++ PARAMs:  C=100u ESR=0.01 X=2 IC=0
+C	IN 1  {C*X} IC={IC}
+RESR	1 OUT {ESR/X}
+.ENDS CESR
+*$
+.SUBCKT BUF_BASIC_GEN A  Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH} , 
++ {VDD},{VSS})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS BUF_BASIC_GEN
+*$
