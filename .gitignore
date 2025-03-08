@@ -15,5 +15,11 @@ _autosave-*
 fp-info-cache
 *auto_saved_files*
 
-#Mac Specific
+# Mac Specific
 .DS_Store
+
+# LTSpice sim results (will have to be explicitly added)
+*.log
+*.net
+*.op.raw
+*.raw
