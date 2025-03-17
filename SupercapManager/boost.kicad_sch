@@ -2273,7 +2273,6 @@
 	)
 	(label "PLLIN/SPREAD"
 		(at 55.88 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2284,7 +2283,6 @@
 	)
 	(label "VBIAS"
 		(at 78.74 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2295,7 +2293,6 @@
 	)
 	(label "BOOST"
 		(at 78.74 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2306,7 +2303,6 @@
 	)
 	(label "BG"
 		(at 78.74 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2317,7 +2313,6 @@
 	)
 	(label "SENSE^{+}"
 		(at 78.74 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2328,7 +2323,6 @@
 	)
 	(label "MODE"
 		(at 55.88 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2339,7 +2333,6 @@
 	)
 	(label "SENSE^{-}"
 		(at 78.74 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2350,7 +2343,6 @@
 	)
 	(label "INTV_{CC}"
 		(at 78.74 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2361,7 +2353,6 @@
 	)
 	(label "TG"
 		(at 78.74 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2372,7 +2363,6 @@
 	)
 	(label "SW"
 		(at 78.74 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2383,7 +2373,6 @@
 	)
 	(label "ITH"
 		(at 55.88 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2394,7 +2383,6 @@
 	)
 	(label "V_{FB}"
 		(at 55.88 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2405,7 +2393,6 @@
 	)
 	(label "EXTV_{CC}"
 		(at 55.88 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2416,7 +2403,6 @@
 	)
 	(label "SS"
 		(at 55.88 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2428,7 +2414,6 @@
 	(hierarchical_label "INTV_{CC}"
 		(shape input)
 		(at 36.83 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2440,7 +2425,6 @@
 	(hierarchical_label "V_{OUT}"
 		(shape output)
 		(at 149.86 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2452,7 +2436,6 @@
 	(hierarchical_label "V_{IN}"
 		(shape output)
 		(at 149.86 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

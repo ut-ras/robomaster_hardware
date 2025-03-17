@@ -2089,7 +2089,6 @@
 	)
 	(label "CHARGING_EN"
 		(at 135.89 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2100,7 +2099,6 @@
 	)
 	(label "+4V_{SCAP}"
 		(at 82.55 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2111,7 +2109,6 @@
 	)
 	(label "CHARGING_IEN"
 		(at 111.76 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2122,7 +2119,6 @@
 	)
 	(label "+24_{MiniPC}"
 		(at 129.54 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2133,7 +2129,6 @@
 	)
 	(label "SDA_{IN}"
 		(at 40.64 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2144,7 +2139,6 @@
 	)
 	(label "SCL_{IN}"
 		(at 40.64 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2155,7 +2149,6 @@
 	)
 	(label "DIRECT_IEN"
 		(at 111.76 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2166,7 +2159,6 @@
 	)
 	(label "CURR"
 		(at 82.55 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2177,7 +2169,6 @@
 	)
 	(label "+24_{CH}_OUT"
 		(at 185.42 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2188,7 +2179,6 @@
 	)
 	(label "+24_{CH}_IN"
 		(at 44.45 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2199,7 +2189,6 @@
 	)
 	(label "+4V_{SCAP}"
 		(at 125.73 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2210,7 +2199,6 @@
 	)
 	(label "POW_LIMIT"
 		(at 82.55 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2222,7 +2210,6 @@
 	)
 	(label "+3V3_{DEV}"
 		(at 39.37 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
