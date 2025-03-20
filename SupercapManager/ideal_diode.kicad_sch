@@ -425,30 +425,30 @@
 				)
 			)
 		)
-		(symbol "Device:D"
+		(symbol "Device:D_Schottky"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "D6"
+				(at -0.3175 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
+			(property "Value" "BAT54"
+				(at -0.3175 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 				(at 0 0 0)
 				(effects
 					(font
@@ -457,7 +457,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/1057/BAT54_SERIES-1868856.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -466,7 +466,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode"
+			(property "Description" "Schottky diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -475,25 +475,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -511,19 +493,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy -1.27 0)
@@ -548,12 +518,24 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "D_1_1"
+			(symbol "D_Schottky_1_1"
 				(pin passive line
-					(at -3.81 0 0)
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -569,16 +551,16 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "A"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1681,12 +1663,6 @@
 		(uuid "2d6e0c52-aa93-4c8b-b782-a8ac8fa4f47c")
 	)
 	(junction
-		(at 132.08 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f4d09df-f0d7-4697-bdec-97812c560f87")
-	)
-	(junction
 		(at 124.46 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1721,6 +1697,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab678f69-df34-4c54-aec8-409edb87200b")
+	)
+	(junction
+		(at 132.08 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c67af046-9346-47cc-9f7c-b7638e2839c1")
 	)
 	(junction
 		(at 109.22 48.26)
@@ -1840,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 130.81) (xy 133.35 130.81)
+			(xy 120.65 130.81) (xy 132.08 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1857,6 +1839,16 @@
 			(type default)
 		)
 		(uuid "2b965dff-afb2-443d-b9ea-1a2fa15c14b3")
+	)
+	(wire
+		(pts
+			(xy 109.22 130.81) (xy 113.03 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e1cb08e-b671-4b44-b009-1b424e35a442")
 	)
 	(wire
 		(pts
@@ -1917,6 +1909,16 @@
 			(type default)
 		)
 		(uuid "4205637f-2426-4e2e-8246-f727cc79e78b")
+	)
+	(wire
+		(pts
+			(xy 132.08 130.81) (xy 133.35 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426c7865-48f4-4d7d-a474-eda3f87c5add")
 	)
 	(wire
 		(pts
@@ -2000,16 +2002,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 130.81) (xy 132.08 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c98ec09-7427-4f1e-85b7-8db52cd2919e")
-	)
-	(wire
-		(pts
 			(xy 125.73 115.57) (xy 125.73 116.84)
 		)
 		(stroke
@@ -2070,6 +2062,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 139.7) (xy 132.08 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e5bc30-03a1-4ba0-87b8-8f1e4dc98167")
+	)
+	(wire
+		(pts
 			(xy 139.7 67.31) (xy 139.7 72.39)
 		)
 		(stroke
@@ -2107,6 +2109,16 @@
 			(type default)
 		)
 		(uuid "9f53a81d-b4ae-4119-a3e7-c70e1805411f")
+	)
+	(wire
+		(pts
+			(xy 132.08 130.81) (xy 132.08 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d6b6ab-b688-47a9-af79-a5a5f8a7b703")
 	)
 	(wire
 		(pts
@@ -2383,7 +2395,7 @@
 	)
 	(text "ON: @V_{ON} = 2V\nfor 91kΩ over 13kΩ, V_{ON} = 2V when V_{+24V} = 16V"
 		(exclude_from_sim no)
-		(at 102.362 140.208 0)
+		(at 102.87 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2453,8 +2465,18 @@
 		)
 		(uuid "03a8f4b0-7a91-4b48-93a5-eee4b067ebea")
 	)
+	(label "C_CLIP"
+		(at 123.19 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "507cdc91-c817-4bf2-9630-911c8cd9a60f")
+	)
 	(label "V_{ON}"
-		(at 119.38 119.38 0)
+		(at 109.22 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2484,6 +2506,16 @@
 			(justify right bottom)
 		)
 		(uuid "b3eb607d-4b4f-49a9-a5bf-02c460e3c9f7")
+	)
+	(label "D_CLIP"
+		(at 123.19 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8fc570d-d31f-45a2-9b6a-dd53d1c6f967")
 	)
 	(label "VCAP"
 		(at 139.7 71.12 180)
@@ -2519,7 +2551,7 @@
 	)
 	(hierarchical_label "CHARGING_IEN"
 		(shape input)
-		(at 119.38 130.81 180)
+		(at 109.22 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2643,6 +2675,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 118.11 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04c96c43-cc8e-4863-8f6a-a16675efac8c")
+		(property "Reference" "R14"
+			(at 118.11 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 118.11 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 118.11 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1379fdc-389f-4609-b350-b51bedbec445")
+		)
+		(pin "2"
+			(uuid "efb9f927-1870-4190-8718-41d441b3d420")
+		)
+		(instances
+			(project ""
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 176.53 54.61 0)
 		(mirror y)
@@ -2707,6 +2807,85 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 125.73 111.76 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33abc974-8c04-4592-b3ae-7787282efa8b")
+		(property "Reference" "D7"
+			(at 123.19 110.1724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54"
+			(at 123.19 112.7124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+			(at 125.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1057/BAT54_SERIES-1868856.pdf"
+			(at 125.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 125.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "241-BAT54_R1_00001"
+			(at 125.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00a4fd03-da2f-468b-a8d9-3975b4583b66")
+		)
+		(pin "3"
+			(uuid "6ae329a1-7bf5-47b6-92f1-d4dd862459ee")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2783,6 +2962,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 132.08 135.89 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e04a1e5-19dc-439e-ba69-59ff54674f1b")
+		(property "Reference" "D11"
+			(at 129.54 134.3024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54"
+			(at 129.54 136.8424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+			(at 132.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1057/BAT54_SERIES-1868856.pdf"
+			(at 132.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 132.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "241-BAT54_R1_00001"
+			(at 132.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8706eea6-ff0f-45f9-9706-954d89b94de4")
+		)
+		(pin "3"
+			(uuid "acf89fad-ce2b-4e72-81eb-9605a543822d")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 125.73 116.84 0)
 		(unit 1)
@@ -2843,6 +3101,74 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43831cb6-c067-426f-8d45-efd77e9c69ed")
+		(property "Reference" "R17"
+			(at 116.84 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 116.84 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 116.84 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b577eec-07e5-495b-8a62-a21bc1f2b956")
+		)
+		(pin "2"
+			(uuid "58dcea14-fe35-44a1-b5ce-053e65288b32")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3127,142 +3453,6 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 123.19 130.81 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5cf51509-03e1-4961-a637-9c6a1528fa00")
-		(property "Reference" "C56"
-			(at 125.222 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 125.476 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 127 131.7752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 123.19 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d478758-619c-473c-9f98-0640e9686f5b")
-		)
-		(pin "2"
-			(uuid "60b99f3a-f2b8-4c98-8eea-02c5e0d79a48")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
-					(reference "C56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 132.08 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78707c3a-0c23-4770-b7cd-a9584a7ac019")
-		(property "Reference" "#PWR0100"
-			(at 132.08 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 131.953 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 132.08 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "250bee8e-3fc0-4cae-9caf-cff36c2677b4")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
-					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -3948,103 +4138,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 132.08 134.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e54cb3a3-309f-40ec-928a-10470a456fa8")
-		(property "Reference" "D11"
-			(at 134.62 133.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TS4148 RAG"
-			(at 134.62 135.8899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 132.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 132.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 132.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 132.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "821-TS4148RAG"
-			(at 132.08 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00de460d-9a63-47cf-a2e9-d8ecafdcee6d")
-		)
-		(pin "2"
-			(uuid "ae5acfa2-8d20-441f-92b6-498e8c13d26c")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 88.9 133.35 0)
 		(unit 1)
@@ -4181,105 +4274,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 118.11 106.68 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7afdfa2-cf7c-430f-8fae-1f2be7e1fc99")
-		(property "Reference" "C55"
-			(at 120.142 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 120.142 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 121.92 107.6452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 118.11 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bac5d0e8-3816-4533-8da5-2abeb4eb0fce")
-		)
-		(pin "2"
-			(uuid "3b40aff5-8dd0-412e-b89b-5270f2cbeb98")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
-					(reference "C55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 125.73 111.76 270)
+		(lib_id "power:GNDPWR")
+		(at 132.08 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f9cf5de8-b7c0-40fd-9ec2-886a1112e098")
-		(property "Reference" "D7"
-			(at 128.27 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TS4148 RAG"
-			(at 128.27 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 125.73 111.76 0)
+		(uuid "f2dab40b-b51d-4b4d-a2af-afd012777335")
+		(property "Reference" "#PWR0100"
+			(at 132.08 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,8 +4292,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 125.73 111.76 0)
+		(property "Value" "GNDPWR"
+			(at 131.953 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4296,8 +4309,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 125.73 111.76 0)
+		(property "Datasheet" ""
+			(at 132.08 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,26 +4318,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 125.73 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 125.73 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "821-TS4148RAG"
-			(at 125.73 111.76 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 132.08 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,15 +4328,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "74e5c901-9ea8-456a-8ac0-551c4ee199c1")
-		)
-		(pin "2"
-			(uuid "b581f5e7-2ee7-4161-a123-6312bde9d6ba")
+			(uuid "5a8ece06-9227-4678-9440-0bb45f94f6ea")
 		)
 		(instances
-			(project ""
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/f28a7bbd-a217-4ab0-a73c-be6ca56ea928"
-					(reference "D7")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)

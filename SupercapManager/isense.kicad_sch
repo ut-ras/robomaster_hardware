@@ -12,7 +12,7 @@
 		(comment 1 "Robomaster")
 	)
 	(lib_symbols
-		(symbol "! Robomaster ICs:LM393LV"
+		(symbol "! Robomaster ICs:TS3902"
 			(pin_names
 				(offset 0.127)
 			)
@@ -27,7 +27,7 @@
 					)
 				)
 			)
-			(property "Value" "LM393LV"
+			(property "Value" "TS3702"
 				(at 6.35 -3.81 0)
 				(effects
 					(font
@@ -44,7 +44,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393lv.pdf"
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/389/ts3702-1852552.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -53,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1.65-V to 5.5-V, low-voltage dual commodity comparator"
+			(property "Description" "Micropower dual CMOS voltage comparator"
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,7 +70,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "cmp open collector"
+			(property "ki_keywords" "cmp push pull"
 				(at 0 0 0)
 				(effects
 					(font
@@ -88,7 +88,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM393LV_1_1"
+			(symbol "TS3902_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -169,7 +169,7 @@
 					)
 				)
 			)
-			(symbol "LM393LV_2_1"
+			(symbol "TS3902_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -250,7 +250,7 @@
 					)
 				)
 			)
-			(symbol "LM393LV_3_1"
+			(symbol "TS3902_3_1"
 				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 3.81)
@@ -466,259 +466,6 @@
 				)
 			)
 		)
-		(symbol "Amplifier_Operational:LM2904"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LM2904"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dual opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM2904_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM2904_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM2904_3_1"
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Amplifier_Operational:LM321"
 			(pin_names
 				(offset 0.127)
@@ -894,6 +641,259 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Amplifier_Operational:TLV9302xD"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TLV9302xD"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9302.pdf"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40-V, 1-MHz, RRO Operational Amplifiers for Cost-Sensitive Systems, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp 40V rail to rail output"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV9302xD_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9302xD_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9302xD_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1151,6 +1151,167 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1546,6 +1707,12 @@
 		)
 	)
 	(junction
+		(at 240.03 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0319059c-0dda-494e-af6d-e4e04242e1b0")
+	)
+	(junction
 		(at 124.46 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1568,6 +1735,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f3cfdbf-8371-492b-9887-027b65795daf")
+	)
+	(junction
+		(at 218.44 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a10d02a-d257-4abe-8b27-9511cbf09ee1")
 	)
 	(junction
 		(at 44.45 87.63)
@@ -1604,6 +1777,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5d531b4-165b-47b7-bcb9-7434d91e1fa7")
+	)
+	(junction
+		(at 240.03 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8287bd3-b416-46ee-8d15-b8c97d5114ac")
 	)
 	(junction
 		(at 49.53 64.77)
@@ -1652,12 +1831,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce692cfe-27a4-484e-8a34-9c0855846d57")
-	)
-	(junction
-		(at 232.41 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cea249d5-3010-4a6e-8fb6-326be2b5b1d0")
 	)
 	(junction
 		(at 179.07 127)
@@ -1757,7 +1930,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 90.17) (xy 240.03 91.44)
+			(xy 240.03 88.9) (xy 240.03 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1907,17 +2080,17 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 33.02) (xy 240.03 34.29)
+			(xy 240.03 33.02) (xy 245.11 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c2f26df-d7d5-4e8b-81fa-7466e749f02e")
+		(uuid "3d556456-4416-40f3-9602-29426f39002d")
 	)
 	(wire
 		(pts
-			(xy 232.41 48.26) (xy 232.41 80.01)
+			(xy 218.44 48.26) (xy 218.44 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1987,6 +2160,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 38.1) (xy 243.84 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5645c267-543c-4049-9e09-12fb5d09f32a")
+	)
+	(wire
+		(pts
 			(xy 166.37 82.55) (xy 171.45 82.55)
 		)
 		(stroke
@@ -2004,6 +2187,16 @@
 			(type default)
 		)
 		(uuid "5a67bd88-9575-4eaa-8999-50f2e931184a")
+	)
+	(wire
+		(pts
+			(xy 240.03 33.02) (xy 240.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ab9c6f3-c682-468c-92c2-af4382884a6e")
 	)
 	(wire
 		(pts
@@ -2057,6 +2250,26 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 90.17) (xy 245.11 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628dae8e-7bcf-441c-98e7-7039305e860d")
+	)
+	(wire
+		(pts
+			(xy 240.03 90.17) (xy 245.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "646d37e0-fbd5-4439-805a-bb54843eedb3")
+	)
+	(wire
+		(pts
 			(xy 49.53 64.77) (xy 49.53 68.58)
 		)
 		(stroke
@@ -2107,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 80.01) (xy 232.41 105.41)
+			(xy 218.44 80.01) (xy 218.44 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2297,6 +2510,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 31.75) (xy 240.03 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d88a25-d56d-48e0-8b88-b501370f895a")
+	)
+	(wire
+		(pts
 			(xy 88.9 92.71) (xy 88.9 99.06)
 		)
 		(stroke
@@ -2327,7 +2550,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 48.26) (xy 243.84 48.26)
+			(xy 218.44 48.26) (xy 243.84 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2384,6 +2607,16 @@
 			(type default)
 		)
 		(uuid "a2ee26c3-2864-4ffb-ae54-924cf7088d32")
+	)
+	(wire
+		(pts
+			(xy 245.11 95.25) (xy 243.84 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa2df8d5-9975-4880-b646-9e2d6568d024")
 	)
 	(wire
 		(pts
@@ -2627,7 +2860,17 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 105.41) (xy 243.84 105.41)
+			(xy 240.03 90.17) (xy 240.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2687b3a-8387-4c21-8ea0-14796a6feb81")
+	)
+	(wire
+		(pts
+			(xy 218.44 105.41) (xy 243.84 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2707,13 +2950,23 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 80.01) (xy 232.41 80.01)
+			(xy 198.12 80.01) (xy 218.44 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fe6f2074-8591-40b9-88f0-9b6327c9b75d")
+	)
+	(wire
+		(pts
+			(xy 245.11 33.02) (xy 245.11 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febbed27-d0d6-4eab-8c2a-fa89d7bdc6a1")
 	)
 	(rectangle
 		(start 210.82 24.13)
@@ -2838,6 +3091,17 @@
 		)
 		(uuid "85702bee-1cf7-4464-ab82-0a3712aac80f")
 	)
+	(text "Trimmer goes up to 3kΩ"
+		(exclude_from_sim no)
+		(at 237.49 43.815 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91098c4e-b2cb-43d1-a4b4-2fc5296dbd0e")
+	)
 	(text "R_{S} chosen such that the max\ncurrent of 5A (@120W) is 100mV"
 		(exclude_from_sim no)
 		(at 48.006 59.436 0)
@@ -2958,7 +3222,7 @@
 	)
 	(text "TODO: Validate"
 		(exclude_from_sim no)
-		(at 221.742 86.868 0)
+		(at 230.505 79.375 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2971,7 +3235,7 @@
 		(uuid "ebfa224d-67ed-4d14-bf17-b5510aa4650b")
 	)
 	(label "V_EXTRA"
-		(at 215.9 80.01 0)
+		(at 200.66 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3185,42 +3449,35 @@
 		)
 	)
 	(symbol
-		(lib_id "! Robomaster ICs:LM393LV")
-		(at 251.46 45.72 0)
-		(unit 2)
+		(lib_id "Device:R_Potentiometer")
+		(at 240.03 38.1 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "093e04de-d5eb-40aa-acc9-294bf1d4dc15")
-		(property "Reference" "U4"
-			(at 251.46 35.56 0)
+		(uuid "04bb409f-7ba1-4985-94ec-2a8b439d4f8d")
+		(property "Reference" "RV2"
+			(at 237.49 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "LM393LV"
-			(at 251.46 38.1 0)
+		(property "Value" "TC33X-2-302E"
+			(at 237.49 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 251.46 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393lv.pdf"
-			(at 251.46 45.72 0)
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
+			(at 240.03 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,8 +3485,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.65-V to 5.5-V, low-voltage dual commodity comparator"
-			(at 251.46 45.72 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/tc33-778219.pdf"
+			(at 240.03 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 240.03 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-TC33X-2-302E"
+			(at 240.03 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,34 +3513,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "3fbf5ea1-1a36-4978-a04a-ae04188feda5")
+			(uuid "9657b881-7ca5-468e-b612-20668df3d723")
 		)
 		(pin "3"
-			(uuid "77ef8bb9-219c-47c3-9ed7-96126c70634d")
-		)
-		(pin "8"
-			(uuid "2c14d46c-a430-40c8-951f-ab9d35b5ca13")
-		)
-		(pin "6"
-			(uuid "5193f88e-748f-45ee-8cd6-d1ae7392c475")
-		)
-		(pin "4"
-			(uuid "aaa123b9-d637-431d-a91e-d9ebf2637ad5")
-		)
-		(pin "5"
-			(uuid "d1d0a58d-3767-4064-89ef-f9feebac822c")
+			(uuid "ea4cd770-acfd-43cb-ba7f-8a2eb6ba47b9")
 		)
 		(pin "1"
-			(uuid "008216d5-1c7e-4311-bce1-796638c14cf5")
-		)
-		(pin "7"
-			(uuid "6764ee57-da79-4cfa-9cba-3a32a4e6f242")
+			(uuid "eb44f4db-f8c6-4b48-a39d-b41e125c252e")
 		)
 		(instances
-			(project ""
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "U4")
-					(unit 2)
+					(reference "RV2")
+					(unit 1)
 				)
 			)
 		)
@@ -3331,6 +3591,88 @@
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 240.03 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "132b71f0-e349-4ddb-b630-0f8c2f11ddb4")
+		(property "Reference" "RV1"
+			(at 237.49 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TC33X-2-302E"
+			(at 237.49 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
+			(at 240.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/tc33-778219.pdf"
+			(at 240.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 240.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-TC33X-2-302E"
+			(at 240.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "031f191f-fa94-400d-ae4a-a75a2f5e2ff2")
+		)
+		(pin "3"
+			(uuid "722a29ef-cff0-4650-a07d-359721c93929")
+		)
+		(pin "1"
+			(uuid "d8290d70-1044-43f2-89c0-29bb6e9041ab")
+		)
+		(instances
+			(project ""
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -3673,76 +4015,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 240.03 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "213ef5ae-7114-4d3c-bd56-6637b5f6dcf3")
-		(property "Reference" "R14"
-			(at 242.57 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 242.57 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 238.252 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 240.03 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0be69142-934e-49bb-985d-f22b17fded25")
-		)
-		(pin "2"
-			(uuid "2760a69b-8c14-4c6d-814d-ff115b809334")
-		)
-		(instances
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 204.47 138.43 0)
 		(unit 1)
@@ -3878,76 +4150,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 240.03 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40f598d9-cace-4bab-9119-183238607d2d")
-		(property "Reference" "R17"
-			(at 242.57 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 242.57 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 238.252 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 240.03 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e66577bf-ba72-430f-bf5d-da90cf578591")
-		)
-		(pin "2"
-			(uuid "c250ed88-6d9a-4efb-beab-e7d63b4bf920")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-3V3")
 		(at 240.03 68.58 0)
 		(mirror x)
@@ -4009,6 +4211,92 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "! Robomaster ICs:TS3902")
+		(at 251.46 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4be8585d-23f1-404d-bfa6-d99de5c3357e")
+		(property "Reference" "U20"
+			(at 251.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS3702"
+			(at 251.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 251.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/ts3702-1852552.pdf"
+			(at 251.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower dual CMOS voltage comparator"
+			(at 251.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "feeaf02c-a97e-4c4b-b4a0-fb9288542b01")
+		)
+		(pin "6"
+			(uuid "9994681a-7079-4ee4-bb74-7fdb5b689684")
+		)
+		(pin "8"
+			(uuid "bbad6b6a-e125-4978-b7d6-77da67b38f7f")
+		)
+		(pin "5"
+			(uuid "2b2ea214-3144-447c-99b9-fdf51462fc6d")
+		)
+		(pin "1"
+			(uuid "feeb6544-88c8-4fd7-9e6a-7c9d050abc37")
+		)
+		(pin "4"
+			(uuid "478bed56-919e-4ecf-925e-5636a3e37bfb")
+		)
+		(pin "7"
+			(uuid "51baec39-ec57-4bb4-99df-72fccd01d68b")
+		)
+		(pin "2"
+			(uuid "8edaf938-aa7c-4c79-8a78-d3d12c905523")
+		)
+		(instances
+			(project ""
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -4315,7 +4603,7 @@
 				)
 			)
 		)
-		(property "Value" "3.9k"
+		(property "Value" "12k"
 			(at 254 54.61 90)
 			(effects
 				(font
@@ -4383,7 +4671,7 @@
 				)
 			)
 		)
-		(property "Value" "3.97k"
+		(property "Value" "3.3k"
 			(at 114.3 86.36 90)
 			(effects
 				(font
@@ -4501,6 +4789,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TLV9302xD")
+		(at 99.06 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78fccd0d-e81b-4519-924e-b41b2e452e97")
+		(property "Reference" "U3"
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9302xD"
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9302.pdf"
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40-V, 1-MHz, RRO Operational Amplifiers for Cost-Sensitive Systems, SOIC-8"
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-LM2903DR"
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "e79db754-910c-4229-8d69-8f5dfbf66c4d")
+		)
+		(pin "5"
+			(uuid "aadfcc90-157f-4596-9ee5-0c2d3edae8da")
+		)
+		(pin "8"
+			(uuid "3d2e79c7-f8ae-43f3-bbc0-728c2b053ce3")
+		)
+		(pin "4"
+			(uuid "d983411b-0393-424f-aff3-a053d4e1bb27")
+		)
+		(pin "3"
+			(uuid "0751500c-625b-4e10-91d7-fa22aa336946")
+		)
+		(pin "1"
+			(uuid "c5f71527-e4ba-4594-8830-bd857be09b15")
+		)
+		(pin "6"
+			(uuid "5b479136-8759-4296-8bdf-a2deb7201eaa")
+		)
+		(pin "2"
+			(uuid "0592c0b9-9baa-45a6-a015-ff205f6011ba")
+		)
+		(instances
+			(project ""
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 240.03 120.65 0)
 		(unit 1)
@@ -4519,7 +4902,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "820"
+		(property "Value" "1k"
 			(at 242.57 121.9199 0)
 			(effects
 				(font
@@ -4659,7 +5042,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "1k"
 			(at 242.57 64.7699 0)
 			(effects
 				(font
@@ -4711,35 +5094,17 @@
 		)
 	)
 	(symbol
-		(lib_id "! Robomaster ICs:LM393LV")
-		(at 181.61 135.89 0)
-		(unit 3)
+		(lib_id "power:+3.3VA")
+		(at 240.03 31.75 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ab54506d-6f12-46e7-854f-77f8f9a462b7")
-		(property "Reference" "U4"
-			(at 180.34 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM393LV"
-			(at 180.34 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 181.61 135.89 0)
+		(uuid "a1147950-e8eb-41df-9c7c-a7a08c7f9bb7")
+		(property "Reference" "#PWR075"
+			(at 240.03 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,8 +5112,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393lv.pdf"
-			(at 181.61 135.89 0)
+		(property "Value" "+3.3VA"
+			(at 240.03 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,8 +5129,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.65-V to 5.5-V, low-voltage dual commodity comparator"
-			(at 181.61 135.89 0)
+		(property "Datasheet" ""
+			(at 240.03 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4765,35 +5138,23 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "3fbf5ea1-1a36-4978-a04a-ae04188feda6")
-		)
-		(pin "3"
-			(uuid "77ef8bb9-219c-47c3-9ed7-96126c70634e")
-		)
-		(pin "8"
-			(uuid "2c14d46c-a430-40c8-951f-ab9d35b5ca14")
-		)
-		(pin "6"
-			(uuid "5193f88e-748f-45ee-8cd6-d1ae7392c476")
-		)
-		(pin "4"
-			(uuid "aaa123b9-d637-431d-a91e-d9ebf2637ad6")
-		)
-		(pin "5"
-			(uuid "d1d0a58d-3767-4064-89ef-f9feebac822d")
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 240.03 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "008216d5-1c7e-4311-bce1-796638c14cf6")
-		)
-		(pin "7"
-			(uuid "6764ee57-da79-4cfa-9cba-3a32a4e6f243")
+			(uuid "5e3ec5c9-ad69-485e-84af-d32fb6383a0d")
 		)
 		(instances
-			(project ""
+			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "U4")
-					(unit 3)
+					(reference "#PWR075")
+					(unit 1)
 				)
 			)
 		)
@@ -4816,7 +5177,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "12k"
 			(at 254 111.76 90)
 			(effects
 				(font
@@ -5013,72 +5374,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 240.03 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1d54c0f-4817-4cea-871d-82f531ad3714")
-		(property "Reference" "#PWR075"
-			(at 240.03 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 240.03 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 240.03 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f3e1ae7-20af-49a9-9479-5e16adb45e40")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-3V3")
 		(at 271.78 92.71 0)
 		(mirror x)
@@ -5141,6 +5436,94 @@
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "#PWR068")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "! Robomaster ICs:TS3902")
+		(at 181.61 135.89 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5e3cec1-7d52-4790-9e58-0e9f4052ae64")
+		(property "Reference" "U20"
+			(at 180.34 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TS3702"
+			(at 180.34 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 181.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/ts3702-1852552.pdf"
+			(at 181.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower dual CMOS voltage comparator"
+			(at 181.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "feeaf02c-a97e-4c4b-b4a0-fb9288542b02")
+		)
+		(pin "6"
+			(uuid "9994681a-7079-4ee4-bb74-7fdb5b689685")
+		)
+		(pin "8"
+			(uuid "bbad6b6a-e125-4978-b7d6-77da67b38f80")
+		)
+		(pin "5"
+			(uuid "2b2ea214-3144-447c-99b9-fdf51462fc6e")
+		)
+		(pin "1"
+			(uuid "feeb6544-88c8-4fd7-9e6a-7c9d050abc38")
+		)
+		(pin "4"
+			(uuid "478bed56-919e-4ecf-925e-5636a3e37bfc")
+		)
+		(pin "7"
+			(uuid "51baec39-ec57-4bb4-99df-72fccd01d68c")
+		)
+		(pin "2"
+			(uuid "8edaf938-aa7c-4c79-8a78-d3d12c905524")
+		)
+		(instances
+			(project ""
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
+					(reference "U20")
+					(unit 3)
 				)
 			)
 		)
@@ -5433,7 +5816,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 240.03 90.17 0)
+		(at 240.03 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5442,7 +5825,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbb12b75-21ad-47e4-b06e-bbfd165f4d67")
 		(property "Reference" "#PWR076"
-			(at 240.03 93.98 0)
+			(at 240.03 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5834,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 240.03 85.09 0)
+			(at 240.03 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +5842,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 90.17 0)
+			(at 240.03 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 90.17 0)
+			(at 240.03 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5860,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 240.03 90.17 0)
+			(at 240.03 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,91 +5875,6 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "! Robomaster ICs:LM393LV")
-		(at 251.46 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df4062de-f3e8-4d4d-a3f0-5b2fab35f0ab")
-		(property "Reference" "U4"
-			(at 255.27 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393LV"
-			(at 257.81 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 251.46 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393lv.pdf"
-			(at 251.46 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.65-V to 5.5-V, low-voltage dual commodity comparator"
-			(at 251.46 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3fbf5ea1-1a36-4978-a04a-ae04188feda7")
-		)
-		(pin "3"
-			(uuid "77ef8bb9-219c-47c3-9ed7-96126c70634f")
-		)
-		(pin "8"
-			(uuid "2c14d46c-a430-40c8-951f-ab9d35b5ca15")
-		)
-		(pin "6"
-			(uuid "5193f88e-748f-45ee-8cd6-d1ae7392c477")
-		)
-		(pin "4"
-			(uuid "aaa123b9-d637-431d-a91e-d9ebf2637ad7")
-		)
-		(pin "5"
-			(uuid "d1d0a58d-3767-4064-89ef-f9feebac822e")
-		)
-		(pin "1"
-			(uuid "008216d5-1c7e-4311-bce1-796638c14cf7")
-		)
-		(pin "7"
-			(uuid "6764ee57-da79-4cfa-9cba-3a32a4e6f244")
-		)
-		(instances
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5663,6 +5961,92 @@
 		)
 	)
 	(symbol
+		(lib_id "! Robomaster ICs:TS3902")
+		(at 251.46 45.72 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6b8c892-c6c9-4d44-9b13-bc8d5dd784d4")
+		(property "Reference" "U20"
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS3702"
+			(at 251.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 251.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/ts3702-1852552.pdf"
+			(at 251.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower dual CMOS voltage comparator"
+			(at 251.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "feeaf02c-a97e-4c4b-b4a0-fb9288542b03")
+		)
+		(pin "6"
+			(uuid "9994681a-7079-4ee4-bb74-7fdb5b689686")
+		)
+		(pin "8"
+			(uuid "bbad6b6a-e125-4978-b7d6-77da67b38f81")
+		)
+		(pin "5"
+			(uuid "2b2ea214-3144-447c-99b9-fdf51462fc6f")
+		)
+		(pin "1"
+			(uuid "feeb6544-88c8-4fd7-9e6a-7c9d050abc39")
+		)
+		(pin "4"
+			(uuid "478bed56-919e-4ecf-925e-5636a3e37bfd")
+		)
+		(pin "7"
+			(uuid "51baec39-ec57-4bb4-99df-72fccd01d68d")
+		)
+		(pin "2"
+			(uuid "8edaf938-aa7c-4c79-8a78-d3d12c905525")
+		)
+		(instances
+			(project ""
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
+					(reference "U20")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 163.83 64.77 0)
 		(unit 1)
@@ -5722,92 +6106,6 @@
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:LM2904")
-		(at 99.06 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb1d3df2-2d9f-4e98-b697-aa02cdd8ed2c")
-		(property "Reference" "U3"
-			(at 99.06 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2904"
-			(at 99.06 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 99.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
-			(at 99.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
-			(at 99.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d1e161aa-9f39-43ef-8887-096779673320")
-		)
-		(pin "6"
-			(uuid "dc5a719e-d97f-461b-9b4e-21d71c1e221b")
-		)
-		(pin "2"
-			(uuid "9c9c4622-e193-44f0-b8a7-aba4bb6278b7")
-		)
-		(pin "5"
-			(uuid "e2d94e3c-817c-4cd8-9c97-c0d54e75e4c0")
-		)
-		(pin "8"
-			(uuid "2170f0b2-8839-463e-8c62-5fe5403774cc")
-		)
-		(pin "7"
-			(uuid "d7d6af05-e88d-4f82-a289-d40d8067dc18")
-		)
-		(pin "1"
-			(uuid "708f709d-61b3-44bd-9325-f71229c61c79")
-		)
-		(pin "4"
-			(uuid "b58971db-dcd6-4734-8c17-c5b4935222c4")
-		)
-		(instances
-			(project ""
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/9739d4cc-938e-4869-b5d8-561f0e1056cb"
-					(reference "U3")
 					(unit 1)
 				)
 			)

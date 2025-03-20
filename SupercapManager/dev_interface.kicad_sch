@@ -440,7 +440,7 @@
 				)
 			)
 		)
-		(symbol "Amplifier_Operational:LM2904"
+		(symbol "Amplifier_Operational:TLV9302xD"
 			(pin_names
 				(offset 0.127)
 			)
@@ -456,7 +456,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LM2904"
+			(property "Value" "TLV9302xD"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -465,8 +465,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -474,8 +474,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9302.pdf"
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -483,7 +483,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
+			(property "Description" "40-V, 1-MHz, RRO Operational Amplifiers for Cost-Sensitive Systems, SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -500,7 +500,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "dual opamp"
+			(property "ki_keywords" "dual opamp 40V rail to rail output"
 				(at 0 0 0)
 				(effects
 					(font
@@ -509,7 +509,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -518,7 +518,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM2904_1_1"
+			(symbol "TLV9302xD_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -586,7 +586,7 @@
 					)
 				)
 			)
-			(symbol "LM2904_2_1"
+			(symbol "TLV9302xD_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -654,7 +654,7 @@
 					)
 				)
 			)
-			(symbol "LM2904_3_1"
+			(symbol "TLV9302xD_3_1"
 				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 3.81)
@@ -1983,6 +1983,16 @@
 		)
 		(uuid "013e25ab-5629-4b5a-97ca-9ef0f8bfdfbe")
 	)
+	(polyline
+		(pts
+			(xy 196.85 53.34) (xy 196.85 81.28)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "049cc994-f4ce-4afe-84bc-14cc3b42860b")
+	)
 	(wire
 		(pts
 			(xy 207.01 64.77) (xy 205.74 64.77)
@@ -3197,6 +3207,17 @@
 		)
 		(uuid "b8610070-3aca-493f-93e7-cfddaf0a647e")
 	)
+	(text "8kV isolation"
+		(exclude_from_sim no)
+		(at 196.85 81.915 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "cacb7e22-797c-4d38-a0c8-6794f24b4a43")
+	)
 	(text "Analog buffering (V_{CAP})"
 		(exclude_from_sim no)
 		(at 45.72 59.69 0)
@@ -3973,6 +3994,103 @@
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
 					(reference "#PWR036")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV9302xD")
+		(at 76.2 81.28 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eba6f53-fa9d-4580-b775-667a19961990")
+		(property "Reference" "U3"
+			(at 74.93 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TLV9302xD"
+			(at 74.93 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9302.pdf"
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40-V, 1-MHz, RRO Operational Amplifiers for Cost-Sensitive Systems, SOIC-8"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-LM2903DR"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "e79db754-910c-4229-8d69-8f5dfbf66c4e")
+		)
+		(pin "5"
+			(uuid "aadfcc90-157f-4596-9ee5-0c2d3edae8db")
+		)
+		(pin "8"
+			(uuid "dded7dc6-64ea-447a-87b0-2a65f3141c01")
+		)
+		(pin "4"
+			(uuid "c806e15d-c643-43a3-ac23-51faf4766ffc")
+		)
+		(pin "3"
+			(uuid "0751500c-625b-4e10-91d7-fa22aa336947")
+		)
+		(pin "1"
+			(uuid "c5f71527-e4ba-4594-8830-bd857be09b16")
+		)
+		(pin "6"
+			(uuid "5b479136-8759-4296-8bdf-a2deb7201eab")
+		)
+		(pin "2"
+			(uuid "0592c0b9-9baa-45a6-a015-ff205f6011bb")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
+					(reference "U3")
+					(unit 3)
 				)
 			)
 		)
@@ -5594,6 +5712,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TLV9302xD")
+		(at 67.31 110.49 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b621f500-c395-4c8c-b4e3-4acecd85c4cd")
+		(property "Reference" "U3"
+			(at 67.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9302xD"
+			(at 67.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 67.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9302.pdf"
+			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40-V, 1-MHz, RRO Operational Amplifiers for Cost-Sensitive Systems, SOIC-8"
+			(at 67.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-LM2903DR"
+			(at 67.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "dd63e4e7-db11-4325-bf76-ba763d7fc6a9")
+		)
+		(pin "5"
+			(uuid "fbb0594a-fdd3-44a9-b32f-9aaafb8d8819")
+		)
+		(pin "8"
+			(uuid "3d2e79c7-f8ae-43f3-bbc0-728c2b053ce3")
+		)
+		(pin "4"
+			(uuid "d983411b-0393-424f-aff3-a053d4e1bb27")
+		)
+		(pin "3"
+			(uuid "0751500c-625b-4e10-91d7-fa22aa336946")
+		)
+		(pin "1"
+			(uuid "c5f71527-e4ba-4594-8830-bd857be09b15")
+		)
+		(pin "6"
+			(uuid "b4a36412-f242-4811-ba9b-54050adbb8b9")
+		)
+		(pin "2"
+			(uuid "0592c0b9-9baa-45a6-a015-ff205f6011ba")
+		)
+		(instances
+			(project "SupercapManager"
+				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 227.33 132.08 0)
 		(mirror y)
@@ -5932,94 +6145,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LM2904")
-		(at 76.2 81.28 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e71fef97-c444-47de-a313-371e202bc196")
-		(property "Reference" "U3"
-			(at 74.93 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM2904"
-			(at 74.93 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
-			(at 76.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
-			(at 76.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57451b09-88c7-46f8-a268-0bd5822568da")
-		)
-		(pin "5"
-			(uuid "9a67d925-5b2e-41d6-9a97-b14bbed226e2")
-		)
-		(pin "6"
-			(uuid "98664ff5-6e47-4cef-9fda-2168183b7c62")
-		)
-		(pin "8"
-			(uuid "0a4755fe-8211-416e-b394-49676a7da593")
-		)
-		(pin "3"
-			(uuid "e4d0164a-83b3-4aad-9010-f6d7332db385")
-		)
-		(pin "4"
-			(uuid "2cfebfe4-07d0-48e1-b147-d0ccda081abb")
-		)
-		(pin "2"
-			(uuid "f673d5c7-141d-473a-85fe-9e2b66fe0af3")
-		)
-		(pin "7"
-			(uuid "81624164-0c0f-45c9-a54c-cf5aec2eab96")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "U3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 238.76 58.42 0)
 		(mirror y)
@@ -6086,92 +6211,6 @@
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
 					(reference "R25")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:LM2904")
-		(at 67.31 110.49 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb7a165c-5c04-439c-8115-0e32429b0ac9")
-		(property "Reference" "U3"
-			(at 67.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2904"
-			(at 67.31 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
-			(at 67.31 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
-			(at 67.31 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "e57bfeb0-4788-453a-a558-cf35a29bff90")
-		)
-		(pin "4"
-			(uuid "46471204-7042-434c-9432-25daa50358f9")
-		)
-		(pin "8"
-			(uuid "cff937f3-ed05-421a-9eab-2d71b6a94f8c")
-		)
-		(pin "1"
-			(uuid "17de0df8-fd00-4571-95cf-2aa6a27e2044")
-		)
-		(pin "6"
-			(uuid "b382eddc-6002-4c53-8ff0-f3437c358873")
-		)
-		(pin "3"
-			(uuid "8921d5b7-1a11-40a3-9a18-25224d8d86e4")
-		)
-		(pin "7"
-			(uuid "6b2381b4-c020-4881-a1b8-096289cba5eb")
-		)
-		(pin "2"
-			(uuid "f004242f-2e2a-4a17-a1e1-848a6f1f658d")
-		)
-		(instances
-			(project "SupercapManager"
-				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/115b1a74-e36e-4ee6-8764-bf26e4e24147"
-					(reference "U3")
-					(unit 2)
 				)
 			)
 		)

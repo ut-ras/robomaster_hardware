@@ -1,0 +1,220 @@
+*source LM2903B
+* PSpice Model Editor - Version 17.4.0
+*$
+*LM2903B
+*****************************************************************************
+* (C) Copyright 2022 Texas Instruments Incorporated. All rights reserved.
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of 
+** merchantability or fitness for a particular purpose.  The model is
+** provided solely on an "as is" basis.  The entire risk as to its quality
+** and performance is with the customer.
+*****************************************************************************
+*
+* This model is subject to change without notice. Texas Instruments
+* Incorporated is not responsible for updating this model
+*
+*****************************************************************************
+*
+** Released by: Texas Instruments Inc.
+* Part: LM2903B
+* Date: 1/26/2023
+* Model Type: All In One
+* Simulator: PSPICE 
+* Simulator Version: 17.4.0.p001
+* EVM Order Number: N/A 
+* EVM Users Guide:  N/A 
+* Datasheet: SLCS005AE
+* Model Version: 1.0
+*
+*****************************************************************************
+*
+* Updates:
+*
+* Version 1.0 : Release to Web        
+*
+*****************************************************************************
+* Model Notes:
+*  Modeled parameters:
+*  Supply Voltage Ranges 
+*  Input Voltage Range 
+*  Supply Current 
+*  Input Bias Currents 
+*  Typical Offset Voltage 
+*  Propagation Delay 
+* Error Conditions:
+* If the input goes beyond the recommended input voltage range, the output will float to mid supply 
+* If the supplies goes beyond the recommended supply voltage ranges, the output will float to mid supply
+* The real device will NOT do this.
+*
+******************************************************************************
+* source LM2903B
+.SUBCKT LM2903B IN+ IN- VCC GND OUT    
+R_RIS         N859943 VCC  1u TC=0,0 
+I_IBN         IN- GND DC -3.5n  
+X_U5 N859997 GND N860457 0 V+_BUFFER V-_BUFFER VCC N860405 OUT Output_Stage  
+X_U4 N860391 N860397 Prop_Delay  
+X_U2 IN-BUFF IN+BUFF N860457 V+_BUFFER V-_BUFFER INPUTRANGE  
+C_CINNL         GND IN-  0.5p  TC=0,0 
+X_U6 GND V+_BUFFER V-_BUFFER VCC Supply_Buffer  
+X_U1 IN+ IN+BUFF IN- IN-BUFF Input_Buffer  
+I_IBP         IN+ GND DC -3.5n  
+C_CINPH         IN+ VCC  0.5p  TC=0,0 
+X_U7 N859997 0 V+_BUFFER V-_BUFFER Supply_Enable  
+E_E1         N860405 V-_BUFFER N860397 V-_BUFFER 2
+I_IS         N859943 GND DC 275u  
+C_CINPL         GND IN+  0.5p  TC=0,0 
+C_CINNH         IN- VCC  0.5p  TC=0,0 
+X_U3         N860177 IN-BUFF N860391 V+_BUFFER V-_BUFFER N860477 HPA_COMPHYS
+V_VOS         N860177 IN+BUFF 0.37m
+V_VHYST         N860477 0 0
+X_DESD3          GND IN+ DESD PARAMS: AREA=1.0
+X_DESD5          GND IN- DESD PARAMS: AREA=1.0
+.ENDS
+ 
+.SUBCKT Supply_Enable EN POR V+_BUFFER V-_BUFFER  
+V_VS_MIN_SET         N780252 0 1.99
+X_U13         V+_BUFFER V-_BUFFER N780066 1V 0 Difference
+X_U16         N780086 POR EN 1V 0 ORGATE 
+V_VS_MAX_SET         N779976 0 36.01
+V_VLOGIC         1V 0 1
+X_U15         N780252 N780066 POR 1V 0 VCC_Range
+X_U5         N780066 N779976 N780086 1V 0 VCC_Range
+.ENDS
+ 
+.SUBCKT Input_Buffer IN+ IN+_BUFF IN- IN-_BUFF  
+X_U1         IN+ IN- IN+_BUFF IN-_BUFF SUPPLY_BUFFER1 
+.ENDS
+ 
+.SUBCKT Supply_Buffer GND V+_BUFFER V-_BUFFER Vcc  
+X_U1         VCC GND V+_BUFFER V-_BUFFER SUPPLY_BUFFER1 
+.ENDS
+ 
+.SUBCKT INPUTRANGE INN INP INRANGE V+_BUFFER V-_BUFFER  
+V_VCMNN         N20539 V-_BUFFER -110m
+X_U1         N20155 INP N20826 V+_BUFFER V-_BUFFER VINRANGE_393
+X_U21         N202710 INN N20833 V+_BUFFER V-_BUFFER VINRANGE_393
+X_U22         INP N20415 N20840 V+_BUFFER V-_BUFFER VINRANGE_393
+X_U23         INN N20539 N20531 V+_BUFFER V-_BUFFER VINRANGE_393
+V_VCMPN         N202710 V+_BUFFER -2
+V_VCMNP         N20415 V-_BUFFER -110m
+V_VCMPP         N20155 V+_BUFFER -2
+X_U24         N20826 N20833 N20840 N20531 INRANGE V+_BUFFER V-_BUFFER 4ORGATE 
+.ENDS
+ 
+.SUBCKT Prop_Delay VIN VOUT  
+R_RS         N03175 VIN  50 TC=0,0 
+T_TPD         N03175 0 VOUT 0 Z0=50 TD=1u  
+R_RT         0 VOUT  50 TC=0,0 
+.ENDS
+ 
+.SUBCKT Output_Stage EN GND IN_RANGE POR V+_BUFFER V-_BUFFER Vcc VIN VOUT  
+X_SVOL    N774212 N774290 GND N850209 Output_Stage_SVOL 
+X_U7         MID V+_BUFFER V-_BUFFER MID_SUPPLY
+C_COUTL         GND VOUT  0.5p  TC=0,0 
+X_SMID    CONTROL_MID 0 N778484 MID Output_Stage_SMID 
+X_U9         CONTROL_HIZ N789513 1V 0 INVERTER
+X_U3         VIN N774212 V+_BUFFER V-_BUFFER VCC N774290 DIGLEVSHIFT
+C_COUTH         VOUT VCC  0.5p  TC=0,0 
+X_SHIZ    CONTROL_HIZ 0 N778484 N778496 Output_Stage_SHIZ 
+V_VLOGIC         1V 0 1
+V_V1         VCC N774290 1
+X_U10         N789513 POR CONTROL_MID 1V 0 ORGATE 
+R_ROUTL         N850209 N778496  60 TC=0,0 
+X_U8          POR IN_RANGE EN EN CONTROL_HIZ 1V 0 4ORGATE
+L_L1         N778484 VOUT  1n  
+.ENDS
+
+.subckt Output_Stage_SVOL 1 2 3 4  
+S_SVOL         3 4 1 2 _SVOL
+RS_SVOL         1 2 1G
+.MODEL         _SVOL VSWITCH Roff=1e12 Ron=1.0 Voff=1 Von=0
+.ends Output_Stage_SVOL
+
+.subckt Output_Stage_SMID 1 2 3 4  
+S_SMID         3 4 1 2 _SMID
+RS_SMID         1 2 1G
+.MODEL         _SMID VSWITCH Roff=1e12 Ron=1.0 Voff=1 Von=0
+.ends Output_Stage_SMID
+
+.subckt Output_Stage_SHIZ 1 2 3 4  
+S_SHIZ         3 4 1 2 _SHIZ
+RS_SHIZ         1 2 1G
+.MODEL         _SHIZ VSWITCH Roff=1e12 Ron=1.0 Voff=1 Von=0
+.ends Output_Stage_SHIZ
+
+
+.SUBCKT HPA_COMPHYS INP INN OUT_OUT VDD VSS VHYS
+EVMID VMID 0 VALUE = { ( V(VDD) + V(VSS) )/2 }
+EVH VH 0 VALUE = { ( V(VHYS)/2) }
+EINNNEW INNNEW 0 VALUE = { IF( ( V(OUT_OUT) < V(VMID) ),(V(INN) + (V(VH))),( V(INN) - V(VH) ) ) }
+EOUT OUT 0 VALUE = { IF( ( V(INP) > V(INNNEW) ), V(VDD), V(VSS) ) }
+R1 OUT OUT_OUT 1
+C1 OUT_OUT 0 1e-12
+.ENDS
+*$
+.SUBCKT DIGLEVSHIFT 1 2 VDD_OLD VSS_OLD VDD_NEW VSS_NEW
+*E1 3 0 VALUE = { IF( V(1) < (V(VDD_OLD)+V(VSS_OLD))/2, V(VSS_NEW), V(VDD_NEW) ) }
+E1 3 0 VALUE = { IF( V(1) < 1, V(VSS_NEW), V(VDD_NEW) ) }
+R1 3 2 1
+*C1 2 0 1e-12
+.ENDS
+*$
+.SUBCKT INVERTER 1 2 VDD VSS
+E2 2 0 VALUE = { IF( V(1)> (V(VDD)+V(VSS))/2, V(VSS), V(VDD) ) }
+C1 1 0 1e-12
+.ENDS
+*$
+.SUBCKT MID_SUPPLY OUT VDD VSS
+EVMID VMID 0 VALUE = { ( V(VDD) + V(VSS) )/2 }
+EOUT OUT 0 VALUE = {V(VMID)}
+.ENDS
+*$
+.SUBCKT ORGATE 1 2 3 VDD VSS
+E1 4 0 VALUE = { IF( ((V(1)< (V(VDD)+V(VSS))/2 ) & (V(2)< (V(VDD)+V(VSS))/2 )), V(VSS), V(VDD) ) }
+R1 4 3 1
+C1 3 0 1e-12
+.ENDS
+*$
+.SUBCKT Difference 1 2 OUT VDD VSS 
+EOUT OUT1 0 VALUE = { V(1)- V(2)}
+R1 OUT1 OUT 1
+*C1 OUT 0 1e-12
+.ENDS
+*$
+.SUBCKT SUPPLY_BUFFER1 1 2 VDD_NEW VSS_NEW 
+EVDD_NEW VDD_NEW 0 VALUE = {V(1)}
+EVSS_NEW VSS_NEW 0 VALUE = {V(2)}
+.ENDS
+*$
+.SUBCKT VCC_Range 1 2 OUT VDD VSS 
+EOUT OUT2 0 VALUE = { IF( ( V(1) >= V(2) ), V(VDD), V(VSS) ) }
+R1 OUT OUT2 1
+C1 OUT 0 1e-12
+.ENDS
+*$
+.SUBCKT VINRANGE_393 1 2 OUT VDD VSS 
+EOUT OUT2 0 VALUE = { IF( ( V(1) >= V(2) ), V(VSS), V(VDD) ) }
+R1 OUT2 OUT 1
+C1 OUT 0 1e-12
+.ENDS
+*$
+.SUBCKT 4ORGATE 1 2 3 4 5 VDD VSS
+E1 6 0 VALUE = { IF( ((V(1)> (V(VDD)+V(VSS))/2 ) | (V(2)> (V(VDD)+V(VSS))/2 ) | (V(3)> (V(VDD)+V(VSS))/2 ) | (V(4)> (V(VDD)+V(VSS))/2 )), V(VDD), V(VSS) ) }
+R1 5 6 1
+.ENDS
+*$
+.subckt DESD AN CAT 
++ params:
++ AREA=1.0
++ IS=10f
++ RS=5
++ BV=100
+D_DESD AN CAT model22 {area} 
+.model model22 d
++ is={IS}
++ rs={RS}
++ bv={BV}
+.ends DESD

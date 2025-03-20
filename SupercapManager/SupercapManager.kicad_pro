@@ -471,36 +471,36 @@
       "Root"
     ],
     [
-      "388608c4-ca49-4b14-9684-8f150e280879",
-      "Input Buck & Charger"
-    ],
-    [
-      "fd749e99-bd1e-4aca-86d6-8b572dc00b7d",
-      "Output Boost (Stage 1)"
-    ],
-    [
       "9739d4cc-938e-4869-b5d8-561f0e1056cb",
       "Current Sense"
     ],
     [
-      "115b1a74-e36e-4ee6-8764-bf26e4e24147",
-      "Dev Board Interface"
-    ],
-    [
-      "f28a7bbd-a217-4ab0-a73c-be6ca56ea928",
-      "Ideal Diode"
+      "388608c4-ca49-4b14-9684-8f150e280879",
+      "Input Buck & Charger"
     ],
     [
       "ed9bb12b-3108-48de-97f5-99577caac45c",
       "Safety Discharge"
     ],
     [
-      "2b4de7d2-e111-42d9-afee-f810f96a2f61",
-      "Housekeeping Power Supplies"
+      "fd749e99-bd1e-4aca-86d6-8b572dc00b7d",
+      "Output Boost (Stage 1)"
     ],
     [
       "47dffa6f-2678-4be2-969a-7f2e7310ccad",
       "Output Boost (Stage 2)"
+    ],
+    [
+      "f28a7bbd-a217-4ab0-a73c-be6ca56ea928",
+      "Ideal Diode"
+    ],
+    [
+      "115b1a74-e36e-4ee6-8764-bf26e4e24147",
+      "Dev Board Interface"
+    ],
+    [
+      "2b4de7d2-e111-42d9-afee-f810f96a2f61",
+      "Housekeeping Power Supplies"
     ]
   ],
   "text_variables": {}

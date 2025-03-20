@@ -1,22 +1,22 @@
 Version 4
 SymbolType BLOCK
-RECTANGLE Normal -48 -56 48 56
-WINDOW 0 0 -56 Bottom 2
-WINDOW 3 0 56 Top 2
-SYMATTR Value INA138
+RECTANGLE Normal -32 -56 48 56
+WINDOW 0 8 -56 Bottom 2
+WINDOW 3 8 56 Top 2
 SYMATTR Prefix X
-SYMATTR ModelFile ".\libraries\ina138.lib"
-PIN -48 -16 LEFT 8
+SYMATTR Value TS370x
+SYMATTR ModelFile ".\libraries\ts370x_spice.lib"
+PIN -32 -16 LEFT 8
 PINATTR PinName +
 PINATTR SpiceOrder 1
-PIN -48 16 LEFT 8
+PIN -32 16 LEFT 8
 PINATTR PinName -
 PINATTR SpiceOrder 2
 PIN 48 -32 RIGHT 8
-PINATTR PinName Vs
+PINATTR PinName V+
 PINATTR SpiceOrder 3
 PIN 48 0 RIGHT 8
-PINATTR PinName GND
+PINATTR PinName V-
 PINATTR SpiceOrder 4
 PIN 48 32 RIGHT 8
 PINATTR PinName OUT
