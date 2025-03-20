@@ -3226,20 +3226,6 @@
 		)
 		(uuid "e05c24a1-b18c-4773-8e7e-e6408dc44f5b")
 	)
-	(text "TODO: Validate"
-		(exclude_from_sim no)
-		(at 230.505 79.375 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(italic yes)
-			)
-			(justify top)
-		)
-		(uuid "ebfa224d-67ed-4d14-bf17-b5510aa4650b")
-	)
 	(label "V_EXTRA"
 		(at 200.66 80.01 0)
 		(effects
