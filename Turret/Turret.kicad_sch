@@ -1087,7 +1087,7 @@
 				)
 			)
 		)
-		(symbol "Robomaster_Library:172298-1116"
+		(symbol "Robomaster_Library:501645-1620"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1100,7 +1100,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "172298-1116"
+			(property "Value" "501645-1620"
 				(at 19.05 5.08 0)
 				(effects
 					(font
@@ -1109,7 +1109,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "172298-YY16"
+			(property "Footprint" "5016451620"
 				(at 19.05 -94.92 0)
 				(effects
 					(font
@@ -1119,7 +1119,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/172298-1116.pdf"
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/5016451620_sd.pdf"
 				(at 19.05 -194.92 0)
 				(effects
 					(font
@@ -1129,7 +1129,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Ultra-Fit Vertical Header, 3.50mm Pitch, Dual Row, 16 Circuits, with Kinked Pins, Glow-Wire Capable"
+			(property "Description" "MOLEX - 501645-1620 - CONNECTOR, HEADER, 16POS, 2ROW, 2MM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1138,7 +1138,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "14"
+			(property "Height" "12"
 				(at 19.05 -394.92 0)
 				(effects
 					(font
@@ -1148,7 +1148,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "538-172298-1116"
+			(property "Mouser Part Number" "538-501645-1620"
 				(at 19.05 -494.92 0)
 				(effects
 					(font
@@ -1158,7 +1158,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=538-172298-1116"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/501645-1620?qs=AcmJtBVhzkSktNjjA6%2Faug%3D%3D"
 				(at 19.05 -594.92 0)
 				(effects
 					(font
@@ -1178,7 +1178,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "172298-1116"
+			(property "Manufacturer_Part_Number" "501645-1620"
 				(at 19.05 -794.92 0)
 				(effects
 					(font
@@ -1188,7 +1188,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "172298-1116_1_1"
+			(symbol "501645-1620_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 17.78 -20.32)
@@ -1219,7 +1219,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 0 -10.16 0)
 					(length 5.08)
 					(name "10"
 						(effects
@@ -1237,7 +1237,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
+					(at 22.86 -12.7 180)
 					(length 5.08)
 					(name "11"
 						(effects
@@ -1255,7 +1255,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
+					(at 0 -12.7 0)
 					(length 5.08)
 					(name "12"
 						(effects
@@ -1273,7 +1273,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 0)
+					(at 22.86 -15.24 180)
 					(length 5.08)
 					(name "13"
 						(effects
@@ -1291,7 +1291,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -12.7 0)
+					(at 0 -15.24 0)
 					(length 5.08)
 					(name "14"
 						(effects
@@ -1309,7 +1309,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 0)
+					(at 22.86 -17.78 180)
 					(length 5.08)
 					(name "15"
 						(effects
@@ -1345,7 +1345,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -2.54 180)
+					(at 0 0 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -1363,7 +1363,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -5.08 180)
+					(at 22.86 -2.54 180)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -1381,7 +1381,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -7.62 180)
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -1399,7 +1399,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -10.16 180)
+					(at 22.86 -5.08 180)
 					(length 5.08)
 					(name "5"
 						(effects
@@ -1417,7 +1417,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -12.7 180)
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "6"
 						(effects
@@ -1435,7 +1435,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -15.24 180)
+					(at 22.86 -7.62 180)
 					(length 5.08)
 					(name "7"
 						(effects
@@ -1453,7 +1453,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -17.78 180)
+					(at 0 -7.62 0)
 					(length 5.08)
 					(name "8"
 						(effects
@@ -1471,7 +1471,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at 22.86 -10.16 180)
 					(length 5.08)
 					(name "9"
 						(effects
@@ -2801,7 +2801,7 @@
 		)
 		(uuid "ef6e0171-0193-47ce-a1e4-cdf51387b50b")
 	)
-	(label "Ref_CANL"
+	(label "Ref_CAN-"
 		(at 243.84 95.25 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3010,7 +3010,7 @@
 		)
 		(uuid "59228280-7dbf-4e5d-aa65-4ebeab498af3")
 	)
-	(label "Ref_CANH"
+	(label "Ref_CAN+"
 		(at 243.84 97.79 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3505,7 +3505,7 @@
 	)
 	(hierarchical_label "SWD_SWDIO"
 		(shape output)
-		(at 241.3 107.95 0)
+		(at 241.3 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3733,7 +3733,7 @@
 	)
 	(hierarchical_label "SWD_GND"
 		(shape output)
-		(at 241.3 110.49 0)
+		(at 241.3 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3829,7 +3829,7 @@
 	)
 	(hierarchical_label "SWD_3V3"
 		(shape output)
-		(at 218.44 110.49 180)
+		(at 218.44 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3985,7 +3985,7 @@
 	)
 	(hierarchical_label "SWD_SWCLK"
 		(shape output)
-		(at 218.44 107.95 180)
+		(at 218.44 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4291,6 +4291,168 @@
 			(project "Turret"
 				(path "/84905b3c-2997-4e61-b373-c0062fb72371"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Robomaster_Library:501645-1620")
+		(at 218.44 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20035c50-9876-4b21-9243-e7296935af06")
+		(property "Reference" "J2"
+			(at 229.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "501645-1620"
+			(at 229.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "5016451620"
+			(at 237.49 187.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/5016451620_sd.pdf"
+			(at 237.49 287.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOLEX - 501645-1620 - CONNECTOR, HEADER, 16POS, 2ROW, 2MM"
+			(at 218.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12"
+			(at 237.49 487.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-501645-1620"
+			(at 237.49 587.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/501645-1620?qs=AcmJtBVhzkSktNjjA6%2Faug%3D%3D"
+			(at 237.49 687.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 237.49 787.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "501645-1620"
+			(at 237.49 887.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "703a0694-7ba8-4dea-b62e-043b3397c9d2")
+		)
+		(pin "13"
+			(uuid "991caca6-0f58-4dda-81e8-6c8d02bc3dd8")
+		)
+		(pin "12"
+			(uuid "77268780-7ef2-49b2-86ab-9b36f4ec0b93")
+		)
+		(pin "8"
+			(uuid "685c0681-ca68-4b86-b6a9-acef39c50f20")
+		)
+		(pin "11"
+			(uuid "b39cfd37-de1f-48bf-822e-038aafd0a830")
+		)
+		(pin "16"
+			(uuid "0e134b9d-90b1-4ba9-81d6-18e49d625093")
+		)
+		(pin "4"
+			(uuid "7d8931d1-3a61-4cad-993a-0ab9e6c2ed26")
+		)
+		(pin "15"
+			(uuid "f646c5ab-8923-4d1a-a156-bfdc24e63118")
+		)
+		(pin "1"
+			(uuid "df9913a2-c2a4-4801-8220-f29173a284bb")
+		)
+		(pin "10"
+			(uuid "6eca09bc-7ae1-40cf-839f-c955e5bf6465")
+		)
+		(pin "2"
+			(uuid "d655f245-8348-48ab-9ad2-c256204f742c")
+		)
+		(pin "14"
+			(uuid "f06b89f3-b627-4ecd-8da8-3264b2c56897")
+		)
+		(pin "3"
+			(uuid "0fe5ed7d-7376-4982-8d11-05c036fe2d7f")
+		)
+		(pin "7"
+			(uuid "a005541c-0a5d-46c4-b4ff-afe1c456909b")
+		)
+		(pin "6"
+			(uuid "3e310816-548e-44c5-ae42-2ab3f63aaea0")
+		)
+		(pin "9"
+			(uuid "d645a542-a870-450c-b4bc-5cf15a7c2616")
+		)
+		(instances
+			(project ""
+				(path "/84905b3c-2997-4e61-b373-c0062fb72371"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5086,168 +5248,6 @@
 			(project "Turret"
 				(path "/84905b3c-2997-4e61-b373-c0062fb72371"
 					(reference "+24V_Feeder1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Robomaster_Library:172298-1116")
-		(at 218.44 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97c6948e-65ed-497a-9c03-7c4f5baff3ec")
-		(property "Reference" "16_Pin_Input->Turret1"
-			(at 229.87 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "172298-1116"
-			(at 229.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connectors:172298-YY16"
-			(at 237.49 187.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/172298-1116.pdf"
-			(at 237.49 287.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ultra-Fit Vertical Header, 3.50mm Pitch, Dual Row, 16 Circuits, with Kinked Pins, Glow-Wire Capable"
-			(at 218.44 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "14"
-			(at 237.49 487.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-172298-1116"
-			(at 237.49 587.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=538-172298-1116"
-			(at 237.49 687.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 237.49 787.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "172298-1116"
-			(at 237.49 887.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "c165a317-5081-400d-950e-0c5e248f5c96")
-		)
-		(pin "15"
-			(uuid "c474e5b8-faf8-457a-9acc-ca860a986b60")
-		)
-		(pin "4"
-			(uuid "da765b5f-f057-495b-a923-7dab7e24d777")
-		)
-		(pin "5"
-			(uuid "44453a66-6baa-4c7c-a74c-7c9908a5953b")
-		)
-		(pin "6"
-			(uuid "ed1292ab-5c4c-4e46-b868-587b25d8b81a")
-		)
-		(pin "3"
-			(uuid "94b7964f-d8ed-4cdc-a248-376df9bfbfd2")
-		)
-		(pin "7"
-			(uuid "dfe664bb-2a6a-4ca0-899c-43a8e6f0ec2f")
-		)
-		(pin "8"
-			(uuid "afbd7b91-53fb-4a11-9671-260b52eb5ef4")
-		)
-		(pin "9"
-			(uuid "55c61580-3803-4177-84bd-f67b631aae44")
-		)
-		(pin "1"
-			(uuid "bd973946-5126-469e-88cf-07a5c73ce285")
-		)
-		(pin "10"
-			(uuid "b6033d27-74d9-4577-9c18-8739feff56d3")
-		)
-		(pin "11"
-			(uuid "c44108db-802f-4f59-a409-242f2854b4e8")
-		)
-		(pin "12"
-			(uuid "a3c637fd-e248-4529-b3ff-1b8f303cf80e")
-		)
-		(pin "13"
-			(uuid "0b571d33-20f2-49e0-830f-fde9532c8f45")
-		)
-		(pin "16"
-			(uuid "a81adbec-073d-4733-9330-dac040e7a3f7")
-		)
-		(pin "2"
-			(uuid "d7aa5bca-b849-4d77-9d68-071e6669ddd5")
-		)
-		(instances
-			(project "Turret"
-				(path "/84905b3c-2997-4e61-b373-c0062fb72371"
-					(reference "16_Pin_Input->Turret1")
 					(unit 1)
 				)
 			)
