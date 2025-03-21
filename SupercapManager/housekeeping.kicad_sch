@@ -4126,7 +4126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 59.69 172.72 0)
 			(effects
 				(font
@@ -4145,6 +4145,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 59.69 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-860010674014"
 			(at 59.69 172.72 0)
 			(effects
 				(font
@@ -5201,7 +5210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 59.69 92.71 0)
 			(effects
 				(font
@@ -5220,6 +5229,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-860010674014"
 			(at 59.69 92.71 0)
 			(effects
 				(font
@@ -5270,7 +5288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 123.19 189.23 0)
 			(effects
 				(font
@@ -5289,6 +5307,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 123.19 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-860010273011"
 			(at 123.19 189.23 0)
 			(effects
 				(font
@@ -5553,7 +5580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 184.15 172.72 0)
 			(effects
 				(font
@@ -5572,6 +5599,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 184.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-860010674014"
 			(at 184.15 172.72 0)
 			(effects
 				(font
@@ -5745,7 +5781,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000u"
+		(property "Value" "470u"
 			(at 245.11 188.3919 0)
 			(effects
 				(font
@@ -5754,7 +5790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 247.65 189.23 0)
 			(effects
 				(font
@@ -5800,6 +5836,15 @@
 			)
 		)
 		(property "JLCPCB #" ""
+			(at 247.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-860010273011"
 			(at 247.65 189.23 0)
 			(effects
 				(font
@@ -6006,7 +6051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 123.19 109.22 0)
 			(effects
 				(font
@@ -6025,6 +6070,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 123.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-860010273011"
 			(at 123.19 109.22 0)
 			(effects
 				(font
@@ -6343,7 +6397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 247.65 113.03 0)
 			(effects
 				(font
@@ -6362,6 +6416,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 247.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-860010273011"
 			(at 247.65 113.03 0)
 			(effects
 				(font
@@ -6828,7 +6891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 184.15 96.52 0)
 			(effects
 				(font
@@ -6847,6 +6910,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 184.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-860010674014"
 			(at 184.15 96.52 0)
 			(effects
 				(font
