@@ -882,7 +882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "516bbdde-fee8-4343-8b96-ba4284f80815")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR042"
 			(at 134.62 165.1 0)
 			(effects
 				(font
@@ -932,7 +932,7 @@
 		(instances
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/ed9bb12b-3108-48de-97f5-99577caac45c"
-					(reference "#PWR065")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -949,7 +949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61c6c2c1-be4a-4cfd-b29f-48abd4b100ad")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR040"
 			(at 144.78 132.08 0)
 			(effects
 				(font
@@ -999,7 +999,7 @@
 		(instances
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/ed9bb12b-3108-48de-97f5-99577caac45c"
-					(reference "#PWR058")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -1016,7 +1016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "684a351f-3193-4240-a909-7b284989e5a9")
-		(property "Reference" "K2"
+		(property "Reference" "K1"
 			(at 128.27 135.8899 0)
 			(effects
 				(font
@@ -1089,7 +1089,7 @@
 		(instances
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/ed9bb12b-3108-48de-97f5-99577caac45c"
-					(reference "K2")
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -1104,7 +1104,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdcd689a-dbe0-42ca-97db-4759f6265da8")
-		(property "Reference" "R28"
+		(property "Reference" "R22"
 			(at 132.08 152.3999 0)
 			(effects
 				(font
@@ -1167,7 +1167,7 @@
 		(instances
 			(project ""
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/ed9bb12b-3108-48de-97f5-99577caac45c"
-					(reference "R28")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -1184,7 +1184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f125c016-0829-4a43-ae2c-718ab9cba898")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR041"
 			(at 144.78 154.94 0)
 			(effects
 				(font
@@ -1234,7 +1234,7 @@
 		(instances
 			(project "SupercapManager"
 				(path "/6197145b-e7d4-44cc-9d90-537b6501bf60/ed9bb12b-3108-48de-97f5-99577caac45c"
-					(reference "#PWR064")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
