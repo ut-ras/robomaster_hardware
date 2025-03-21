@@ -139,7 +139,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "plots/")
+			(outputdirectory "gerbers/")
 		)
 	)
 	(net 0 "")
