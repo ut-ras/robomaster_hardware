@@ -4135,7 +4135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860010674014.pdf"
 			(at 59.69 172.72 0)
 			(effects
 				(font
@@ -5219,7 +5219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860010674014.pdf"
 			(at 59.69 92.71 0)
 			(effects
 				(font
@@ -5297,7 +5297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860010273011.pdf"
 			(at 123.19 189.23 0)
 			(effects
 				(font
@@ -5589,7 +5589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860010674014.pdf"
 			(at 184.15 172.72 0)
 			(effects
 				(font
@@ -5799,7 +5799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860010273011.pdf"
 			(at 247.65 189.23 0)
 			(effects
 				(font
@@ -6060,7 +6060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860010273011.pdf"
 			(at 123.19 109.22 0)
 			(effects
 				(font
@@ -6406,7 +6406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860010273011.pdf"
 			(at 247.65 113.03 0)
 			(effects
 				(font
@@ -6900,7 +6900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860010674014.pdf"
 			(at 184.15 96.52 0)
 			(effects
 				(font
